@@ -1,0 +1,28 @@
+{
+  "source_head": "c63b3b6266a27f43a56734e51d0198a015813ae7",
+  "source_tree": "803f18bd9a480482d57e0a4fc7b4d33f208b5ca6",
+  "parents": [
+    "8b5fcf5fe4f898dc349109ddfab5210062a047b3"
+  ],
+  "branch": "membranecal/independent-validation-v0.2",
+  "dirty_status": "",
+  "build_timestamp_utc": "2026-09-19T09:16:49.954841+00:00",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.3.5",
+    "pyarrow": "25.0.0",
+    "matplotlib": "3.10.7",
+    "pillow": "12.3.0",
+    "biopython": "1.85"
+  },
+  "scientific_freeze_commit": "5deb8f9abc345d811e0e98680b6122b4046a0d0d",
+  "protocol_sha256": "740b223fbf6bcb43c42c126208510a835d04dade7f268d0999b684a7738c6671",
+  "scores_sha256": "4f293fda6d7c7d0a4c8578071f396e7d573a54ed3c472795c67a5a5b9baca4b8",
+  "frozen_manuscript_sha256": "ae9ef643c7b6148a33e06afdf3558800bc09dd6d7e4f6aa4e8463d7c1c276e9e",
+  "publication_manuscript_sha256": "47ffccf165332a69d9d5b43981c99aaae7c89fa82818b3679ed0d6b29bd270b7",
+  "figure_manifest_sha256": "e6fbdcb984ce4fcedce1f88ecd3b772376cf568875d7b604ea90cb027973947e",
+  "publication_state_sha256": "4953e4a07da82873fe62dc403f438b9155b71da642152e55aa920a3d424fe13c",
+  "original_rc1_manifest_sha256": "e66fd0d91fe45aedc8f2fd34e830001b6ca19848dd7068565427920f38da4e0d",
+  "revision_manifest_sha256": "162d37683d45390e659297136d3bb8f6105e523d63dffc5ae9f5680488273e69"
+}

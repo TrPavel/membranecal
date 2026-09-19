@@ -1,0 +1,774 @@
+{
+  "records": [
+    {
+      "accession": "P77335",
+      "afdb_product": "AF-P77335-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_defined_assembly"
+      ],
+      "canonical_length": 303,
+      "construct_length": 324,
+      "entry_id": "6mrt",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "12-meric ClyA pore complex"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 285,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.8796296296296297,
+      "observed_residues": 285,
+      "protein_name": "Pore-forming haemolysin E (ClyA), 12-meric, structure 2",
+      "publication_dois": [
+        "10.1371/journal.pone.0213423"
+      ],
+      "publication_titles": [
+        "High-resolution cryo-EM structures of the E. coli hemolysin ClyA oligomers."
+      ],
+      "raw_afdb_sha256": "d9d2b27d038335557f28362ad8c43d78bba1184d909a3fee30934ee1641aa6a3",
+      "raw_pdb_sha256": "5a6818bf5551c46801bbef3663c100c4a9fa9e35b6e8ba8933fe59952626f831",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.48208200762535525,
+          "confidence": 0.9105499999999999,
+          "residues": 14
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.5729519011667792,
+          "confidence": 0.9598456310679613,
+          "residues": 206
+        },
+        "TM_CORE": {
+          "accuracy": 0.618164106367819,
+          "confidence": 0.9155710526315789,
+          "residues": 38
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.4487963532035024,
+          "confidence": 0.938748148148148,
+          "residues": 27
+        }
+      },
+      "sequence_identity": 0.9964912280701754
+    },
+    {
+      "accession": "Q2FZP8",
+      "afdb_product": "AF-Q2FZP8-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "software_defined_assembly"
+      ],
+      "canonical_length": 396,
+      "construct_length": 378,
+      "entry_id": "6s7v",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "Lipoteichoic acids flippase LtaA"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 378,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 1.0,
+      "observed_residues": 378,
+      "protein_name": "Lipoteichoic acids flippase LtaA",
+      "publication_dois": [
+        "10.1038/s41594-020-0425-5"
+      ],
+      "publication_titles": [
+        "Structure of a proton-dependent lipid transporter involved in lipoteichoic acids biosynthesis."
+      ],
+      "raw_afdb_sha256": "a21a0ab18b6e351e53b8b6b42521b3a579822eaf3abe19116a11a749e9bd8b9c",
+      "raw_pdb_sha256": "cf22321d19466118ee9ff75cd61f61abbc798ba1c0c2c96d2626f9d0b868c651",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.6686938810062849,
+          "confidence": 0.9077435897435898,
+          "residues": 78
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.6366071428571429,
+          "confidence": 0.7541,
+          "residues": 2
+        },
+        "TM_CORE": {
+          "accuracy": 0.7560812115392952,
+          "confidence": 0.9443507772020726,
+          "residues": 193
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.5784583033966636,
+          "confidence": 0.8488342857142858,
+          "residues": 105
+        }
+      },
+      "sequence_identity": 1.0
+    },
+    {
+      "accession": "G2QNH0",
+      "afdb_product": "AF-G2QNH0-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_and_software_defined_assembly"
+      ],
+      "canonical_length": 315,
+      "construct_length": 315,
+      "entry_id": "6gci",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "Structure of the bongkrekic acid-inhibited mitochondrial ADP/ATP carrier"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 292,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "BKC",
+        "CDL",
+        "P6G"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.926984126984127,
+      "observed_residues": 292,
+      "protein_name": "Mitochondrial ADP-ATP carrier",
+      "publication_dois": [
+        "10.1016/j.cell.2018.11.025"
+      ],
+      "publication_titles": [
+        "The Molecular Mechanism of Transport by the Mitochondrial ADP/ATP Carrier."
+      ],
+      "raw_afdb_sha256": "6a873886998952d1dd83123af277f5544d411d94004613776b7d3fba65511809",
+      "raw_pdb_sha256": "8c226bcf316326e1ee5201b87f8a8b29867f28ce403a6fac786046fcbebbd19d",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.8092458469642456,
+          "confidence": 0.944092857142857,
+          "residues": 70
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.7709431063941318,
+          "confidence": 0.9123260869565217,
+          "residues": 23
+        },
+        "TM_CORE": {
+          "accuracy": 0.6001024754329165,
+          "confidence": 0.9164658914728682,
+          "residues": 129
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.8293565772707171,
+          "confidence": 0.946012857142857,
+          "residues": 70
+        }
+      },
+      "sequence_identity": 0.9965753424657534
+    },
+    {
+      "accession": "Q6LPW0",
+      "afdb_product": "AF-Q6LPW0-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_and_software_defined_assembly"
+      ],
+      "canonical_length": 170,
+      "construct_length": 170,
+      "entry_id": "7qha",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": true,
+      "experimental_title": [
+        "Cryo-EM structure of the Tripartite ATP-independent Periplasmic (TRAP) transporter SiaQM from Photobacterium profundum in amphipol"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 153,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "NA"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.9,
+      "observed_residues": 153,
+      "protein_name": "TRAP transporter HiSiaQM in amphipol",
+      "publication_dois": [
+        "10.1038/s41467-023-36590-1"
+      ],
+      "publication_titles": [
+        "Structure and mechanism of a tripartite ATP-independent periplasmic TRAP transporter."
+      ],
+      "raw_afdb_sha256": "ac8c97b099b4773f30402440428155d752c819a08177d23a951a717e50257b40",
+      "raw_pdb_sha256": "1dfe4f80f7f1443ab0249d077f5116b5fb9a2381ecf3abd43132bf64f894b683",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.9091602496011968,
+          "confidence": 0.7208312499999999,
+          "residues": 32
+        },
+        "TM_CORE": {
+          "accuracy": 0.9296995493030749,
+          "confidence": 0.8166279069767444,
+          "residues": 86
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.828667298529297,
+          "confidence": 0.6094714285714287,
+          "residues": 35
+        }
+      },
+      "sequence_identity": 1.0
+    },
+    {
+      "accession": "G3IEF0",
+      "afdb_product": "AF-G3IEF0-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_defined_assembly"
+      ],
+      "canonical_length": 338,
+      "construct_length": 301,
+      "entry_id": "8djm",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "HMGCR-UBIAD1 Complex State 1"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 281,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "AJP",
+        "Y01"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.9335548172757475,
+      "observed_residues": 281,
+      "protein_name": "HMGCR-UBIAD1 complex, state 1",
+      "publication_dois": [
+        "10.1038/s41467-022-32025-5"
+      ],
+      "publication_titles": [
+        "Regulated degradation of HMG CoA reductase requires conformational changes in sterol-sensing domain."
+      ],
+      "raw_afdb_sha256": "a866f2dec9971e1612bcf581b4f3f2247848c849090a6d26a918f71f96b51ec3",
+      "raw_pdb_sha256": "c164fda2fca5208ceaa823b3aa7fcaeed0b237ae3e5a0aaeb889e911f48f0302",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.850444722783119,
+          "confidence": 0.9721066666666668,
+          "residues": 60
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.7662429200108579,
+          "confidence": 0.9274571428571429,
+          "residues": 14
+        },
+        "TM_CORE": {
+          "accuracy": 0.8577982604562086,
+          "confidence": 0.9792661654135341,
+          "residues": 133
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.7423943828483279,
+          "confidence": 0.9370891891891892,
+          "residues": 74
+        }
+      },
+      "sequence_identity": 0.99644128113879
+    },
+    {
+      "accession": "P30878",
+      "afdb_product": "AF-P30878-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_defined_assembly"
+      ],
+      "canonical_length": 476,
+      "construct_length": 485,
+      "entry_id": "7l17",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "Crystal structure of sugar-bound melibiose permease MelB"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 453,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "9PG"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.934020618556701,
+      "observed_residues": 453,
+      "protein_name": "Na+/melibiose symporter MelB, structure 1",
+      "publication_dois": [
+        "10.1038/s42003-021-02462-x"
+      ],
+      "publication_titles": [
+        "X-ray crystallography reveals molecular recognition mechanism for sugar binding in a melibiose transporter MelB."
+      ],
+      "raw_afdb_sha256": "fe8b45705a5b181cb628c7565cea00b19afca93272716c682f9fd6674f64f02c",
+      "raw_pdb_sha256": "860c590ac07eca8b18f383fd1c35ec341c26adb77940bb1b2bdd470534be0c70",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.8432911395944789,
+          "confidence": 0.6811105263157893,
+          "residues": 114
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.8080469037243185,
+          "confidence": 0.6197476190476191,
+          "residues": 21
+        },
+        "TM_CORE": {
+          "accuracy": 0.8565874486851269,
+          "confidence": 0.7356504587155963,
+          "residues": 218
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.723878652854099,
+          "confidence": 0.588478,
+          "residues": 100
+        }
+      },
+      "sequence_identity": 0.9955849889624724
+    },
+    {
+      "accession": "A5F5Y6",
+      "afdb_product": "AF-A5F5Y6-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_defined_assembly"
+      ],
+      "canonical_length": 210,
+      "construct_length": 210,
+      "entry_id": "8evu",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": true,
+      "experimental_title": [
+        "Cryo EM structure of Vibrio cholerae NQR"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 202,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "FES",
+        "FMN",
+        "RBF",
+        "UQ1"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.9619047619047619,
+      "observed_residues": 202,
+      "protein_name": "Na(+)-translocating NADH-quinone reductase",
+      "publication_dois": [
+        null
+      ],
+      "publication_titles": [
+        "Novel cofactor binding motifs, electron transfer and ion pumping mechanisms of the respiratory complex NQR"
+      ],
+      "raw_afdb_sha256": "e25597da1d5be622e4bae37bfdf6776aa8c0cb2a257f8997317ab0fe033109fe",
+      "raw_pdb_sha256": "5659953bdb56759ea3124e6c623a25557794e796876be52dda0c98e24b20e877",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.899804103997288,
+          "confidence": 0.7652476190476191,
+          "residues": 42
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.984375,
+          "confidence": 0.5694,
+          "residues": 1
+        },
+        "TM_CORE": {
+          "accuracy": 0.9407108048349404,
+          "confidence": 0.8532817391304348,
+          "residues": 115
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.9428483386594297,
+          "confidence": 0.6846590909090908,
+          "residues": 44
+        }
+      },
+      "sequence_identity": 1.0
+    },
+    {
+      "accession": "A0KLE1",
+      "afdb_product": "AF-A0KLE1-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_and_software_defined_assembly"
+      ],
+      "canonical_length": 359,
+      "construct_length": 367,
+      "entry_id": "6h2f",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "Structure of the pre-pore AhlB of the tripartite alpha-pore forming toxin, AHL, from Aeromonas hydrophila."
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 331,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "PO4"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.9019073569482289,
+      "observed_residues": 331,
+      "protein_name": "AhlB pre-pore of the alpha-pore forming toxin",
+      "publication_dois": [
+        "10.1038/s41467-019-10777-x"
+      ],
+      "publication_titles": [
+        "Identification and structural analysis of the tripartite alpha-pore forming toxin of Aeromonas hydrophila."
+      ],
+      "raw_afdb_sha256": "d633357a3a50d15b5caa6c71e16108b708621eb6aa9ab6a433a9f06b79abdf43",
+      "raw_pdb_sha256": "c222c67433976ec002d6af261058c8abf418a2129c48c19169569bae3a80513d",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.6593189837130918,
+          "confidence": 0.9408500000000001,
+          "residues": 12
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.9086430793784991,
+          "confidence": 0.957375,
+          "residues": 244
+        },
+        "TM_CORE": {
+          "accuracy": 0.3391314654272079,
+          "confidence": 0.9017780487804878,
+          "residues": 41
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.7560456781309752,
+          "confidence": 0.9297029411764707,
+          "residues": 34
+        }
+      },
+      "sequence_identity": 0.9969788519637462
+    },
+    {
+      "accession": "A0A066R7V5",
+      "afdb_product": "AF-A0A066R7V5-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_defined_assembly"
+      ],
+      "canonical_length": 454,
+      "construct_length": 453,
+      "entry_id": "3wdo",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "Structure of E. coli YajR transporter"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 452,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [],
+      "mapping_coverage": 0.9977924944812362,
+      "observed_fraction": 1.0,
+      "observed_residues": 452,
+      "protein_name": "Transporter YajR ",
+      "publication_dois": [
+        "10.1073/pnas.1308127110"
+      ],
+      "publication_titles": [
+        "Structure of the YajR transporter suggests a transport mechanism based on the conserved motif A"
+      ],
+      "raw_afdb_sha256": "fed30612753557d2e79759904aa2c2ff0312301755accd9f04620f21ab9cea06",
+      "raw_pdb_sha256": "87fb114e43d320b00205961ec2852c6faddfec7a07d7546e1c110edac9c4033a",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.9339652726658741,
+          "confidence": 0.9074960000000002,
+          "residues": 100
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.8506701744791263,
+          "confidence": 0.8254725,
+          "residues": 40
+        },
+        "TM_CORE": {
+          "accuracy": 0.9633158274204421,
+          "confidence": 0.9384315789473685,
+          "residues": 209
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.7845928576394109,
+          "confidence": 0.7856825242718446,
+          "residues": 103
+        }
+      },
+      "sequence_identity": 1.0
+    },
+    {
+      "accession": "A0A0H2V8D3",
+      "afdb_product": "AF-A0A0H2V8D3-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_defined_assembly"
+      ],
+      "canonical_length": 504,
+      "construct_length": 480,
+      "entry_id": "7mdf",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "Full-length S95A ClbP bound to N-acyl-D-asparagine analog"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 453,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "2PE",
+        "97N",
+        "AV0",
+        "CL",
+        "DMS",
+        "HOH",
+        "SO4",
+        "Z9A",
+        "Z9G"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.94375,
+      "observed_residues": 453,
+      "protein_name": "Colibactin-activating peptidase, S95A, ligand-bound",
+      "publication_dois": [
+        "10.1038/s41589-022-01142-z"
+      ],
+      "publication_titles": [
+        "Structural basis of colibactin activation by the ClbP peptidase."
+      ],
+      "raw_afdb_sha256": "bb36718821741751bfee660dc92fa6acd4400fa1853b90a1f7bd1895bd40b3bb",
+      "raw_pdb_sha256": "34935a15bd71a52d762c949b50b31f6199e476b3d3d2041bb23a0a08ea1e1c3e",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.8863365782714445,
+          "confidence": 0.8715541666666665,
+          "residues": 24
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.9776702885632468,
+          "confidence": 0.9670596330275228,
+          "residues": 218
+        },
+        "TM_CORE": {
+          "accuracy": 0.9145958400903231,
+          "confidence": 0.9071980392156863,
+          "residues": 51
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.9246225350191255,
+          "confidence": 0.9059668750000001,
+          "residues": 160
+        }
+      },
+      "sequence_identity": 0.9933774834437086
+    },
+    {
+      "accession": "A0A0H3CQA2",
+      "afdb_product": "AF-A0A0H3CQA2-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_and_software_defined_assembly",
+        "author_and_software_defined_assembly"
+      ],
+      "canonical_length": 360,
+      "construct_length": 360,
+      "entry_id": "6mit",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": true,
+      "experimental_title": [
+        "LptBFGC from Enterobacter cloacae"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 355,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "CL",
+        "HOH",
+        "NOV",
+        "SO4"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.9861111111111112,
+      "observed_residues": 355,
+      "protein_name": "LptBFGC complex",
+      "publication_dois": [
+        "10.1038/s41586-019-1039-0"
+      ],
+      "publication_titles": [
+        "Structural basis of unidirectional export of lipopolysaccharide to the cell surface."
+      ],
+      "raw_afdb_sha256": "2bb6cc53640b7dcdda852d9bbe57a81c27427409aa6f60b85cea299531126f8d",
+      "raw_pdb_sha256": "4c39354b942888e17fd4ef663b1e41f78607c0337fb6bfec0ca0c6e7de5533c2",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.9427996982265323,
+          "confidence": 0.8766362068965519,
+          "residues": 58
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.8758833444353986,
+          "confidence": 0.7997036144578313,
+          "residues": 83
+        },
+        "TM_CORE": {
+          "accuracy": 0.972426862827672,
+          "confidence": 0.9213764705882354,
+          "residues": 119
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.8574976842612485,
+          "confidence": 0.7966894736842104,
+          "residues": 95
+        }
+      },
+      "sequence_identity": 1.0
+    },
+    {
+      "accession": "A0A0H3KP92",
+      "afdb_product": "AF-A0A0H3KP92-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_and_software_defined_assembly"
+      ],
+      "canonical_length": 877,
+      "construct_length": 883,
+      "entry_id": "5khn",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": false,
+      "experimental_title": [
+        "Crystal structures of the Burkholderia multivorans hopanoid transporter HpnN"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 848,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.9603624009060022,
+      "observed_residues": 848,
+      "protein_name": "Hopanoid transporter HpnN, structure 1",
+      "publication_dois": [
+        "10.1073/pnas.1619660114"
+      ],
+      "publication_titles": [
+        "Crystal structures of the Burkholderia multivorans hopanoid transporter HpnN."
+      ],
+      "raw_afdb_sha256": "abf2752147f669692d3bf2f0ee2632a60fe41272dd826873e704985e9abf022f",
+      "raw_pdb_sha256": "3ccfa3482ba6ad37b0795670cae090862dc3e027a71e9c064adb1848116685bb",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.8523318970029519,
+          "confidence": 0.8851868686868688,
+          "residues": 99
+        },
+        "STRUCTURED_EXTRAMEMBRANE": {
+          "accuracy": 0.9381224841451044,
+          "confidence": 0.9163072674418604,
+          "residues": 344
+        },
+        "TM_CORE": {
+          "accuracy": 0.9388131137435635,
+          "confidence": 0.9295252525252525,
+          "residues": 198
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.859129476876248,
+          "confidence": 0.8663971014492754,
+          "residues": 207
+        }
+      },
+      "sequence_identity": 0.9964622641509434
+    },
+    {
+      "accession": "A0A0H3LM39",
+      "afdb_product": "AF-A0A0H3LM39-F1",
+      "afdb_version": 6,
+      "assembly_details": [
+        "author_and_software_defined_assembly"
+      ],
+      "canonical_length": 309,
+      "construct_length": 309,
+      "entry_id": "5tsa",
+      "evidence_class": "experimental metadata and independently checked derived coordinates; causal state mismatch not established",
+      "exact_construct": true,
+      "experimental_title": [
+        "Crystal structure of the Zrt-/Irt-like protein from Bordetella bronchiseptica with bound Zn2+"
+      ],
+      "independent_column_coordinate_check": {
+        "passed": true,
+        "residues": 233,
+        "tolerance_angstrom": 1e-12
+      },
+      "ligands_entry_level": [
+        "CD",
+        "HOH",
+        "ZN"
+      ],
+      "mapping_coverage": 1.0,
+      "observed_fraction": 0.7540453074433657,
+      "observed_residues": 233,
+      "protein_name": "ZIP zinc transporter",
+      "publication_dois": [
+        "10.1126/sciadv.1700344"
+      ],
+      "publication_titles": [
+        "Crystal structures of a ZIP zinc transporter reveal a binuclear metal center in the transport pathway."
+      ],
+      "raw_afdb_sha256": "dc8295838f780299668fbc7c6d7b707674f2d1807ba9b13ebc62c99f2361dd38",
+      "raw_pdb_sha256": "93c5bf3802235ab7d89dd9931943d3f21e0733addba092df504319b8a830723b",
+      "region_statistics": {
+        "MEMBRANE_INTERFACE": {
+          "accuracy": 0.9408647682548515,
+          "confidence": 0.9206163636363636,
+          "residues": 55
+        },
+        "TM_CORE": {
+          "accuracy": 0.9740076904606134,
+          "confidence": 0.9593951724137931,
+          "residues": 145
+        },
+        "UNKNOWN_OR_EXCLUDED": {
+          "accuracy": 0.8610134092443023,
+          "confidence": 0.8696,
+          "residues": 33
+        }
+      },
+      "sequence_identity": 1.0
+    }
+  ],
+  "selection": "post-outcome eight largest absolute protein-average discrepancies plus first five accession-sorted proteins; no primary selection changes"
+}

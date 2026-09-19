@@ -1,0 +1,21 @@
+Frozen field,Criterion
+candidate_cap,800
+canonical_length,"[100, 1500]"
+construct_canonical_length_ratio_min,0.5
+experimental_observed_fraction_min,0.7
+identity_min,0.98
+independence,"['canonical accession absent from all 174 v0.1 accepted', 'experimental entry absent from all v0.1 accepted', 'exact construct SHA256 absent from all v0.1 accepted']"
+mapped_observed_fraction_min,0.95
+mapped_residues_min,100
+opm_chain_fraction_min,0.8
+opm_half_thickness_disagreement_max_angstrom,0.1
+opm_rmsd_max_angstrom,0.5
+primary_core_residues_min,20
+representative,"one deposited label-asym per entity; one canonical/construct across entries sorted resolution, descending mapped residues, SHA256(case ID)"
+scope,"alpha-helical transmembrane OPM, resolution <=3.5 A, X-ray or EM"
+mapping.experimental_model,first deposited model; selected before outcome access
+mapping.missing_coordinates,no imputation; endpoint uses paired observed CA only; zero neighbours undefined
+mapping.missing_frozen_matched_endpoint,abort primary computation rather than silently rematch or drop outcomes
+mapping.mutations,<=2% retained and separately sensitivity-excluded
+mapping.noncanonical_isoforms,excluded
+mapping.source,SIFTS XML author-chain/residue to UniProt canonical; positive unique positions; reference highest-occupancy CA with altloc lexical tie break; no prediction alignment fitted

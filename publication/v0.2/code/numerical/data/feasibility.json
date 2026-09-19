@@ -1,0 +1,118 @@
+{
+  "bins_1": {
+    "MEMBRANE_INTERFACE-TM_CORE": {
+      "effective_mass_retention": 0.3940576678867558,
+      "max_absolute_confidence_difference": 0.004300432900432805,
+      "proteins": 398,
+      "raw_cell_retention": 0.6796052140135953,
+      "resolved_blocks": 173,
+      "resolved_families": 240,
+      "useful": true
+    },
+    "STRUCTURED_EXTRAMEMBRANE-MEMBRANE_INTERFACE": {
+      "effective_mass_retention": 0.1604640289133484,
+      "max_absolute_confidence_difference": 0.003267617866004602,
+      "proteins": 147,
+      "raw_cell_retention": 0.268636346404155,
+      "resolved_blocks": 57,
+      "resolved_families": 82,
+      "useful": true
+    },
+    "STRUCTURED_EXTRAMEMBRANE-TM_CORE": {
+      "effective_mass_retention": 0.2041958507882836,
+      "max_absolute_confidence_difference": 0.004322230769230662,
+      "proteins": 187,
+      "raw_cell_retention": 0.31453056941309726,
+      "resolved_blocks": 76,
+      "resolved_families": 111,
+      "useful": true
+    }
+  },
+  "bins_5": {
+    "MEMBRANE_INTERFACE-TM_CORE": {
+      "effective_mass_retention": 0.5108314036005079,
+      "max_absolute_confidence_difference": 0.015604692082111299,
+      "proteins": 462,
+      "raw_cell_retention": 0.8905561365503847,
+      "resolved_blocks": 195,
+      "resolved_families": 275,
+      "useful": true
+    },
+    "STRUCTURED_EXTRAMEMBRANE-MEMBRANE_INTERFACE": {
+      "effective_mass_retention": 0.2615343788305764,
+      "max_absolute_confidence_difference": 0.014006691919191865,
+      "proteins": 226,
+      "raw_cell_retention": 0.45963125371210495,
+      "resolved_blocks": 90,
+      "resolved_families": 131,
+      "useful": true
+    },
+    "STRUCTURED_EXTRAMEMBRANE-TM_CORE": {
+      "effective_mass_retention": 0.27846857276111636,
+      "max_absolute_confidence_difference": 0.018867094861660383,
+      "proteins": 263,
+      "raw_cell_retention": 0.477609081293568,
+      "resolved_blocks": 105,
+      "resolved_families": 157,
+      "useful": true
+    }
+  },
+  "primary": {
+    "MEMBRANE_INTERFACE-TM_CORE": {
+      "effective_mass_retention": 0.4526779711660566,
+      "max_absolute_confidence_difference": 0.006343842364532112,
+      "proteins": 437,
+      "raw_cell_retention": 0.7931201912302981,
+      "resolved_blocks": 186,
+      "resolved_families": 260,
+      "useful": true
+    },
+    "STRUCTURED_EXTRAMEMBRANE-MEMBRANE_INTERFACE": {
+      "effective_mass_retention": 0.20959650209141573,
+      "max_absolute_confidence_difference": 0.00474697066326527,
+      "proteins": 186,
+      "raw_cell_retention": 0.36553650183867664,
+      "resolved_blocks": 74,
+      "resolved_families": 107,
+      "useful": true
+    },
+    "STRUCTURED_EXTRAMEMBRANE-TM_CORE": {
+      "effective_mass_retention": 0.2380591483372338,
+      "max_absolute_confidence_difference": 0.005948293811451753,
+      "proteins": 229,
+      "raw_cell_retention": 0.3845807896994278,
+      "resolved_blocks": 95,
+      "resolved_families": 140,
+      "useful": true
+    }
+  },
+  "v01_compatible": {
+    "MEMBRANE_INTERFACE-TM_CORE": {
+      "effective_mass_retention": 0.4929184239780722,
+      "max_absolute_confidence_difference": 0.005662059800664476,
+      "proteins": 459,
+      "raw_cell_retention": 0.8139102689216826,
+      "resolved_blocks": 196,
+      "resolved_families": 276,
+      "useful": true
+    },
+    "STRUCTURED_EXTRAMEMBRANE-MEMBRANE_INTERFACE": {
+      "effective_mass_retention": 0.2667742679271386,
+      "max_absolute_confidence_difference": 0.00490894396551727,
+      "proteins": 228,
+      "raw_cell_retention": 0.4962416416878026,
+      "resolved_blocks": 92,
+      "resolved_families": 133,
+      "useful": true
+    },
+    "STRUCTURED_EXTRAMEMBRANE-TM_CORE": {
+      "effective_mass_retention": 0.30978256458537934,
+      "max_absolute_confidence_difference": 0.0059662489557226195,
+      "proteins": 268,
+      "raw_cell_retention": 0.5067649278867615,
+      "resolved_blocks": 105,
+      "resolved_families": 158,
+      "useful": true
+    }
+  }
+}

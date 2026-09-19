@@ -1,0 +1,3 @@
+contrast,available,retained,effective,raw_retention,effective_retention,paired_proteins,group_balanced_confidence_difference,maximum_absolute_protein_confidence_difference,denominator_definition
+MEMBRANE_INTERFACE-TM_CORE,107096,84940,48480,0.7931201912302981,0.4526779711660566,437,-0.0009847548653664133,0.006343842364532039,eligible HELIX/SHEET residues in the two regions before cell/protein support filtering; not all scored residues
+STRUCTURED_EXTRAMEMBRANE-TM_CORE,120071,46177,28584,0.3845807896994278,0.2380591483372338,229,-0.0006304316704714313,0.005948293811451735,eligible HELIX/SHEET residues in the two regions before cell/protein support filtering; not all scored residues

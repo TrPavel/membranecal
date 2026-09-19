@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "accession": "A0A066R7V5",
+      "matrix_scalar_exact": true,
+      "residues": 452
+    },
+    {
+      "accession": "A0A0H2V8D3",
+      "matrix_scalar_exact": true,
+      "residues": 453
+    },
+    {
+      "accession": "A0A0H3CQA2",
+      "matrix_scalar_exact": true,
+      "residues": 355
+    },
+    {
+      "accession": "A0A0H3KP92",
+      "matrix_scalar_exact": true,
+      "residues": 848
+    },
+    {
+      "accession": "A0A0H3LM39",
+      "matrix_scalar_exact": true,
+      "residues": 233
+    }
+  ],
+  "endpoint": "independent scalar versus vectorized CA implementation; not comparison with canonical all-atom lDDT"
+}

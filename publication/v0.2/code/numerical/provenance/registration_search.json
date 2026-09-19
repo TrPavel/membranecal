@@ -1,0 +1,33 @@
+{
+  "searched_on": "2026-09-09",
+  "queries": [
+    "\"MembraneCal\"",
+    "\"MembraneState Bench\"",
+    "\"MembraneCal\" OR \"MembraneState Bench\" preregistration",
+    "\"MembraneCal\" registration OR preregistration OR OSF OR Zenodo",
+    "\"MembraneState Bench\" registration OR preregistration OR OSF OR Zenodo",
+    "site:osf.io \"MembraneCal\"",
+    "site:osf.io \"MembraneState\"",
+    "site:osf.io \"MembraneState Bench\"",
+    "site:osf.io \"MembraneCal\" \"v0.2\"",
+    "site:osf.io/registries \"MembraneCal\"",
+    "site:aspredicted.org \"MembraneCal\"",
+    "site:zenodo.org \"MembraneCal\""
+  ],
+  "public_result": "No relevant external preregistration or registration record identified; no record URL or identifier found.",
+  "local_result": "No external registration identifier identified in frozen protocol, research design/findings and track memory; historical use of the word preregistered is not an external record.",
+  "direct_registry_access": {
+    "url": "https://osf.io/registries/discover?q=MembraneCal",
+    "status": "Direct OSF internal search could not be verified: tool safe-open failure."
+  },
+  "limitations": [
+    "Public web index search is not exhaustive registry coverage.",
+    "Private, embargoed, unindexed, differently named or recent records cannot be excluded."
+  ],
+  "approved_wording": "prospectively frozen analysis protocol",
+  "freeze_commit": "5deb8f9abc345d811e0e98680b6122b4046a0d0d",
+  "recorded_git_commit_utc": "2026-09-09T12:26:49Z",
+  "recorded_unseal_utc": "2026-09-09T12:27:12.927823Z",
+  "chronology_qualification": "Local Git and receipt chronology; not independently certified timestamp or externally deposited preregistration.",
+  "external_record_created_in_closure": false
+}

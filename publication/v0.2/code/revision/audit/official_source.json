@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/google-deepmind/alphafold/dbaafbcdea0cf39fabe502928cab55754c1d5dc7/alphafold/model/lddt.py",
+  "revision": "dbaafbcdea0cf39fabe502928cab55754c1d5dc7",
+  "sha256": "2a3bb36fed58cff0beb92da0af40ca74c5b9892947f01ab825e7547691d99d96",
+  "retrieved": "2026-09-15",
+  "licence": "Apache-2.0",
+  "modifications": "none"
+}

@@ -1,0 +1,549 @@
+{
+  "C_omitted": "All raw PDB/mmCIF, AFDB model archives, OPM oriented PDB/index archives, UniProt responses and SIFTS XML. Exact identifiers, retrieval URLs/dates and source hashes retained; ordinary replay uses compact transformed inputs offline.",
+  "category_definition": {
+    "A": "Numerical replay input/integrity layer",
+    "B": "Additional independent-audit, selection/provenance and reference presentation layer; needed for corresponding audit/report claims",
+    "C": "Upstream raw data omitted, exact retrieval URLs and hashes retained"
+  },
+  "included": [
+    {
+      "bytes": 421,
+      "category": "A",
+      "path": "data/cohort_summary.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "c02509d219850e721cfeaf4e514915f483ea027a6b3808df3b54b018318b21c2",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "c02509d219850e721cfeaf4e514915f483ea027a6b3808df3b54b018318b21c2",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 2573326,
+      "category": "B",
+      "path": "data/common_support.json",
+      "reason": "Independent matching, grouping, cohort selection and retrieval audit",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "0b2b4fdef717f93e95297e6b706f5c0bfdfa5af36f46e674de30fffd51ecde3d",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "0b2b4fdef717f93e95297e6b706f5c0bfdfa5af36f46e674de30fffd51ecde3d",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 995832,
+      "category": "B",
+      "path": "data/development_sequences.json",
+      "reason": "Independent matching, grouping, cohort selection and retrieval audit",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "retained_fields": [
+        "accepted_position_count",
+        "accepted_residue_ranges",
+        "accession",
+        "assembly_details",
+        "assembly_interpretation",
+        "canonical_length",
+        "canonical_or_isoform_status",
+        "canonical_sequence",
+        "canonical_target_accessions",
+        "case_id",
+        "construct_complexity",
+        "construct_sequence",
+        "construct_sequence_sha256",
+        "curation_decision",
+        "current_primary_accession",
+        "deposition_date",
+        "entity_id",
+        "entry_id",
+        "excluded_residue_ranges",
+        "experimental_methods",
+        "family_evidence_status",
+        "family_id",
+        "family_tokens",
+        "fusion_status",
+        "identity_status_counts",
+        "label_asym_id",
+        "ligand_component_ids",
+        "local_evaluation_compatibility",
+        "mapped_position_count",
+        "mapping_evidence_refs",
+        "mapping_status_counts",
+        "missing_coordinate_positions",
+        "model_id",
+        "moderate_group_id",
+        "observed_coordinate_coverage",
+        "observed_mapped_position_count",
+        "pdb_sha256",
+        "pfam_ids",
+        "policy_eligibility",
+        "prediction_status",
+        "protein_description",
+        "release_date",
+        "resolution_angstrom",
+        "secondary_accessions",
+        "secondary_structure_position_count",
+        "substitutions",
+        "temporal_stratum",
+        "uniprot_family_phrases",
+        "uniprot_sha256"
+      ],
+      "sha256": "ac74bc5809c40d4a4eab95602760e24e194e42aa5e407c0e9e1dc955cbc217ca",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "ac74bc5809c40d4a4eab95602760e24e194e42aa5e407c0e9e1dc955cbc217ca",
+      "source_terms": [
+        "PDB: CC0-origin development constructs",
+        "UniProt: CC-BY-4.0 sequences/aliases/family phrases/Pfam IDs",
+        "Study-derived development mapping/eligibility"
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Remove raw_path and prediction_path keys recursively; all other values unchanged"
+    },
+    {
+      "bytes": 42877,
+      "category": "B",
+      "path": "data/discovery.json",
+      "reason": "Independent matching, grouping, cohort selection and retrieval audit",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "f7eee1254ac9953f3ade545a3aff3de3012286f60616666f15bde94c0f81720e",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "e296404cf893816a9621521a799ffb71dd786e6537d762a6d1d0ee7dde4a106a",
+      "source_terms": [
+        "OPM: selected PDB/OPM identifiers and aggregate attrition counts; site-level CC-BY-3.0 scope qualification"
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Remove raw_path and prediction_path keys recursively; all other values unchanged; candidate records minimized to pdbid and OPM id"
+    },
+    {
+      "bytes": 227661,
+      "category": "B",
+      "path": "data/exclusions.json",
+      "reason": "Independent matching, grouping, cohort selection and retrieval audit",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "9d282e597a6d7864760931301a4e9f149f725b0f90931873d9d295d2ec21b2cb",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "9d282e597a6d7864760931301a4e9f149f725b0f90931873d9d295d2ec21b2cb",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Remove raw_path and prediction_path keys recursively; all other values unchanged"
+    },
+    {
+      "bytes": 3976,
+      "category": "A",
+      "path": "data/feasibility.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "005585a5201680f2a3c58652adc87799cc1214ccf25778b01ac9bf26561d9658",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "005585a5201680f2a3c58652adc87799cc1214ccf25778b01ac9bf26561d9658",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 3978,
+      "category": "B",
+      "path": "data/group_validation.json",
+      "reason": "Independent matching, grouping, cohort selection and retrieval audit",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "73ba7f77b821f0868dd38adf109978417f0868ef097c9d94df2812373aed1d9a",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "73ba7f77b821f0868dd38adf109978417f0868ef097c9d94df2812373aed1d9a",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 263293,
+      "category": "A",
+      "path": "data/groups.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "84121f237532845be846f507eb5580a4ff0f3b91ebc25d203be1a17a94e9806f",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "84121f237532845be846f507eb5580a4ff0f3b91ebc25d203be1a17a94e9806f",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 16331135,
+      "category": "A",
+      "path": "data/matched_sets.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "3a58a92267342c89e3cc7e747f3cb64128d8e591f25dd6d1d12597289e85e87a",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "3a58a92267342c89e3cc7e747f3cb64128d8e591f25dd6d1d12597289e85e87a",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 653,
+      "category": "A",
+      "path": "data/metric_validation.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "dfc6d86cccb82b35483187a5dad23bbf92751959d2241d99c8e1612bcc66887d",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "dfc6d86cccb82b35483187a5dad23bbf92751959d2241d99c8e1612bcc66887d",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 1361910,
+      "category": "A",
+      "path": "data/proteins.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "retained_fields": [
+        "accession",
+        "afdb_model_date",
+        "afdb_model_id",
+        "afdb_version",
+        "assembly_details",
+        "author_chain_id",
+        "canonical_sequence",
+        "case_id",
+        "construct_sequence",
+        "construct_sequence_sha256",
+        "deposition_date",
+        "entity_id",
+        "entry_id",
+        "exact_construct_prediction",
+        "half_thickness",
+        "label_asym_id",
+        "ligands",
+        "mapping_coverage",
+        "methods",
+        "model_id",
+        "observed_fraction",
+        "opm_family_id",
+        "opm_family_name",
+        "opm_matched_atoms",
+        "opm_reported_resolution",
+        "opm_transform_rmsd",
+        "pfam_ids",
+        "prediction_sha256",
+        "protein_name",
+        "release_date",
+        "resolution",
+        "sequence_identity",
+        "sifts_accession",
+        "uniprot_family_phrases"
+      ],
+      "sha256": "f9c14a2a456457db26699e50bfec7eb68315b311ce0111a36187db77e2693a66",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "024d342be495c4a70f30bd2e9cc3d274916f81a56c70bec06258007209b6639a",
+      "source_terms": [
+        "PDB: CC0-origin construct/experimental metadata",
+        "UniProt: CC-BY-4.0 sequences/family phrases/Pfam IDs",
+        "AFDB: CC-BY-4.0 model identifiers",
+        "OPM: site-level CC-BY-3.0 frame/QC/family metadata; moderate scope qualification",
+        "SIFTS: EMBL-EBI terms and upstream rights"
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Remove raw_path and prediction_path keys recursively; all other values unchanged"
+    },
+    {
+      "bytes": 6705,
+      "category": "A",
+      "path": "data/protocol.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "740b223fbf6bcb43c42c126208510a835d04dade7f268d0999b684a7738c6671",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "740b223fbf6bcb43c42c126208510a835d04dade7f268d0999b684a7738c6671",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 8227964,
+      "category": "A",
+      "path": "data/residues_preoutcome.parquet",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "retained_fields": [
+        "accession",
+        "altloc",
+        "author_residue",
+        "canonical_position",
+        "confidence",
+        "depth",
+        "depth_ratio",
+        "identity_match",
+        "label_seq_id",
+        "occupancy",
+        "reference_ca",
+        "region",
+        "secondary_structure"
+      ],
+      "sha256": "0943bad7815e6ecf02d12cdcfc809b4f22120dab6ea11fb4062b64710a3092f8",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "0943bad7815e6ecf02d12cdcfc809b4f22120dab6ea11fb4062b64710a3092f8",
+      "source_terms": [
+        "PDB: CC0-origin reference CA/observability/secondary structure",
+        "AFDB: CC-BY-4.0 confidence",
+        "OPM: site-level CC-BY-3.0 depth/frame-derived values; moderate scope qualification",
+        "SIFTS: EMBL-EBI terms and upstream rights for canonical mapping"
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 529,
+      "category": "A",
+      "path": "data/score_manifest.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "bf0e455619645509452dba9e73068004bb0319f54c06d2253d052dc777f12605",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "bf0e455619645509452dba9e73068004bb0319f54c06d2253d052dc777f12605",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 2484953,
+      "category": "A",
+      "path": "data/scores.parquet",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "retained_fields": [
+        "accession",
+        "canonical_position",
+        "prediction_ca",
+        "local_accuracy",
+        "neighbors",
+        "status"
+      ],
+      "sha256": "4f293fda6d7c7d0a4c8578071f396e7d573a54ed3c472795c67a5a5b9baca4b8",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "4f293fda6d7c7d0a4c8578071f396e7d573a54ed3c472795c67a5a5b9baca4b8",
+      "source_terms": [
+        "AFDB: CC-BY-4.0 predicted C-alpha coordinates",
+        "Study-computed local accuracy and neighbor counts using PDB CC0-origin coordinates"
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 1950163,
+      "category": "B",
+      "path": "data/sources.json",
+      "reason": "Independent matching, grouping, cohort selection and retrieval audit",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "retained_fields": [
+        "bytes",
+        "identifier",
+        "retrieved_utc",
+        "schema_version",
+        "sha256",
+        "source",
+        "transformation",
+        "url"
+      ],
+      "sha256": "82abc4e3798aa3b31ec148f75499eae768c62c92c70ddc1872bd47c33275971f",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "430c8b077d0113713dbd7e89199c30153e50a7942c9ee4d7d1024e643af01a35",
+      "source_terms": [
+        "Study-authored retrieval ledger of upstream identifiers, URLs, dates, hashes and byte counts; no raw responses"
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Remove raw_path and prediction_path keys recursively; all other values unchanged"
+    },
+    {
+      "bytes": 373,
+      "category": "A",
+      "path": "data/unseal_receipt.json",
+      "reason": "Numerical replay inputs and integrity",
+      "redistribution_decision": "Local review candidate only; source attribution retained; OPM scope residual risk recorded",
+      "sha256": "d6b0f82aad6ed2e413a77d0658e9de0863cbd7144e1e4b962349468cace8ede6",
+      "source": "Frozen study; PDB, UniProt, AFDB, OPM, SIFTS as applicable; source records in data/sources.json",
+      "source_sha256": "d6b0f82aad6ed2e413a77d0658e9de0863cbd7144e1e4b962349468cace8ede6",
+      "source_terms": [
+        "Study-authored protocol, computed matching/grouping/QC or integrity record; authored licence pending. Embedded source-derived labels retain applicable PDB/UniProt/AFDB/OPM/SIFTS terms described in DATA_LICENSE.md."
+      ],
+      "terms": "Source-specific; DATA_LICENSE.md field-level classifications apply",
+      "transformation": "Byte-identical frozen artifact"
+    },
+    {
+      "bytes": 422,
+      "category": "B",
+      "path": "tables/primary_effects.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "0ee4319661a0b0ca57ba52618c90517ee6d54760411e5109ce9b80e3a8012f3b",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 3780,
+      "category": "B",
+      "path": "tables/sensitivity_effects.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "a38a677925ef87982ae4b4b77a8f4e185f3d35d46cda954e55c24bfa85cf5002",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 689,
+      "category": "B",
+      "path": "tables/support_balance.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "92cb6e06641830db2acff7b8a7de846739959deb5c828c620b36024a7431feb6",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 1075,
+      "category": "B",
+      "path": "tables/cohort_flow.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "b1d46010357ae6fec3107c862baaa32be1920467adfab9b07b0846f73c0ad926",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 3071,
+      "category": "B",
+      "path": "tables/descriptive_cases.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "45583d56463732829bb1a0e32d059f5ef0b2c1f4abde033eae0410fddbc77143",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 4820,
+      "category": "B",
+      "path": "tables/claim_evidence.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "3691cf4df7807194b179ddfb021481f9f56daee5ca57a167d5ac69119e1bfe56",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 1365,
+      "category": "B",
+      "path": "tables/eligibility_criteria.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "5b08d91dae506158ef1d0da016f530a1c6b6257873549f9e6c2361848799b1a9",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 4578,
+      "category": "B",
+      "path": "tables/all_scenario_effects.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "54c71bcf619db8ec58e1739c8356c1cfdd9e287e08c82b803f36b88a0cf60e73",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 69202,
+      "category": "B",
+      "path": "tables/influence_diagnostics.csv",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "296fc9484e0ee3b2dcb0fd92cbf1e0f2da14815f120ac0da93eb84cf171d7bd0",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 950520,
+      "category": "B",
+      "path": "results/results.json",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "873fbfd83f1a846e298531a942e620f1518d1443318f8ab9a3976caa294c20f3",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 8031,
+      "category": "B",
+      "path": "results/report.md",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "62d2625ff513c4e88961f4cf698819841d87bdeac248b7b6d041892fa8bc4fbb",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 33520,
+      "category": "B",
+      "path": "audit/independent_reproduction.json",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "40a76fd3c0f78404c29d15c29d059244f108fe0bf46701707ed6ff88485e0d29",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 303957,
+      "category": "B",
+      "path": "audit/independent_bootstrap_draws.npz",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "2efd6c93636c739483a543653ad33c73cb68f406b8f7e7d7468334d020708f70",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    },
+    {
+      "bytes": 25988,
+      "category": "B",
+      "path": "provenance/source_investigation.json",
+      "reason": "Reference for reproduction, journal reporting or retained independent audit evidence",
+      "redistribution_decision": "Local review candidate; owner-authored licence pending, source-specific attribution retained",
+      "sha256": "16ef0c7e8d350573ec9406a6ca40d8e8e64583e2754ed4cd0b9fc56b8d384f69",
+      "source": "Frozen study results or verified publication derivation; original source bindings recorded separately",
+      "terms": "Study-authored output licence pending; source-derived identifiers/context retain DATA_LICENSE.md attribution",
+      "transformation": "Deterministic statistical/report derivation; reference report command wording and claim paths adapted for standalone use only"
+    }
+  ]
+}

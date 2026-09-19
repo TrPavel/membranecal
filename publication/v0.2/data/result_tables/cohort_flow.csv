@@ -1,0 +1,13 @@
+stage,count,unit,note
+OPM index records,8915,index records,Frozen source index
+NOT_ALPHA_HELICAL_TRANSMEMBRANE_OR_NO_RESOLUTION,3540,index records,Sequential metadata prefilter exclusion
+RESOLUTION_OR_BOUNDARY,1497,index records,Sequential metadata prefilter exclusion
+V01_STRUCTURE_OVERLAP,65,index records,Sequential metadata prefilter exclusion
+Candidates,800,entries,Unique-code representatives and per-family rounds after prefilter; cap 800
+excluded,286,candidate entries,Mutually exclusive preparation status
+prepared,509,candidate entries,Mutually exclusive preparation status
+source_or_parser_failure,5,candidate entries,Mutually exclusive preparation status
+Eligible protein cases before canonical selection,622,protein cases,Multiple eligible chains can arise from an entry
+Duplicate canonical cases removed,68,protein cases,Outcome-blind representative selection
+Accepted canonical proteins,554,proteins,473 experimental entries; 223714 mapped scored residues
+Development proteins screened,174,proteins,"Final canonical/alias, PDB and construct overlaps all zero"

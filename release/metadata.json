@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "study": "MembraneCal",
+  "study_version": "0.2",
+  "package_version": "0.2.0",
+  "proposed_tag": "v0.2.0",
+  "title": "Matched regional contrasts in structural agreement minus confidence among high-confidence helical residues in membrane proteins",
+  "doi": "10.5281/zenodo.22843162",
+  "doi_state": "reserved_draft",
+  "repository": "https://github.com/TrPavel/membranecal",
+  "repository_state": "private_staging",
+  "release_state": "candidate_not_published",
+  "article_doi": null,
+  "date_released": null,
+  "author": {
+    "name": "Pavel Trofimchik",
+    "orcid": "0009-0007-6030-6019",
+    "affiliation": "Independent Researcher, Saint Petersburg, Russian Federation"
+  },
+  "scientific_changes": false,
+  "primary_results_percentage_points": [
+    {
+      "contrast": "interface-core",
+      "estimate": 0.583,
+      "interval": [
+        0.234,
+        0.969
+      ],
+      "confidence_level": 0.975
+    },
+    {
+      "contrast": "structured-extramembrane-core",
+      "estimate": 0.065,
+      "interval": [
+        -0.809,
+        0.94
+      ],
+      "confidence_level": 0.975
+    }
+  ],
+  "rights": {
+    "authored_code": "Apache-2.0",
+    "authored_text_figures": "CC-BY-4.0",
+    "third_party": "source-specific"
+  },
+  "zenodo": {
+    "resource_type": "dataset",
+    "existing_draft_only": true,
+    "new_record_created": false,
+    "published": false
+  }
+}

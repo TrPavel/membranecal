@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="504pt" viewBox="0 0 518.4 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 518.4 504 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 27.88992 54.18 
+L 269.25696 54.18 
+L 269.25696 17.325 
+L 27.88992 17.325 
+L 27.88992 54.18 
+z
+" clip-path="url(#p601b85a6ce)" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 27.88992 216.342 
+L 269.25696 216.342 
+L 269.25696 172.116 
+L 27.88992 172.116 
+L 27.88992 216.342 
+z
+" clip-path="url(#p601b85a6ce)" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 27.88992 324.45 
+L 269.25696 324.45 
+L 269.25696 280.224 
+L 27.88992 280.224 
+L 27.88992 324.45 
+z
+" clip-path="url(#p601b85a6ce)" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 27.88992 435.015 
+L 269.25696 435.015 
+L 269.25696 388.332 
+L 27.88992 388.332 
+L 27.88992 435.015 
+z
+" clip-path="url(#p601b85a6ce)" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 148.57344 108.234 
+L 309.4848 108.234 
+" clip-path="url(#p601b85a6ce)" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 148.57344 248.283 
+L 309.4848 248.283 
+" clip-path="url(#p601b85a6ce)" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 148.57344 356.391 
+L 309.4848 356.391 
+" clip-path="url(#p601b85a6ce)" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #202020" x="148.57344" y="38.085469" transform="rotate(-0 148.57344 38.085469)">8,915 OPM index records</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 148.57344 56.177512 
+Q 148.57344 113.147225 148.57344 168.943003 
+" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linecap: round"/>
+    <path d="M 150.37344 165.343003 
+L 148.57344 168.943003 
+L 146.77344 165.343003 
+z
+" style="fill: #202020; stroke: #202020; stroke-width: 1.05; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start; fill: #202020" x="319.54176" y="78.75" transform="rotate(-0 319.54176 78.75)">Sequential exclusions</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 101.84275)">65  Development-entry overlap</text>
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 113.119544)">3,540  Type / resolution availability</text>
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 124.396338)">1,497  Resolution / source boundary</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #202020" x="148.57344" y="189.928069" transform="rotate(-0 148.57344 189.928069)">800 candidate entries</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.2px; font-family: 'Arial'; text-anchor: middle; fill: #202020" x="148.57344" y="206.52273" transform="rotate(-0 148.57344 206.52273)">Unique-code and per-family selection; cap 800</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 148.57344 218.342212 
+Q 148.57344 248.284099 148.57344 277.05205 
+" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linecap: round"/>
+    <path d="M 150.37344 273.45205 
+L 148.57344 277.05205 
+L 146.77344 273.45205 
+z
+" style="fill: #202020; stroke: #202020; stroke-width: 1.05; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start; fill: #202020" x="319.54176" y="231.084" transform="rotate(-0 319.54176 231.084)">Preparation exclusions</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 254.17675)">286  Ineligible entries</text>
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 265.461744)">5  Source / parser / QC failures</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #202020" x="148.57344" y="297.990366" transform="rotate(-0 148.57344 297.990366)">509 eligible entries</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.2px; font-family: 'Arial'; text-anchor: middle; fill: #202020" x="148.57344" y="314.592933" transform="rotate(-0 148.57344 314.592933)">622 eligible protein cases</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 148.57344 326.450212 
+Q 148.57344 356.392099 148.57344 385.16005 
+" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linecap: round"/>
+    <path d="M 150.37344 381.56005 
+L 148.57344 385.16005 
+L 146.77344 381.56005 
+z
+" style="fill: #202020; stroke: #202020; stroke-width: 1.05; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial'; text-anchor: start; fill: #202020" x="319.54176" y="346.563" transform="rotate(-0 319.54176 346.563)">Canonical representative selection</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.2px; font-family: 'Arial'; text-anchor: start; fill: #202020" x="319.54176" y="361.305" transform="rotate(-0 319.54176 361.305)">68 duplicate protein cases removed</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #202020" x="148.57344" y="407.017378" transform="rotate(-0 148.57344 407.017378)">554 canonical proteins</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.2px; font-family: 'Arial'; text-anchor: middle; fill: #202020" x="148.57344" y="424.54259" transform="rotate(-0 148.57344 424.54259)">473 entries; 223,714 paired-observed residues</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 271.255584 411.4278 
+Q 289.369195 411.4278 306.30887 411.4278 
+" style="fill: none; stroke: #202020; stroke-width: 1.05; stroke-linecap: round"/>
+    <path d="M 302.70887 409.6278 
+L 306.30887 411.4278 
+L 302.70887 413.2278 
+z
+" style="fill: #202020; stroke: #202020; stroke-width: 1.05; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #202020" x="319.54176" y="385.875" transform="rotate(-0 319.54176 385.875)">Primary matching</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 406.586344)">Interface - core: 437 proteins</text>
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 416.139792)">45.27% effective common mass</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 436.070344)">Structured extra - core: 229 proteins</text>
+    <text style="font-size: 8.2px; font-family: 'Arial'; fill: #202020" transform="translate(319.54176 445.623792)">23.81% effective common mass</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start; fill: #202020" x="27.88992" y="474.327" transform="rotate(-0 27.88992 474.327)">Counts use the units named at each stage. Candidate selection is capped, not exhaustive.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p601b85a6ce">
+   <rect x="7.776" y="5.04" width="502.848" height="491.4"/>
+  </clipPath>
+ </defs>
+</svg>

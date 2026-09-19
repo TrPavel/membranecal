@@ -1,0 +1,6 @@
+{
+  "upstream\\scripts\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "upstream\\scripts\\membranecal_v02_acquire.py": "31231638d598f0270a45850148a57aa1954b7fd1d2a929a8da7f769a3be1e8b9",
+  "upstream\\scripts\\membranecal_v02_freeze.py": "d05ee34488b1e0585735d5978e6b2bf19cde6ad3fc72f80be819eff8eb05d5e7",
+  "upstream\\scripts\\membranecal_v02_methods.py": "c8b989c18cfb8497cbc509f34e3eed76004419318ef602a8f165006a29919ce8"
+}

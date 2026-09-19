@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "study",
+    "study_version",
+    "package_version",
+    "proposed_tag",
+    "title",
+    "doi",
+    "doi_state",
+    "repository",
+    "repository_state",
+    "release_state",
+    "article_doi",
+    "date_released",
+    "author",
+    "scientific_changes",
+    "primary_results_percentage_points",
+    "rights",
+    "zenodo"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "study": {
+      "const": "MembraneCal"
+    },
+    "study_version": {
+      "const": "0.2"
+    },
+    "package_version": {
+      "const": "0.2.0"
+    },
+    "proposed_tag": {
+      "const": "v0.2.0"
+    },
+    "title": {
+      "const": "Matched regional contrasts in structural agreement minus confidence among high-confidence helical residues in membrane proteins"
+    },
+    "doi": {
+      "const": "10.5281/zenodo.22843162"
+    },
+    "doi_state": {
+      "const": "reserved_draft"
+    },
+    "repository": {
+      "const": "https://github.com/TrPavel/membranecal"
+    },
+    "repository_state": {
+      "const": "private_staging"
+    },
+    "release_state": {
+      "const": "candidate_not_published"
+    },
+    "article_doi": {
+      "const": null
+    },
+    "date_released": {
+      "const": null
+    },
+    "author": {
+      "const": {
+        "name": "Pavel Trofimchik",
+        "orcid": "0009-0007-6030-6019",
+        "affiliation": "Independent Researcher, Saint Petersburg, Russian Federation"
+      }
+    },
+    "scientific_changes": {
+      "const": false
+    },
+    "primary_results_percentage_points": {
+      "const": [
+        {
+          "contrast": "interface-core",
+          "estimate": 0.583,
+          "interval": [
+            0.234,
+            0.969
+          ],
+          "confidence_level": 0.975
+        },
+        {
+          "contrast": "structured-extramembrane-core",
+          "estimate": 0.065,
+          "interval": [
+            -0.809,
+            0.94
+          ],
+          "confidence_level": 0.975
+        }
+      ]
+    },
+    "rights": {
+      "const": {
+        "authored_code": "Apache-2.0",
+        "authored_text_figures": "CC-BY-4.0",
+        "third_party": "source-specific"
+      }
+    },
+    "zenodo": {
+      "const": {
+        "resource_type": "dataset",
+        "existing_draft_only": true,
+        "new_record_created": false,
+        "published": false
+      }
+    }
+  }
+}

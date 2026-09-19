@@ -1,0 +1,20 @@
+name: Reproduction or software problem
+description: Report a reproducible problem without private data.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Exact version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: OS, Python and dependency installation
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Commands, expected output and observed output
+      description: Remove credentials, private paths and restricted data before posting.
+    validations:
+      required: true

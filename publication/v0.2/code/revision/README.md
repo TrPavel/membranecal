@@ -1,0 +1,3 @@
+# S2 Dataset
+
+Post-outcome validation evidence and unchanged diagnostic/acquisition code. Primary offline replay uses the numerical core in the main package. No raw source caches are included. Upstream reconstruction is separate and requires historical bytes and source-specific terms. Authored code: Apache-2.0; authored text: CC BY 4.0; Google DeepMind official_lddt.py retains its Apache-2.0 copyright. OPM numerical redistribution permission is scoped as described in the main THIRD_PARTY_NOTICES.md. Retained source/figure bindings identify their original revision paths; the local manifest identifies this selected dataset.

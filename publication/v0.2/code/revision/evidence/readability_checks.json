@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "comparison_commit": "f661610",
+  "data_coordinates_and_intervals": "exactly unchanged",
+  "axes_ranges_and_ticks": "exactly unchanged",
+  "all_original_csv_tables": "byte-identical",
+  "manuscript_change": "Figure 3 marker-shape wording only",
+  "exports": [
+    {
+      "file": "01_cohort_flow.pdf",
+      "sha256": "b58afa684823701c21b44a82477da9eb24cb24a0fb93aff99c580a4650a7c019"
+    },
+    {
+      "file": "01_cohort_flow.png",
+      "sha256": "7ce0ff934ea7372d71b951ab94f9e8c32452f8e614812c7844788ac5ee47fa21",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        4200
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "01_cohort_flow.svg",
+      "sha256": "b7bff43380d61edf74f953ebdebf5f83bd73ef2a44db6bab836ac708056e5218"
+    },
+    {
+      "file": "01_cohort_flow.tiff",
+      "sha256": "d9065c2fa38529a00619cb292c8aeecc4d8380be77f5a4e338a60cd4a11b08af",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        4200
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "file": "02_primary_effects.pdf",
+      "sha256": "0d87dd86c55433f738760f9a75e84cab5830126d94ffb7c0ec76b13a5be686c8"
+    },
+    {
+      "file": "02_primary_effects.png",
+      "sha256": "367f694e4da18c53f66e3c4c4606833877f17b1fb8b5d58973702e71d95f65e8",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        2100
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "02_primary_effects.svg",
+      "sha256": "5834eb9389dc5685cc4eda2fdd3ca4e9f98eb4f4b61a968d966377268bee07fc"
+    },
+    {
+      "file": "02_primary_effects.tiff",
+      "sha256": "c0e3f5dab2f7e32a8fcc018077236bb40a071271a01e3f2cd342a35e8b632ee6",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        2100
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "file": "03_support_balance.pdf",
+      "sha256": "a71c50bdf49fb7579f79f831b4b09fe05ed408a1211daa95eaa7ea47fd9669e0"
+    },
+    {
+      "file": "03_support_balance.png",
+      "sha256": "7182cd4f35ba412f8f765fee8ef63b8c8052e8c7067f383c11f7233c49ebeeeb",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        3000
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "03_support_balance.svg",
+      "sha256": "d89158eb7325da2659434bce520ea896df37cdd642d4e6edf389307b0b28cbf0"
+    },
+    {
+      "file": "03_support_balance.tiff",
+      "sha256": "bf83925c0bd3f75df611fc501fce3f9c8f3797b7c1ea180b12f4a3e532db18d4",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        3000
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "file": "04_sensitivities.pdf",
+      "sha256": "8cb91deb9323fe1e52ed309f5254b9ea2fe71383c0c04ca887f1c386c477dfc0"
+    },
+    {
+      "file": "04_sensitivities.png",
+      "sha256": "acb50786f5ded0b01d4d5b347736f5e5a909d5f3d54b5a69176b554cc6a5bffd",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        3420
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "04_sensitivities.svg",
+      "sha256": "64a481ea4e20232f54e69231fab8d93ed032a01205d8b2e9499c22a7e00a5818"
+    },
+    {
+      "file": "04_sensitivities.tiff",
+      "sha256": "d8a16a2924a80e675e2e725de807f3d5bf1324f91c9bb1caeda0c9d2ac3ab44c",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        3420
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "file": "05_descriptive_cases.pdf",
+      "sha256": "f541caa1224bb2116931afc263560c7d70f43b8c9b73b8be2f7ebc479fa44553"
+    },
+    {
+      "file": "05_descriptive_cases.png",
+      "sha256": "7a2b1fdec62227b4eff0c7083b2efbc69bad4d06ee779c974342108fae369994",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        2640
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "05_descriptive_cases.svg",
+      "sha256": "45acb7dc2fcea416796629ca773bfe201529436ecab1e21d2c8425362bb05fac"
+    },
+    {
+      "file": "05_descriptive_cases.tiff",
+      "sha256": "54a5104b7297b87f8f04f5043aa5c4f67c512602b6ef5dfabaadb61e21ab3522",
+      "mode": "RGB",
+      "dimensions": [
+        4320,
+        2640
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ]
+    }
+  ],
+  "visual_review": {
+    "grayscale": "All five inspected at 80% and 100%; open diamond/triangle visible; Primary identifiable without color",
+    "manuscript": "Pages 14-18 inspected at 96 dpi; 18-page pagination retained",
+    "small_size": "80% desktop-scale previews inspected; text and reference lines readable",
+    "preview_generation": "RGB and grayscale at 96 dpi, 100% and 80% of final figure display size"
+  }
+}

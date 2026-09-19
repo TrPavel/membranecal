@@ -1,0 +1,7 @@
+{
+  "first_unseal_utc": "2026-09-09T12:27:12.927823+00:00",
+  "freeze_commit": "5deb8f9abc345d811e0e98680b6122b4046a0d0d",
+  "protocol_sha256": "740b223fbf6bcb43c42c126208510a835d04dade7f268d0999b684a7738c6671",
+  "schema_version": "0.2.0",
+  "statement": "Freeze commit and every frozen input checked before reading prediction coordinates or evaluating local accuracy."
+}

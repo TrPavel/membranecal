@@ -1,0 +1,14 @@
+name: Scientific question
+description: Discuss interpretation, methodology or evidence.
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and relevant claim or method
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence and affected study version
+      description: Distinguish a question about frozen v0.2 from a proposed new study.

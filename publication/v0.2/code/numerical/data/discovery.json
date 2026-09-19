@@ -1,0 +1,3214 @@
+{
+  "candidates": [
+    {
+      "id": 43,
+      "pdbid": "1nkz"
+    },
+    {
+      "id": 4280,
+      "pdbid": "6a2w"
+    },
+    {
+      "id": 8337,
+      "pdbid": "7p0q"
+    },
+    {
+      "id": 8320,
+      "pdbid": "7fix"
+    },
+    {
+      "id": 9683,
+      "pdbid": "7yq7"
+    },
+    {
+      "id": 86,
+      "pdbid": "3cx5"
+    },
+    {
+      "id": 54,
+      "pdbid": "1kqf"
+    },
+    {
+      "id": 55,
+      "pdbid": "1q16"
+    },
+    {
+      "id": 165,
+      "pdbid": "2h88"
+    },
+    {
+      "id": 6632,
+      "pdbid": "7coh"
+    },
+    {
+      "id": 2832,
+      "pdbid": "4v1f"
+    },
+    {
+      "id": 8754,
+      "pdbid": "7avp"
+    },
+    {
+      "id": 9714,
+      "pdbid": "8a6e"
+    },
+    {
+      "id": 874,
+      "pdbid": "2w2e"
+    },
+    {
+      "id": 6639,
+      "pdbid": "6v8y"
+    },
+    {
+      "id": 3133,
+      "pdbid": "5kuk"
+    },
+    {
+      "id": 30,
+      "pdbid": "1ots"
+    },
+    {
+      "id": 7637,
+      "pdbid": "7onj"
+    },
+    {
+      "id": 2910,
+      "pdbid": "4y7k"
+    },
+    {
+      "id": 38,
+      "pdbid": "1u7g"
+    },
+    {
+      "id": 5700,
+      "pdbid": "7a5v"
+    },
+    {
+      "id": 7971,
+      "pdbid": "6zgs"
+    },
+    {
+      "id": 791,
+      "pdbid": "4dx5"
+    },
+    {
+      "id": 760,
+      "pdbid": "2nq2"
+    },
+    {
+      "id": 10199,
+      "pdbid": "8dnz"
+    },
+    {
+      "id": 9133,
+      "pdbid": "7rcp"
+    },
+    {
+      "id": 87,
+      "pdbid": "1okc"
+    },
+    {
+      "id": 2111,
+      "pdbid": "3n5k"
+    },
+    {
+      "id": 9315,
+      "pdbid": "7s4h"
+    },
+    {
+      "id": 1209,
+      "pdbid": "2w5q"
+    },
+    {
+      "id": 3483,
+      "pdbid": "5xls"
+    },
+    {
+      "id": 5658,
+      "pdbid": "6vbg"
+    },
+    {
+      "id": 135,
+      "pdbid": "2a65"
+    },
+    {
+      "id": 9338,
+      "pdbid": "7a0w"
+    },
+    {
+      "id": 2088,
+      "pdbid": "4i0u"
+    },
+    {
+      "id": 3091,
+      "pdbid": "5i20"
+    },
+    {
+      "id": 4291,
+      "pdbid": "6a6m"
+    },
+    {
+      "id": 622,
+      "pdbid": "1b12"
+    },
+    {
+      "id": 2425,
+      "pdbid": "4p02"
+    },
+    {
+      "id": 2904,
+      "pdbid": "4zp0"
+    },
+    {
+      "id": 312,
+      "pdbid": "3rlb"
+    },
+    {
+      "id": 1958,
+      "pdbid": "3viv"
+    },
+    {
+      "id": 1239,
+      "pdbid": "2xtv"
+    },
+    {
+      "id": 3428,
+      "pdbid": "5e94"
+    },
+    {
+      "id": 6257,
+      "pdbid": "6wvf"
+    },
+    {
+      "id": 2822,
+      "pdbid": "4ymu"
+    },
+    {
+      "id": 115,
+      "pdbid": "4yl3"
+    },
+    {
+      "id": 2702,
+      "pdbid": "4u9n"
+    },
+    {
+      "id": 775,
+      "pdbid": "2qts"
+    },
+    {
+      "id": 923,
+      "pdbid": "3h90"
+    },
+    {
+      "id": 3088,
+      "pdbid": "5iws"
+    },
+    {
+      "id": 9516,
+      "pdbid": "7w6y"
+    },
+    {
+      "id": 3859,
+      "pdbid": "6fl9"
+    },
+    {
+      "id": 64,
+      "pdbid": "2vpz"
+    },
+    {
+      "id": 9462,
+      "pdbid": "7qoa"
+    },
+    {
+      "id": 3796,
+      "pdbid": "5nv9"
+    },
+    {
+      "id": 1030,
+      "pdbid": "2wsw"
+    },
+    {
+      "id": 10168,
+      "pdbid": "7zk4"
+    },
+    {
+      "id": 9097,
+      "pdbid": "7qeq"
+    },
+    {
+      "id": 7627,
+      "pdbid": "7o82"
+    },
+    {
+      "id": 2494,
+      "pdbid": "4d2e"
+    },
+    {
+      "id": 4552,
+      "pdbid": "6mrt"
+    },
+    {
+      "id": 3186,
+      "pdbid": "5svk"
+    },
+    {
+      "id": 901,
+      "pdbid": "3blc"
+    },
+    {
+      "id": 1887,
+      "pdbid": "3tds"
+    },
+    {
+      "id": 955,
+      "pdbid": "3k3f"
+    },
+    {
+      "id": 9727,
+      "pdbid": "8ayn"
+    },
+    {
+      "id": 5675,
+      "pdbid": "6wvh"
+    },
+    {
+      "id": 1000,
+      "pdbid": "3m73"
+    },
+    {
+      "id": 9054,
+      "pdbid": "7o3j"
+    },
+    {
+      "id": 1027,
+      "pdbid": "3o7q"
+    },
+    {
+      "id": 7827,
+      "pdbid": "7cz9"
+    },
+    {
+      "id": 7966,
+      "pdbid": "6z70"
+    },
+    {
+      "id": 3959,
+      "pdbid": "6ffv"
+    },
+    {
+      "id": 2207,
+      "pdbid": "4ikv"
+    },
+    {
+      "id": 2049,
+      "pdbid": "4gx0"
+    },
+    {
+      "id": 3434,
+      "pdbid": "5xap"
+    },
+    {
+      "id": 2292,
+      "pdbid": "3waj"
+    },
+    {
+      "id": 9765,
+      "pdbid": "8bpx"
+    },
+    {
+      "id": 2313,
+      "pdbid": "4n7w"
+    },
+    {
+      "id": 1355,
+      "pdbid": "3tx3"
+    },
+    {
+      "id": 9216,
+      "pdbid": "7tbg"
+    },
+    {
+      "id": 3391,
+      "pdbid": "5x5y"
+    },
+    {
+      "id": 3671,
+      "pdbid": "5v7p"
+    },
+    {
+      "id": 3907,
+      "pdbid": "5oc0"
+    },
+    {
+      "id": 2040,
+      "pdbid": "4b4a"
+    },
+    {
+      "id": 2045,
+      "pdbid": "4hyg"
+    },
+    {
+      "id": 7888,
+      "pdbid": "7nhs"
+    },
+    {
+      "id": 1900,
+      "pdbid": "3pjv"
+    },
+    {
+      "id": 4419,
+      "pdbid": "6nsk"
+    },
+    {
+      "id": 1771,
+      "pdbid": "1lv7"
+    },
+    {
+      "id": 3803,
+      "pdbid": "5y5s"
+    },
+    {
+      "id": 7849,
+      "pdbid": "7mws"
+    },
+    {
+      "id": 3267,
+      "pdbid": "5edl"
+    },
+    {
+      "id": 8770,
+      "pdbid": "8d1e"
+    },
+    {
+      "id": 2563,
+      "pdbid": "4quv"
+    },
+    {
+      "id": 2562,
+      "pdbid": "4qtn"
+    },
+    {
+      "id": 1933,
+      "pdbid": "3v5u"
+    },
+    {
+      "id": 1936,
+      "pdbid": "3tij"
+    },
+    {
+      "id": 1860,
+      "pdbid": "4a01"
+    },
+    {
+      "id": 3242,
+      "pdbid": "5syt"
+    },
+    {
+      "id": 2639,
+      "pdbid": "4jza"
+    },
+    {
+      "id": 7654,
+      "pdbid": "7aaq"
+    },
+    {
+      "id": 2028,
+      "pdbid": "5uld"
+    },
+    {
+      "id": 5778,
+      "pdbid": "7kr5"
+    },
+    {
+      "id": 7657,
+      "pdbid": "7nnu"
+    },
+    {
+      "id": 2864,
+      "pdbid": "4u4w"
+    },
+    {
+      "id": 3981,
+      "pdbid": "6bd4"
+    },
+    {
+      "id": 3311,
+      "pdbid": "5jnq"
+    },
+    {
+      "id": 2984,
+      "pdbid": "5bz3"
+    },
+    {
+      "id": 7738,
+      "pdbid": "7mij"
+    },
+    {
+      "id": 2305,
+      "pdbid": "4cad"
+    },
+    {
+      "id": 7683,
+      "pdbid": "7l17"
+    },
+    {
+      "id": 2344,
+      "pdbid": "4o6y"
+    },
+    {
+      "id": 2483,
+      "pdbid": "6ffi"
+    },
+    {
+      "id": 6505,
+      "pdbid": "6m31"
+    },
+    {
+      "id": 4133,
+      "pdbid": "4m5b"
+    },
+    {
+      "id": 2748,
+      "pdbid": "4ryo"
+    },
+    {
+      "id": 4547,
+      "pdbid": "6h59"
+    },
+    {
+      "id": 2447,
+      "pdbid": "4p79"
+    },
+    {
+      "id": 2451,
+      "pdbid": "4pgr"
+    },
+    {
+      "id": 3344,
+      "pdbid": "6fmx"
+    },
+    {
+      "id": 2456,
+      "pdbid": "4o9p"
+    },
+    {
+      "id": 2486,
+      "pdbid": "4q2g"
+    },
+    {
+      "id": 7766,
+      "pdbid": "7lj5"
+    },
+    {
+      "id": 2533,
+      "pdbid": "4qnd"
+    },
+    {
+      "id": 4284,
+      "pdbid": "6d91"
+    },
+    {
+      "id": 9162,
+      "pdbid": "7rxg"
+    },
+    {
+      "id": 9823,
+      "pdbid": "8evu"
+    },
+    {
+      "id": 2765,
+      "pdbid": "4rp9"
+    },
+    {
+      "id": 2818,
+      "pdbid": "4r0c"
+    },
+    {
+      "id": 3375,
+      "pdbid": "5lwy"
+    },
+    {
+      "id": 6478,
+      "pdbid": "7d8x"
+    },
+    {
+      "id": 2936,
+      "pdbid": "4ymk"
+    },
+    {
+      "id": 2890,
+      "pdbid": "4zr1"
+    },
+    {
+      "id": 7682,
+      "pdbid": "7kka"
+    },
+    {
+      "id": 2921,
+      "pdbid": "3llo"
+    },
+    {
+      "id": 2939,
+      "pdbid": "4xu4"
+    },
+    {
+      "id": 3548,
+      "pdbid": "5xpd"
+    },
+    {
+      "id": 9247,
+      "pdbid": "7uz3"
+    },
+    {
+      "id": 2949,
+      "pdbid": "5ayn"
+    },
+    {
+      "id": 8789,
+      "pdbid": "7sp8"
+    },
+    {
+      "id": 3003,
+      "pdbid": "5azb"
+    },
+    {
+      "id": 3004,
+      "pdbid": "5a1s"
+    },
+    {
+      "id": 4130,
+      "pdbid": "5ezm"
+    },
+    {
+      "id": 4889,
+      "pdbid": "6ryo"
+    },
+    {
+      "id": 10009,
+      "pdbid": "8b4o"
+    },
+    {
+      "id": 2343,
+      "pdbid": "4g7v"
+    },
+    {
+      "id": 7630,
+      "pdbid": "7r89"
+    },
+    {
+      "id": 8030,
+      "pdbid": "7rpi"
+    },
+    {
+      "id": 8177,
+      "pdbid": "7sq9"
+    },
+    {
+      "id": 9235,
+      "pdbid": "7tzc"
+    },
+    {
+      "id": 4510,
+      "pdbid": "6jpa"
+    },
+    {
+      "id": 3188,
+      "pdbid": "5sv0"
+    },
+    {
+      "id": 4445,
+      "pdbid": "6iyx"
+    },
+    {
+      "id": 9993,
+      "pdbid": "8a3b"
+    },
+    {
+      "id": 7600,
+      "pdbid": "7m1q"
+    },
+    {
+      "id": 4460,
+      "pdbid": "6nc9"
+    },
+    {
+      "id": 3331,
+      "pdbid": "5mkk"
+    },
+    {
+      "id": 8225,
+      "pdbid": "7w4o"
+    },
+    {
+      "id": 10179,
+      "pdbid": "8j3w"
+    },
+    {
+      "id": 3631,
+      "pdbid": "5uph"
+    },
+    {
+      "id": 9222,
+      "pdbid": "7tj5"
+    },
+    {
+      "id": 72,
+      "pdbid": "1ors"
+    },
+    {
+      "id": 9143,
+      "pdbid": "7pxe"
+    },
+    {
+      "id": 8453,
+      "pdbid": "7oph"
+    },
+    {
+      "id": 6293,
+      "pdbid": "6sx5"
+    },
+    {
+      "id": 1021,
+      "pdbid": "3ldc"
+    },
+    {
+      "id": 9813,
+      "pdbid": "7yie"
+    },
+    {
+      "id": 4453,
+      "pdbid": "6he6"
+    },
+    {
+      "id": 9657,
+      "pdbid": "7xnn"
+    },
+    {
+      "id": 3447,
+      "pdbid": "5jeq"
+    },
+    {
+      "id": 3472,
+      "pdbid": "5o0t"
+    },
+    {
+      "id": 4279,
+      "pdbid": "6or2"
+    },
+    {
+      "id": 3489,
+      "pdbid": "5vrh"
+    },
+    {
+      "id": 4682,
+      "pdbid": "6hd8"
+    },
+    {
+      "id": 3515,
+      "pdbid": "5mlz"
+    },
+    {
+      "id": 3553,
+      "pdbid": "5tsa"
+    },
+    {
+      "id": 3564,
+      "pdbid": "5y79"
+    },
+    {
+      "id": 3568,
+      "pdbid": "5guf"
+    },
+    {
+      "id": 3607,
+      "pdbid": "6m96"
+    },
+    {
+      "id": 3604,
+      "pdbid": "5oge"
+    },
+    {
+      "id": 3612,
+      "pdbid": "5xj5"
+    },
+    {
+      "id": 3683,
+      "pdbid": "6bmm"
+    },
+    {
+      "id": 3745,
+      "pdbid": "6b87"
+    },
+    {
+      "id": 1789,
+      "pdbid": "6cb2"
+    },
+    {
+      "id": 3820,
+      "pdbid": "5ys3"
+    },
+    {
+      "id": 3840,
+      "pdbid": "6cnm"
+    },
+    {
+      "id": 5219,
+      "pdbid": "6wbn"
+    },
+    {
+      "id": 3867,
+      "pdbid": "6ek7"
+    },
+    {
+      "id": 6760,
+      "pdbid": "7bin"
+    },
+    {
+      "id": 3908,
+      "pdbid": "6c08"
+    },
+    {
+      "id": 3928,
+      "pdbid": "6c5w"
+    },
+    {
+      "id": 7809,
+      "pdbid": "7lig"
+    },
+    {
+      "id": 9090,
+      "pdbid": "7q1u"
+    },
+    {
+      "id": 4203,
+      "pdbid": "6msm"
+    },
+    {
+      "id": 8867,
+      "pdbid": "7oxp"
+    },
+    {
+      "id": 5230,
+      "pdbid": "6y9b"
+    },
+    {
+      "id": 4116,
+      "pdbid": "5lki"
+    },
+    {
+      "id": 4117,
+      "pdbid": "6bar"
+    },
+    {
+      "id": 8024,
+      "pdbid": "7e1w"
+    },
+    {
+      "id": 4147,
+      "pdbid": "6bhp"
+    },
+    {
+      "id": 4149,
+      "pdbid": "6mgv"
+    },
+    {
+      "id": 4201,
+      "pdbid": "6a2j"
+    },
+    {
+      "id": 4228,
+      "pdbid": "6g7o"
+    },
+    {
+      "id": 4271,
+      "pdbid": "6cse"
+    },
+    {
+      "id": 4277,
+      "pdbid": "6iu3"
+    },
+    {
+      "id": 4310,
+      "pdbid": "6i6h"
+    },
+    {
+      "id": 10260,
+      "pdbid": "8ik0"
+    },
+    {
+      "id": 5101,
+      "pdbid": "6li9"
+    },
+    {
+      "id": 4390,
+      "pdbid": "6mjp"
+    },
+    {
+      "id": 4424,
+      "pdbid": "6m97"
+    },
+    {
+      "id": 7778,
+      "pdbid": "6xbo"
+    },
+    {
+      "id": 9309,
+      "pdbid": "7wlt"
+    },
+    {
+      "id": 4521,
+      "pdbid": "6nf4"
+    },
+    {
+      "id": 4491,
+      "pdbid": "6r3q"
+    },
+    {
+      "id": 4506,
+      "pdbid": "6oht"
+    },
+    {
+      "id": 4741,
+      "pdbid": "6psy"
+    },
+    {
+      "id": 4580,
+      "pdbid": "6ob7"
+    },
+    {
+      "id": 7640,
+      "pdbid": "7dyr"
+    },
+    {
+      "id": 4588,
+      "pdbid": "6p25"
+    },
+    {
+      "id": 10320,
+      "pdbid": "8ex4"
+    },
+    {
+      "id": 8137,
+      "pdbid": "7zgo"
+    },
+    {
+      "id": 8901,
+      "pdbid": "7vx8"
+    },
+    {
+      "id": 4803,
+      "pdbid": "6su3"
+    },
+    {
+      "id": 7927,
+      "pdbid": "7b9f"
+    },
+    {
+      "id": 4809,
+      "pdbid": "6ukj"
+    },
+    {
+      "id": 6407,
+      "pdbid": "7d60"
+    },
+    {
+      "id": 4862,
+      "pdbid": "6sp2"
+    },
+    {
+      "id": 4920,
+      "pdbid": "6uks"
+    },
+    {
+      "id": 4968,
+      "pdbid": "6vja"
+    },
+    {
+      "id": 5053,
+      "pdbid": "6tej"
+    },
+    {
+      "id": 5004,
+      "pdbid": "6sni"
+    },
+    {
+      "id": 6399,
+      "pdbid": "7cko"
+    },
+    {
+      "id": 5158,
+      "pdbid": "6y7f"
+    },
+    {
+      "id": 5156,
+      "pdbid": "6w98"
+    },
+    {
+      "id": 5732,
+      "pdbid": "7kjr"
+    },
+    {
+      "id": 8473,
+      "pdbid": "7ow8"
+    },
+    {
+      "id": 5129,
+      "pdbid": "7bve"
+    },
+    {
+      "id": 5215,
+      "pdbid": "6wb9"
+    },
+    {
+      "id": 9482,
+      "pdbid": "7t4x"
+    },
+    {
+      "id": 10078,
+      "pdbid": "8fef"
+    },
+    {
+      "id": 5282,
+      "pdbid": "6wqz"
+    },
+    {
+      "id": 8850,
+      "pdbid": "7psd"
+    },
+    {
+      "id": 6476,
+      "pdbid": "7c83"
+    },
+    {
+      "id": 5401,
+      "pdbid": "6leo"
+    },
+    {
+      "id": 5486,
+      "pdbid": "6l85"
+    },
+    {
+      "id": 5496,
+      "pdbid": "6u0o"
+    },
+    {
+      "id": 9456,
+      "pdbid": "7sax"
+    },
+    {
+      "id": 5621,
+      "pdbid": "6wk9"
+    },
+    {
+      "id": 9205,
+      "pdbid": "7sqh"
+    },
+    {
+      "id": 8496,
+      "pdbid": "7qa8"
+    },
+    {
+      "id": 7947,
+      "pdbid": "7drt"
+    },
+    {
+      "id": 6542,
+      "pdbid": "7k0k"
+    },
+    {
+      "id": 6549,
+      "pdbid": "7cff"
+    },
+    {
+      "id": 6452,
+      "pdbid": "6wvd"
+    },
+    {
+      "id": 6451,
+      "pdbid": "6wve"
+    },
+    {
+      "id": 6636,
+      "pdbid": "7dl9"
+    },
+    {
+      "id": 9374,
+      "pdbid": "7f47"
+    },
+    {
+      "id": 6439,
+      "pdbid": "7c77"
+    },
+    {
+      "id": 6788,
+      "pdbid": "7egk"
+    },
+    {
+      "id": 6774,
+      "pdbid": "6zmq"
+    },
+    {
+      "id": 6780,
+      "pdbid": "6z0f"
+    },
+    {
+      "id": 6783,
+      "pdbid": "7b0p"
+    },
+    {
+      "id": 6768,
+      "pdbid": "7bc6"
+    },
+    {
+      "id": 7805,
+      "pdbid": "7oqz"
+    },
+    {
+      "id": 7899,
+      "pdbid": "7p5c"
+    },
+    {
+      "id": 7843,
+      "pdbid": "7n0l"
+    },
+    {
+      "id": 7854,
+      "pdbid": "7myz"
+    },
+    {
+      "id": 7863,
+      "pdbid": "7abw"
+    },
+    {
+      "id": 9753,
+      "pdbid": "8b70"
+    },
+    {
+      "id": 9279,
+      "pdbid": "7n72"
+    },
+    {
+      "id": 6473,
+      "pdbid": "7bgy"
+    },
+    {
+      "id": 10308,
+      "pdbid": "8d2s"
+    },
+    {
+      "id": 8813,
+      "pdbid": "7f04"
+    },
+    {
+      "id": 8833,
+      "pdbid": "7znq"
+    },
+    {
+      "id": 8856,
+      "pdbid": "7qks"
+    },
+    {
+      "id": 8895,
+      "pdbid": "7sgr"
+    },
+    {
+      "id": 8919,
+      "pdbid": "7mdf"
+    },
+    {
+      "id": 8928,
+      "pdbid": "8djm"
+    },
+    {
+      "id": 8933,
+      "pdbid": "7r0i"
+    },
+    {
+      "id": 5375,
+      "pdbid": "6xiw"
+    },
+    {
+      "id": 8993,
+      "pdbid": "7vh5"
+    },
+    {
+      "id": 9003,
+      "pdbid": "7ot9"
+    },
+    {
+      "id": 9004,
+      "pdbid": "7vgr"
+    },
+    {
+      "id": 10273,
+      "pdbid": "7xs6"
+    },
+    {
+      "id": 9021,
+      "pdbid": "7xq0"
+    },
+    {
+      "id": 9030,
+      "pdbid": "7wkw"
+    },
+    {
+      "id": 9037,
+      "pdbid": "7wld"
+    },
+    {
+      "id": 9041,
+      "pdbid": "7zkz"
+    },
+    {
+      "id": 9050,
+      "pdbid": "7t92"
+    },
+    {
+      "id": 9051,
+      "pdbid": "7tpg"
+    },
+    {
+      "id": 8559,
+      "pdbid": "7xp4"
+    },
+    {
+      "id": 9058,
+      "pdbid": "7ojg"
+    },
+    {
+      "id": 9751,
+      "pdbid": "7qha"
+    },
+    {
+      "id": 9062,
+      "pdbid": "7usx"
+    },
+    {
+      "id": 9067,
+      "pdbid": "7fh1"
+    },
+    {
+      "id": 9070,
+      "pdbid": "7voj"
+    },
+    {
+      "id": 8859,
+      "pdbid": "7m95"
+    },
+    {
+      "id": 8786,
+      "pdbid": "7qc0"
+    },
+    {
+      "id": 9978,
+      "pdbid": "7zlg"
+    },
+    {
+      "id": 9957,
+      "pdbid": "7ytj"
+    },
+    {
+      "id": 10109,
+      "pdbid": "8hpk"
+    },
+    {
+      "id": 9910,
+      "pdbid": "7xe4"
+    },
+    {
+      "id": 9925,
+      "pdbid": "7xzi"
+    },
+    {
+      "id": 10040,
+      "pdbid": "8dwi"
+    },
+    {
+      "id": 10036,
+      "pdbid": "8dfu"
+    },
+    {
+      "id": 10354,
+      "pdbid": "8if8"
+    },
+    {
+      "id": 10307,
+      "pdbid": "8bb6"
+    },
+    {
+      "id": 7997,
+      "pdbid": "7pbw"
+    },
+    {
+      "id": 2897,
+      "pdbid": "4ri2"
+    },
+    {
+      "id": 49,
+      "pdbid": "1dxr"
+    },
+    {
+      "id": 8319,
+      "pdbid": "7f4v"
+    },
+    {
+      "id": 2530,
+      "pdbid": "3wu2"
+    },
+    {
+      "id": 9994,
+      "pdbid": "8ab6"
+    },
+    {
+      "id": 166,
+      "pdbid": "2bs2"
+    },
+    {
+      "id": 1984,
+      "pdbid": "3s8g"
+    },
+    {
+      "id": 1039,
+      "pdbid": "2xqu"
+    },
+    {
+      "id": 4716,
+      "pdbid": "6gux"
+    },
+    {
+      "id": 2319,
+      "pdbid": "4n6h"
+    },
+    {
+      "id": 3053,
+      "pdbid": "5i32"
+    },
+    {
+      "id": 59,
+      "pdbid": "1r3j"
+    },
+    {
+      "id": 5183,
+      "pdbid": "6o9u"
+    },
+    {
+      "id": 5714,
+      "pdbid": "7cq5"
+    },
+    {
+      "id": 8204,
+      "pdbid": "7n4t"
+    },
+    {
+      "id": 35,
+      "pdbid": "2oar"
+    },
+    {
+      "id": 2982,
+      "pdbid": "5af1"
+    },
+    {
+      "id": 7610,
+      "pdbid": "6qfa"
+    },
+    {
+      "id": 5352,
+      "pdbid": "6kkl"
+    },
+    {
+      "id": 866,
+      "pdbid": "3w9i"
+    },
+    {
+      "id": 842,
+      "pdbid": "2qi9"
+    },
+    {
+      "id": 5323,
+      "pdbid": "6z3t"
+    },
+    {
+      "id": 10189,
+      "pdbid": "8cua"
+    },
+    {
+      "id": 2328,
+      "pdbid": "4c9g"
+    },
+    {
+      "id": 864,
+      "pdbid": "2zxe"
+    },
+    {
+      "id": 9322,
+      "pdbid": "7s4m"
+    },
+    {
+      "id": 3166,
+      "pdbid": "5i5h"
+    },
+    {
+      "id": 376,
+      "pdbid": "3qe7"
+    },
+    {
+      "id": 817,
+      "pdbid": "4oaa"
+    },
+    {
+      "id": 2547,
+      "pdbid": "4us3"
+    },
+    {
+      "id": 9341,
+      "pdbid": "7s24"
+    },
+    {
+      "id": 7948,
+      "pdbid": "7nh9"
+    },
+    {
+      "id": 2393,
+      "pdbid": "4mrs"
+    },
+    {
+      "id": 9871,
+      "pdbid": "8g27"
+    },
+    {
+      "id": 5142,
+      "pdbid": "6s4m"
+    },
+    {
+      "id": 2003,
+      "pdbid": "4dve"
+    },
+    {
+      "id": 684,
+      "pdbid": "3bpp"
+    },
+    {
+      "id": 2544,
+      "pdbid": "4qo2"
+    },
+    {
+      "id": 5446,
+      "pdbid": "6x19"
+    },
+    {
+      "id": 856,
+      "pdbid": "2zuq"
+    },
+    {
+      "id": 848,
+      "pdbid": "3tui"
+    },
+    {
+      "id": 2058,
+      "pdbid": "4bpm"
+    },
+    {
+      "id": 2350,
+      "pdbid": "4ntx"
+    },
+    {
+      "id": 6234,
+      "pdbid": "7kzz"
+    },
+    {
+      "id": 1150,
+      "pdbid": "3qnq"
+    },
+    {
+      "id": 9515,
+      "pdbid": "7w6x"
+    },
+    {
+      "id": 831,
+      "pdbid": "4hfi"
+    },
+    {
+      "id": 5649,
+      "pdbid": "6lod"
+    },
+    {
+      "id": 832,
+      "pdbid": "2jln"
+    },
+    {
+      "id": 834,
+      "pdbid": "3dh4"
+    },
+    {
+      "id": 2295,
+      "pdbid": "4c7r"
+    },
+    {
+      "id": 9971,
+      "pdbid": "7zdt"
+    },
+    {
+      "id": 5601,
+      "pdbid": "7jkc"
+    },
+    {
+      "id": 3150,
+      "pdbid": "5j4i"
+    },
+    {
+      "id": 1950,
+      "pdbid": "4dw1"
+    },
+    {
+      "id": 2426,
+      "pdbid": "3wo7"
+    },
+    {
+      "id": 951,
+      "pdbid": "3kly"
+    },
+    {
+      "id": 757,
+      "pdbid": "4ezc"
+    },
+    {
+      "id": 9167,
+      "pdbid": "7saa"
+    },
+    {
+      "id": 5676,
+      "pdbid": "6wvi"
+    },
+    {
+      "id": 9521,
+      "pdbid": "7wnq"
+    },
+    {
+      "id": 4114,
+      "pdbid": "3jqo"
+    },
+    {
+      "id": 6373,
+      "pdbid": "7kf7"
+    },
+    {
+      "id": 4124,
+      "pdbid": "3w4t"
+    },
+    {
+      "id": 3105,
+      "pdbid": "5kbw"
+    },
+    {
+      "id": 3606,
+      "pdbid": "6ei3"
+    },
+    {
+      "id": 10292,
+      "pdbid": "7zp9"
+    },
+    {
+      "id": 3695,
+      "pdbid": "5yhf"
+    },
+    {
+      "id": 3584,
+      "pdbid": "5ogl"
+    },
+    {
+      "id": 10016,
+      "pdbid": "8bef"
+    },
+    {
+      "id": 1303,
+      "pdbid": "3zuy"
+    },
+    {
+      "id": 3869,
+      "pdbid": "6d9z"
+    },
+    {
+      "id": 8084,
+      "pdbid": "7fho"
+    },
+    {
+      "id": 1655,
+      "pdbid": "4a2n"
+    },
+    {
+      "id": 3889,
+      "pdbid": "6g94"
+    },
+    {
+      "id": 5656,
+      "pdbid": "6rbg"
+    },
+    {
+      "id": 875,
+      "pdbid": "3kds"
+    },
+    {
+      "id": 9924,
+      "pdbid": "7xxf"
+    },
+    {
+      "id": 5133,
+      "pdbid": "6k4j"
+    },
+    {
+      "id": 8774,
+      "pdbid": "8d1i"
+    },
+    {
+      "id": 2198,
+      "pdbid": "4kpp"
+    },
+    {
+      "id": 3403,
+      "pdbid": "5l26"
+    },
+    {
+      "id": 1992,
+      "pdbid": "4av3"
+    },
+    {
+      "id": 2066,
+      "pdbid": "4il3"
+    },
+    {
+      "id": 1999,
+      "pdbid": "4fyg"
+    },
+    {
+      "id": 9200,
+      "pdbid": "7sps"
+    },
+    {
+      "id": 5512,
+      "pdbid": "6wtw"
+    },
+    {
+      "id": 6556,
+      "pdbid": "6zg3"
+    },
+    {
+      "id": 2170,
+      "pdbid": "4iu9"
+    },
+    {
+      "id": 2175,
+      "pdbid": "4jkv"
+    },
+    {
+      "id": 3038,
+      "pdbid": "5ckr"
+    },
+    {
+      "id": 2263,
+      "pdbid": "4bwz"
+    },
+    {
+      "id": 10139,
+      "pdbid": "8si5"
+    },
+    {
+      "id": 4119,
+      "pdbid": "5zlg"
+    },
+    {
+      "id": 7623,
+      "pdbid": "7epe"
+    },
+    {
+      "id": 2490,
+      "pdbid": "4tq4"
+    },
+    {
+      "id": 3397,
+      "pdbid": "5x3x"
+    },
+    {
+      "id": 2750,
+      "pdbid": "4uc1"
+    },
+    {
+      "id": 9350,
+      "pdbid": "7b1l"
+    },
+    {
+      "id": 4691,
+      "pdbid": "6ov3"
+    },
+    {
+      "id": 4500,
+      "pdbid": "6ebu"
+    },
+    {
+      "id": 4676,
+      "pdbid": "6qti"
+    },
+    {
+      "id": 2506,
+      "pdbid": "4twk"
+    },
+    {
+      "id": 2743,
+      "pdbid": "4x5m"
+    },
+    {
+      "id": 3289,
+      "pdbid": "5m94"
+    },
+    {
+      "id": 9164,
+      "pdbid": "7zk3"
+    },
+    {
+      "id": 10063,
+      "pdbid": "8ew3"
+    },
+    {
+      "id": 3946,
+      "pdbid": "5zov"
+    },
+    {
+      "id": 3374,
+      "pdbid": "5lxg"
+    },
+    {
+      "id": 4242,
+      "pdbid": "6idf"
+    },
+    {
+      "id": 10074,
+      "pdbid": "8f6t"
+    },
+    {
+      "id": 2913,
+      "pdbid": "5a43"
+    },
+    {
+      "id": 2922,
+      "pdbid": "4dgf"
+    },
+    {
+      "id": 2944,
+      "pdbid": "5ctg"
+    },
+    {
+      "id": 10086,
+      "pdbid": "8gvc"
+    },
+    {
+      "id": 5509,
+      "pdbid": "6wbv"
+    },
+    {
+      "id": 5348,
+      "pdbid": "6yv9"
+    },
+    {
+      "id": 3480,
+      "pdbid": "5xas"
+    },
+    {
+      "id": 3039,
+      "pdbid": "5dir"
+    },
+    {
+      "id": 9385,
+      "pdbid": "7oy2"
+    },
+    {
+      "id": 2381,
+      "pdbid": "3wkv"
+    },
+    {
+      "id": 9412,
+      "pdbid": "7p04"
+    },
+    {
+      "id": 7871,
+      "pdbid": "7dfw"
+    },
+    {
+      "id": 7744,
+      "pdbid": "7mgl"
+    },
+    {
+      "id": 10204,
+      "pdbid": "8drp"
+    },
+    {
+      "id": 9792,
+      "pdbid": "8e57"
+    },
+    {
+      "id": 5464,
+      "pdbid": "6ykp"
+    },
+    {
+      "id": 3465,
+      "pdbid": "5wud"
+    },
+    {
+      "id": 10272,
+      "pdbid": "7xl6"
+    },
+    {
+      "id": 8475,
+      "pdbid": "7tbw"
+    },
+    {
+      "id": 8809,
+      "pdbid": "7wax"
+    },
+    {
+      "id": 8888,
+      "pdbid": "7v5c"
+    },
+    {
+      "id": 8209,
+      "pdbid": "7s5v"
+    },
+    {
+      "id": 8233,
+      "pdbid": "7vlt"
+    },
+    {
+      "id": 5223,
+      "pdbid": "6wel"
+    },
+    {
+      "id": 8972,
+      "pdbid": "7ukg"
+    },
+    {
+      "id": 10251,
+      "pdbid": "8ghf"
+    },
+    {
+      "id": 1207,
+      "pdbid": "3ouf"
+    },
+    {
+      "id": 9824,
+      "pdbid": "8f0p"
+    },
+    {
+      "id": 3107,
+      "pdbid": "5cbg"
+    },
+    {
+      "id": 9499,
+      "pdbid": "7w7c"
+    },
+    {
+      "id": 5743,
+      "pdbid": "7byl"
+    },
+    {
+      "id": 5768,
+      "pdbid": "7d3f"
+    },
+    {
+      "id": 4238,
+      "pdbid": "6ajg"
+    },
+    {
+      "id": 3488,
+      "pdbid": "5n6m"
+    },
+    {
+      "id": 9245,
+      "pdbid": "7unl"
+    },
+    {
+      "id": 3652,
+      "pdbid": "6bms"
+    },
+    {
+      "id": 4202,
+      "pdbid": "5zug"
+    },
+    {
+      "id": 9736,
+      "pdbid": "8drk"
+    },
+    {
+      "id": 4579,
+      "pdbid": "6h2f"
+    },
+    {
+      "id": 5039,
+      "pdbid": "6s3l"
+    },
+    {
+      "id": 5220,
+      "pdbid": "6wdn"
+    },
+    {
+      "id": 7810,
+      "pdbid": "7lid"
+    },
+    {
+      "id": 7954,
+      "pdbid": "7mhy"
+    },
+    {
+      "id": 3499,
+      "pdbid": "5w81"
+    },
+    {
+      "id": 8866,
+      "pdbid": "7rsl"
+    },
+    {
+      "id": 4113,
+      "pdbid": "6hcy"
+    },
+    {
+      "id": 10347,
+      "pdbid": "8hhf"
+    },
+    {
+      "id": 8023,
+      "pdbid": "7e1v"
+    },
+    {
+      "id": 10261,
+      "pdbid": "8ik3"
+    },
+    {
+      "id": 6269,
+      "pdbid": "6yuz"
+    },
+    {
+      "id": 4739,
+      "pdbid": "6s8n"
+    },
+    {
+      "id": 4522,
+      "pdbid": "6i1r"
+    },
+    {
+      "id": 4520,
+      "pdbid": "6nf6"
+    },
+    {
+      "id": 9307,
+      "pdbid": "7whv"
+    },
+    {
+      "id": 9036,
+      "pdbid": "7vly"
+    },
+    {
+      "id": 4623,
+      "pdbid": "6e9c"
+    },
+    {
+      "id": 5653,
+      "pdbid": "6m22"
+    },
+    {
+      "id": 9640,
+      "pdbid": "7x0z"
+    },
+    {
+      "id": 8757,
+      "pdbid": "7u55"
+    },
+    {
+      "id": 5354,
+      "pdbid": "6lmt"
+    },
+    {
+      "id": 4921,
+      "pdbid": "6sh3"
+    },
+    {
+      "id": 4976,
+      "pdbid": "6p6j"
+    },
+    {
+      "id": 9408,
+      "pdbid": "7lo8"
+    },
+    {
+      "id": 5157,
+      "pdbid": "6wbx"
+    },
+    {
+      "id": 5172,
+      "pdbid": "6xdc"
+    },
+    {
+      "id": 5128,
+      "pdbid": "7bvc"
+    },
+    {
+      "id": 5738,
+      "pdbid": "7ado"
+    },
+    {
+      "id": 5379,
+      "pdbid": "7cal"
+    },
+    {
+      "id": 10076,
+      "pdbid": "8fed"
+    },
+    {
+      "id": 5629,
+      "pdbid": "7d0i"
+    },
+    {
+      "id": 5372,
+      "pdbid": "6vqt"
+    },
+    {
+      "id": 5472,
+      "pdbid": "7bw1"
+    },
+    {
+      "id": 9457,
+      "pdbid": "7saz"
+    },
+    {
+      "id": 9426,
+      "pdbid": "7mh6"
+    },
+    {
+      "id": 6557,
+      "pdbid": "7ji3"
+    },
+    {
+      "id": 8497,
+      "pdbid": "7qb9"
+    },
+    {
+      "id": 6430,
+      "pdbid": "7kc4"
+    },
+    {
+      "id": 9952,
+      "pdbid": "7yjo"
+    },
+    {
+      "id": 7777,
+      "pdbid": "7m1t"
+    },
+    {
+      "id": 6507,
+      "pdbid": "7duw"
+    },
+    {
+      "id": 6441,
+      "pdbid": "7c76"
+    },
+    {
+      "id": 7898,
+      "pdbid": "7rtw"
+    },
+    {
+      "id": 7845,
+      "pdbid": "7n7p"
+    },
+    {
+      "id": 5533,
+      "pdbid": "6xmt"
+    },
+    {
+      "id": 7813,
+      "pdbid": "7mjs"
+    },
+    {
+      "id": 8817,
+      "pdbid": "7o0y"
+    },
+    {
+      "id": 8896,
+      "pdbid": "8dck"
+    },
+    {
+      "id": 2315,
+      "pdbid": "4bbj"
+    },
+    {
+      "id": 8943,
+      "pdbid": "7w7g"
+    },
+    {
+      "id": 9002,
+      "pdbid": "7nb6"
+    },
+    {
+      "id": 9007,
+      "pdbid": "7y9b"
+    },
+    {
+      "id": 9008,
+      "pdbid": "7stl"
+    },
+    {
+      "id": 9017,
+      "pdbid": "7tx6"
+    },
+    {
+      "id": 9026,
+      "pdbid": "7qp9"
+    },
+    {
+      "id": 9046,
+      "pdbid": "8dkx"
+    },
+    {
+      "id": 9075,
+      "pdbid": "7w6k"
+    },
+    {
+      "id": 9979,
+      "pdbid": "7zlh"
+    },
+    {
+      "id": 10064,
+      "pdbid": "8exh"
+    },
+    {
+      "id": 6526,
+      "pdbid": "6zxa"
+    },
+    {
+      "id": 675,
+      "pdbid": "2bhw"
+    },
+    {
+      "id": 3545,
+      "pdbid": "5v8k"
+    },
+    {
+      "id": 9701,
+      "pdbid": "7zqc"
+    },
+    {
+      "id": 8205,
+      "pdbid": "7n8o"
+    },
+    {
+      "id": 142,
+      "pdbid": "1pp9"
+    },
+    {
+      "id": 1980,
+      "pdbid": "4ysx"
+    },
+    {
+      "id": 3309,
+      "pdbid": "5iy5"
+    },
+    {
+      "id": 1990,
+      "pdbid": "4f4s"
+    },
+    {
+      "id": 5706,
+      "pdbid": "7aky"
+    },
+    {
+      "id": 1987,
+      "pdbid": "4eiy"
+    },
+    {
+      "id": 152,
+      "pdbid": "2f2b"
+    },
+    {
+      "id": 60,
+      "pdbid": "1s5h"
+    },
+    {
+      "id": 852,
+      "pdbid": "2qks"
+    },
+    {
+      "id": 5341,
+      "pdbid": "6v2j"
+    },
+    {
+      "id": 9363,
+      "pdbid": "7n5g"
+    },
+    {
+      "id": 143,
+      "pdbid": "2b2f"
+    },
+    {
+      "id": 9126,
+      "pdbid": "7ql5"
+    },
+    {
+      "id": 5360,
+      "pdbid": "6t1z"
+    },
+    {
+      "id": 5274,
+      "pdbid": "6vkt"
+    },
+    {
+      "id": 2686,
+      "pdbid": "4r9u"
+    },
+    {
+      "id": 2952,
+      "pdbid": "5aww"
+    },
+    {
+      "id": 10193,
+      "pdbid": "8cv2"
+    },
+    {
+      "id": 2329,
+      "pdbid": "4c9q"
+    },
+    {
+      "id": 7641,
+      "pdbid": "7et1"
+    },
+    {
+      "id": 2479,
+      "pdbid": "4phz"
+    },
+    {
+      "id": 3165,
+      "pdbid": "5i5f"
+    },
+    {
+      "id": 9897,
+      "pdbid": "7tak"
+    },
+    {
+      "id": 10160,
+      "pdbid": "7y7v"
+    },
+    {
+      "id": 2032,
+      "pdbid": "4ev6"
+    },
+    {
+      "id": 2470,
+      "pdbid": "4pl0"
+    },
+    {
+      "id": 7942,
+      "pdbid": "7d5k"
+    },
+    {
+      "id": 2249,
+      "pdbid": "3wdo"
+    },
+    {
+      "id": 2476,
+      "pdbid": "4tkr"
+    },
+    {
+      "id": 705,
+      "pdbid": "2nr9"
+    },
+    {
+      "id": 5445,
+      "pdbid": "6x18"
+    },
+    {
+      "id": 1243,
+      "pdbid": "3puz"
+    },
+    {
+      "id": 673,
+      "pdbid": "2uuh"
+    },
+    {
+      "id": 2348,
+      "pdbid": "4fz0"
+    },
+    {
+      "id": 799,
+      "pdbid": "3b4r"
+    },
+    {
+      "id": 4717,
+      "pdbid": "6hjx"
+    },
+    {
+      "id": 9480,
+      "pdbid": "7vsi"
+    },
+    {
+      "id": 978,
+      "pdbid": "3hfx"
+    },
+    {
+      "id": 4848,
+      "pdbid": "6s7p"
+    },
+    {
+      "id": 5600,
+      "pdbid": "7jjp"
+    },
+    {
+      "id": 894,
+      "pdbid": "3gia"
+    },
+    {
+      "id": 4766,
+      "pdbid": "6u9v"
+    },
+    {
+      "id": 7584,
+      "pdbid": "6y86"
+    },
+    {
+      "id": 952,
+      "pdbid": "3kcu"
+    },
+    {
+      "id": 4234,
+      "pdbid": "6qd5"
+    },
+    {
+      "id": 4818,
+      "pdbid": "6peq"
+    },
+    {
+      "id": 5672,
+      "pdbid": "6wv6"
+    },
+    {
+      "id": 6779,
+      "pdbid": "7en0"
+    },
+    {
+      "id": 9055,
+      "pdbid": "7spc"
+    },
+    {
+      "id": 6775,
+      "pdbid": "7m4p"
+    },
+    {
+      "id": 4252,
+      "pdbid": "6idp"
+    },
+    {
+      "id": 3970,
+      "pdbid": "5oxp"
+    },
+    {
+      "id": 4939,
+      "pdbid": "6v4j"
+    },
+    {
+      "id": 9997,
+      "pdbid": "8age"
+    },
+    {
+      "id": 9453,
+      "pdbid": "7qru"
+    },
+    {
+      "id": 5754,
+      "pdbid": "6lgy"
+    },
+    {
+      "id": 3865,
+      "pdbid": "6d79"
+    },
+    {
+      "id": 4814,
+      "pdbid": "6v1q"
+    },
+    {
+      "id": 2051,
+      "pdbid": "4gd3"
+    },
+    {
+      "id": 1872,
+      "pdbid": "3b8n"
+    },
+    {
+      "id": 9269,
+      "pdbid": "7vhq"
+    },
+    {
+      "id": 8350,
+      "pdbid": "7o0u"
+    },
+    {
+      "id": 5515,
+      "pdbid": "6wvg"
+    },
+    {
+      "id": 8768,
+      "pdbid": "8d1n"
+    },
+    {
+      "id": 2186,
+      "pdbid": "4k1c"
+    },
+    {
+      "id": 2021,
+      "pdbid": "4gc0"
+    },
+    {
+      "id": 6545,
+      "pdbid": "7jsk"
+    },
+    {
+      "id": 3056,
+      "pdbid": "5jsz"
+    },
+    {
+      "id": 4576,
+      "pdbid": "6o3c"
+    },
+    {
+      "id": 3707,
+      "pdbid": "6bw6"
+    },
+    {
+      "id": 9355,
+      "pdbid": "7p1j"
+    },
+    {
+      "id": 10148,
+      "pdbid": "8gfa"
+    },
+    {
+      "id": 7587,
+      "pdbid": "7m3g"
+    },
+    {
+      "id": 3412,
+      "pdbid": "5x41"
+    },
+    {
+      "id": 2446,
+      "pdbid": "4o6m"
+    },
+    {
+      "id": 5777,
+      "pdbid": "7kp4"
+    },
+    {
+      "id": 2453,
+      "pdbid": "5jwy"
+    },
+    {
+      "id": 6281,
+      "pdbid": "6w8c"
+    },
+    {
+      "id": 2532,
+      "pdbid": "4qnc"
+    },
+    {
+      "id": 843,
+      "pdbid": "4wgv"
+    },
+    {
+      "id": 9761,
+      "pdbid": "8bc1"
+    },
+    {
+      "id": 9509,
+      "pdbid": "7xk7"
+    },
+    {
+      "id": 2848,
+      "pdbid": "4zyo"
+    },
+    {
+      "id": 3734,
+      "pdbid": "6bqo"
+    },
+    {
+      "id": 2919,
+      "pdbid": "3oiz"
+    },
+    {
+      "id": 9253,
+      "pdbid": "8crt"
+    },
+    {
+      "id": 9785,
+      "pdbid": "8dl7"
+    },
+    {
+      "id": 2971,
+      "pdbid": "5eke"
+    },
+    {
+      "id": 7834,
+      "pdbid": "7nkz"
+    },
+    {
+      "id": 4160,
+      "pdbid": "6hzm"
+    },
+    {
+      "id": 8032,
+      "pdbid": "7rpk"
+    },
+    {
+      "id": 3576,
+      "pdbid": "5w3s"
+    },
+    {
+      "id": 7797,
+      "pdbid": "7lhf"
+    },
+    {
+      "id": 9490,
+      "pdbid": "7tj9"
+    },
+    {
+      "id": 6621,
+      "pdbid": "6ye4"
+    },
+    {
+      "id": 3201,
+      "pdbid": "5eik"
+    },
+    {
+      "id": 9917,
+      "pdbid": "7xlb"
+    },
+    {
+      "id": 8836,
+      "pdbid": "7w01"
+    },
+    {
+      "id": 8810,
+      "pdbid": "7wag"
+    },
+    {
+      "id": 8227,
+      "pdbid": "7mit"
+    },
+    {
+      "id": 3650,
+      "pdbid": "6bhu"
+    },
+    {
+      "id": 6569,
+      "pdbid": "7lft"
+    },
+    {
+      "id": 789,
+      "pdbid": "2r9r"
+    },
+    {
+      "id": 9142,
+      "pdbid": "7rk6"
+    },
+    {
+      "id": 1955,
+      "pdbid": "3vou"
+    },
+    {
+      "id": 8459,
+      "pdbid": "7w9k"
+    },
+    {
+      "id": 6629,
+      "pdbid": "7arj"
+    },
+    {
+      "id": 9270,
+      "pdbid": "7vnp"
+    },
+    {
+      "id": 5442,
+      "pdbid": "6wxu"
+    },
+    {
+      "id": 7841,
+      "pdbid": "7nvh"
+    },
+    {
+      "id": 3500,
+      "pdbid": "5vre"
+    },
+    {
+      "id": 4974,
+      "pdbid": "6vd7"
+    },
+    {
+      "id": 4578,
+      "pdbid": "6grj"
+    },
+    {
+      "id": 5041,
+      "pdbid": "6s3r"
+    },
+    {
+      "id": 3920,
+      "pdbid": "6dnf"
+    },
+    {
+      "id": 7811,
+      "pdbid": "7lic"
+    },
+    {
+      "id": 9092,
+      "pdbid": "7urf"
+    },
+    {
+      "id": 9896,
+      "pdbid": "7tai"
+    },
+    {
+      "id": 5015,
+      "pdbid": "6pl5"
+    },
+    {
+      "id": 8443,
+      "pdbid": "7qhm"
+    },
+    {
+      "id": 9184,
+      "pdbid": "7sii"
+    },
+    {
+      "id": 9388,
+      "pdbid": "7nf8"
+    },
+    {
+      "id": 4391,
+      "pdbid": "6mit"
+    },
+    {
+      "id": 4573,
+      "pdbid": "6roj"
+    },
+    {
+      "id": 9541,
+      "pdbid": "7xno"
+    },
+    {
+      "id": 9934,
+      "pdbid": "8fhq"
+    },
+    {
+      "id": 5055,
+      "pdbid": "6tqf"
+    },
+    {
+      "id": 4845,
+      "pdbid": "6uiw"
+    },
+    {
+      "id": 9821,
+      "pdbid": "8eqs"
+    },
+    {
+      "id": 5130,
+      "pdbid": "7bvf"
+    },
+    {
+      "id": 5228,
+      "pdbid": "6ww7"
+    },
+    {
+      "id": 9483,
+      "pdbid": "7xuf"
+    },
+    {
+      "id": 5591,
+      "pdbid": "7cge"
+    },
+    {
+      "id": 2404,
+      "pdbid": "4myc"
+    },
+    {
+      "id": 9455,
+      "pdbid": "7sau"
+    },
+    {
+      "id": 5759,
+      "pdbid": "7ad3"
+    },
+    {
+      "id": 6538,
+      "pdbid": "7k0m"
+    },
+    {
+      "id": 7895,
+      "pdbid": "7p54"
+    },
+    {
+      "id": 7844,
+      "pdbid": "7cxr"
+    },
+    {
+      "id": 7937,
+      "pdbid": "7op3"
+    },
+    {
+      "id": 7812,
+      "pdbid": "7n98"
+    },
+    {
+      "id": 8934,
+      "pdbid": "7si3"
+    },
+    {
+      "id": 9016,
+      "pdbid": "7x06"
+    },
+    {
+      "id": 9032,
+      "pdbid": "7y9t"
+    },
+    {
+      "id": 45,
+      "pdbid": "1lgh"
+    },
+    {
+      "id": 46,
+      "pdbid": "1rwt"
+    },
+    {
+      "id": 47,
+      "pdbid": "1eys"
+    },
+    {
+      "id": 4887,
+      "pdbid": "6kmw"
+    },
+    {
+      "id": 9829,
+      "pdbid": "8f4c"
+    },
+    {
+      "id": 9712,
+      "pdbid": "7zyv"
+    },
+    {
+      "id": 136,
+      "pdbid": "1zoy"
+    },
+    {
+      "id": 4121,
+      "pdbid": "3hb3"
+    },
+    {
+      "id": 70,
+      "pdbid": "2bl2"
+    },
+    {
+      "id": 2800,
+      "pdbid": "4xtl"
+    },
+    {
+      "id": 4635,
+      "pdbid": "6rnk"
+    },
+    {
+      "id": 851,
+      "pdbid": "3gd8"
+    },
+    {
+      "id": 3608,
+      "pdbid": "5vke"
+    },
+    {
+      "id": 1343,
+      "pdbid": "3sya"
+    },
+    {
+      "id": 9909,
+      "pdbid": "7xa9"
+    },
+    {
+      "id": 9359,
+      "pdbid": "7dlu"
+    },
+    {
+      "id": 912,
+      "pdbid": "3b9y"
+    },
+    {
+      "id": 8491,
+      "pdbid": "7qn5"
+    },
+    {
+      "id": 4532,
+      "pdbid": "6e9n"
+    },
+    {
+      "id": 10079,
+      "pdbid": "8ffk"
+    },
+    {
+      "id": 3256,
+      "pdbid": "5b57"
+    },
+    {
+      "id": 1032,
+      "pdbid": "3mp7"
+    },
+    {
+      "id": 2256,
+      "pdbid": "5dwy"
+    },
+    {
+      "id": 4231,
+      "pdbid": "6gci"
+    },
+    {
+      "id": 8981,
+      "pdbid": "7e20"
+    },
+    {
+      "id": 3864,
+      "pdbid": "6cxh"
+    },
+    {
+      "id": 9808,
+      "pdbid": "8eg3"
+    },
+    {
+      "id": 10286,
+      "pdbid": "7ytw"
+    },
+    {
+      "id": 6330,
+      "pdbid": "6m2r"
+    },
+    {
+      "id": 9082,
+      "pdbid": "7ph3"
+    },
+    {
+      "id": 5088,
+      "pdbid": "6s7v"
+    },
+    {
+      "id": 4705,
+      "pdbid": "6pj4"
+    },
+    {
+      "id": 8717,
+      "pdbid": "7tyf"
+    },
+    {
+      "id": 4148,
+      "pdbid": "6cvl"
+    },
+    {
+      "id": 5735,
+      "pdbid": "6vgc"
+    },
+    {
+      "id": 6259,
+      "pdbid": "6l6n"
+    },
+    {
+      "id": 7855,
+      "pdbid": "7l6q"
+    },
+    {
+      "id": 9906,
+      "pdbid": "7uv0"
+    },
+    {
+      "id": 5626,
+      "pdbid": "7a69"
+    },
+    {
+      "id": 10295,
+      "pdbid": "7zxm"
+    },
+    {
+      "id": 3697,
+      "pdbid": "5oqt"
+    },
+    {
+      "id": 3017,
+      "pdbid": "5f1c"
+    },
+    {
+      "id": 2911,
+      "pdbid": "5c8j"
+    },
+    {
+      "id": 7660,
+      "pdbid": "7e27"
+    },
+    {
+      "id": 9855,
+      "pdbid": "8fww"
+    },
+    {
+      "id": 6533,
+      "pdbid": "6wv9"
+    },
+    {
+      "id": 1006,
+      "pdbid": "2bhv"
+    },
+    {
+      "id": 9514,
+      "pdbid": "8dew"
+    },
+    {
+      "id": 3609,
+      "pdbid": "5y50"
+    },
+    {
+      "id": 3909,
+      "pdbid": "6exs"
+    },
+    {
+      "id": 2171,
+      "pdbid": "4j7c"
+    },
+    {
+      "id": 9995,
+      "pdbid": "8agb"
+    },
+    {
+      "id": 9762,
+      "pdbid": "8beh"
+    },
+    {
+      "id": 9397,
+      "pdbid": "7zyi"
+    },
+    {
+      "id": 3795,
+      "pdbid": "6c9a"
+    },
+    {
+      "id": 8353,
+      "pdbid": "7o0x"
+    },
+    {
+      "id": 3253,
+      "pdbid": "5tcx"
+    },
+    {
+      "id": 8769,
+      "pdbid": "8ecy"
+    },
+    {
+      "id": 2202,
+      "pdbid": "4kjr"
+    },
+    {
+      "id": 5489,
+      "pdbid": "6m20"
+    },
+    {
+      "id": 2173,
+      "pdbid": "4huq"
+    },
+    {
+      "id": 2326,
+      "pdbid": "4n4w"
+    },
+    {
+      "id": 9352,
+      "pdbid": "7b4l"
+    },
+    {
+      "id": 7743,
+      "pdbid": "7mbq"
+    },
+    {
+      "id": 2391,
+      "pdbid": "4or2"
+    },
+    {
+      "id": 5225,
+      "pdbid": "6wm5"
+    },
+    {
+      "id": 3198,
+      "pdbid": "5b2g"
+    },
+    {
+      "id": 4847,
+      "pdbid": "6pis"
+    },
+    {
+      "id": 2687,
+      "pdbid": "4rng"
+    },
+    {
+      "id": 3314,
+      "pdbid": "5m87"
+    },
+    {
+      "id": 3940,
+      "pdbid": "5oc9"
+    },
+    {
+      "id": 2703,
+      "pdbid": "4p6v"
+    },
+    {
+      "id": 6769,
+      "pdbid": "6x58"
+    },
+    {
+      "id": 2920,
+      "pdbid": "4dgh"
+    },
+    {
+      "id": 9467,
+      "pdbid": "7rtm"
+    },
+    {
+      "id": 5661,
+      "pdbid": "6vyh"
+    },
+    {
+      "id": 4709,
+      "pdbid": "6rko"
+    },
+    {
+      "id": 7833,
+      "pdbid": "7r8d"
+    },
+    {
+      "id": 5169,
+      "pdbid": "6w5s"
+    },
+    {
+      "id": 4837,
+      "pdbid": "6t9n"
+    },
+    {
+      "id": 9903,
+      "pdbid": "7umz"
+    },
+    {
+      "id": 9242,
+      "pdbid": "7vfv"
+    },
+    {
+      "id": 4711,
+      "pdbid": "6tyi"
+    },
+    {
+      "id": 3520,
+      "pdbid": "5wuf"
+    },
+    {
+      "id": 8808,
+      "pdbid": "7waw"
+    },
+    {
+      "id": 8215,
+      "pdbid": "7tys"
+    },
+    {
+      "id": 7824,
+      "pdbid": "7mpe"
+    },
+    {
+      "id": 9134,
+      "pdbid": "7rh9"
+    },
+    {
+      "id": 2194,
+      "pdbid": "4jtc"
+    },
+    {
+      "id": 4849,
+      "pdbid": "6v22"
+    },
+    {
+      "id": 9475,
+      "pdbid": "7sk0"
+    },
+    {
+      "id": 4210,
+      "pdbid": "6mwa"
+    },
+    {
+      "id": 2029,
+      "pdbid": "5nik"
+    },
+    {
+      "id": 10264,
+      "pdbid": "8sik"
+    },
+    {
+      "id": 3474,
+      "pdbid": "5khn"
+    },
+    {
+      "id": 7597,
+      "pdbid": "7p5v"
+    },
+    {
+      "id": 4530,
+      "pdbid": "6r6b"
+    },
+    {
+      "id": 5384,
+      "pdbid": "6k7x"
+    },
+    {
+      "id": 3982,
+      "pdbid": "6c70"
+    },
+    {
+      "id": 9526,
+      "pdbid": "7urd"
+    },
+    {
+      "id": 9523,
+      "pdbid": "7u8g"
+    },
+    {
+      "id": 8444,
+      "pdbid": "7q21"
+    },
+    {
+      "id": 6575,
+      "pdbid": "7dsl"
+    },
+    {
+      "id": 4738,
+      "pdbid": "6s8g"
+    },
+    {
+      "id": 5586,
+      "pdbid": "7bsv"
+    },
+    {
+      "id": 10100,
+      "pdbid": "8hfs"
+    },
+    {
+      "id": 9929,
+      "pdbid": "7y6i"
+    },
+    {
+      "id": 8011,
+      "pdbid": "7dsd"
+    },
+    {
+      "id": 5229,
+      "pdbid": "6x0o"
+    },
+    {
+      "id": 5365,
+      "pdbid": "6v0f"
+    },
+    {
+      "id": 8854,
+      "pdbid": "7vgf"
+    },
+    {
+      "id": 9598,
+      "pdbid": "7rtt"
+    },
+    {
+      "id": 10277,
+      "pdbid": "7xuk"
+    },
+    {
+      "id": 9468,
+      "pdbid": "7zcu"
+    },
+    {
+      "id": 10003,
+      "pdbid": "7wlm"
+    },
+    {
+      "id": 48,
+      "pdbid": "1l9b"
+    },
+    {
+      "id": 5650,
+      "pdbid": "6ly5"
+    },
+    {
+      "id": 8334,
+      "pdbid": "7sa3"
+    },
+    {
+      "id": 10017,
+      "pdbid": "8bel"
+    },
+    {
+      "id": 6456,
+      "pdbid": "7jz2"
+    },
+    {
+      "id": 50,
+      "pdbid": "1m56"
+    },
+    {
+      "id": 2403,
+      "pdbid": "4bem"
+    },
+    {
+      "id": 74,
+      "pdbid": "1m0l"
+    },
+    {
+      "id": 6741,
+      "pdbid": "7mbx"
+    },
+    {
+      "id": 9257,
+      "pdbid": "7cjs"
+    },
+    {
+      "id": 2147,
+      "pdbid": "3fb6"
+    },
+    {
+      "id": 8208,
+      "pdbid": "7s5t"
+    },
+    {
+      "id": 5482,
+      "pdbid": "7jm6"
+    },
+    {
+      "id": 4598,
+      "pdbid": "6rld"
+    },
+    {
+      "id": 966,
+      "pdbid": "2ns1"
+    },
+    {
+      "id": 5518,
+      "pdbid": "6x3t"
+    },
+    {
+      "id": 9607,
+      "pdbid": "7t3n"
+    }
+  ],
+  "index_sha256": "75fc399f5647b2787b3f381917a522584f0c3cbc2575e6c4a1fe7b99cf9e1ff3",
+  "limit": 800,
+  "policy": "alpha-helical transmembrane OPM; resolution <=3.5; source boundary; no old PDB; unique code signatures; per-family rounds, best resolution then SHA256(PDB ID)",
+  "prefilter_exclusions": {
+    "NOT_ALPHA_HELICAL_TRANSMEMBRANE_OR_NO_RESOLUTION": 3540,
+    "RESOLUTION_OR_BOUNDARY": 1497,
+    "V01_STRUCTURE_OVERLAP": 65
+  },
+  "schema_version": "0.2.0",
+  "total_opm_records": 8915
+}

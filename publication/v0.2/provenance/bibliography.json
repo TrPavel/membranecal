@@ -1,0 +1,198 @@
+{
+  "method": "Read-only literature verification against primary publications, PubMed bibliographic records and official method documentation; not a systematic literature review. No novelty or journal-suitability claim.",
+  "records": [
+    {
+      "reference_number": 1,
+      "citation": "Mariani V, Biasini M, Barbato A, Schwede T. lDDT: a local superposition-free score for comparing protein structures and models using distance difference tests. *Bioinformatics*. 2013;29:2722–2728. [doi:10.1093/bioinformatics/btt473](https://doi.org/10.1093/bioinformatics/btt473).",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/23986568/",
+      "checked_on": "2026-09-09",
+      "use": "Original lDDT framework; no exact equivalence of study implementation claimed",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 2,
+      "citation": "Jumper J, Evans R, Pritzel A, et al. Highly accurate protein structure prediction with AlphaFold. *Nature*. 2021;596:583–589. [doi:10.1038/s41586-021-03819-2](https://doi.org/10.1038/s41586-021-03819-2).",
+      "verification_url": "https://www.nature.com/articles/s41586-021-03819-2",
+      "checked_on": "2026-09-09",
+      "use": "AlphaFold2 and pLDDT predicting lDDT-C-alpha",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 3,
+      "citation": "Varadi M, Anyango S, Deshpande M, et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. *Nucleic Acids Research*. 2022;50:D439–D444. [doi:10.1093/nar/gkab1061](https://doi.org/10.1093/nar/gkab1061).",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/34791371/",
+      "checked_on": "2026-09-09",
+      "use": "AFDB canonical models and provenance",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 4,
+      "citation": "Varadi M, Bertoni D, Magana P, et al. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. *Nucleic Acids Research*. 2024;52:D368–D375. [doi:10.1093/nar/gkad1011](https://doi.org/10.1093/nar/gkad1011).",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/37933859/",
+      "checked_on": "2026-09-09",
+      "use": "AFDB coverage and resource context",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 5,
+      "citation": "Bertoni D, Tsenkov M, Magana P, et al. AlphaFold Protein Structure Database 2025: a redesigned interface and updated structural coverage. *Nucleic Acids Research*. 2026;54:D358–D362. Published online 22 November 2025. [doi:10.1093/nar/gkaf1226](https://doi.org/10.1093/nar/gkaf1226).",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/41273079/",
+      "checked_on": "2026-09-09",
+      "use": "Resource update; 2026 issue versus 2025 title/online date",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 6,
+      "citation": "Velankar S, Dana JM, Jacobsen J, et al. SIFTS: Structure Integration with Function, Taxonomy and Sequences resource. *Nucleic Acids Research*. 2013;41:D483–D489. [doi:10.1093/nar/gks1258](https://doi.org/10.1093/nar/gks1258).",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/23203869/",
+      "checked_on": "2026-09-09",
+      "use": "SIFTS correspondence",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 7,
+      "citation": "Dana JM, Gutmanas A, Tyagi N, et al. SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins. *Nucleic Acids Research*. 2019;47:D482–D489. [doi:10.1093/nar/gky1114](https://doi.org/10.1093/nar/gky1114).",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/30445541/",
+      "checked_on": "2026-09-09",
+      "use": "Updated SIFTS; both resource citations retained",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 8,
+      "citation": "Lomize MA, Pogozheva ID, Joo H, Mosberg HI, Lomize AL. OPM database and PPM web server: resources for positioning of proteins in membranes. *Nucleic Acids Research*. 2012;40:D370–D376. [doi:10.1093/nar/gkr703](https://doi.org/10.1093/nar/gkr703).",
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/21890895/",
+      "checked_on": "2026-09-09",
+      "use": "Computed membrane orientation; not direct bilayer observation",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 9,
+      "citation": "Iacus SM, King G, Porro G. Causal Inference without Balance Checking: Coarsened Exact Matching. *Political Analysis*. 2012;20:1–24. [doi:10.1093/pan/mpr013](https://doi.org/10.1093/pan/mpr013). Cited for matching mechanics, not causal identification in this study.",
+      "verification_url": "https://doi.org/10.1093/pan/mpr013",
+      "checked_on": "2026-09-09",
+      "use": "Coarsened matching mechanics only; no causal identification claim",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 10,
+      "citation": "Field CA, Welsh AH. Bootstrapping clustered data. *Journal of the Royal Statistical Society: Series B (Statistical Methodology)*. 2007;69:369–390. [doi:10.1111/j.1467-9868.2007.00593.x](https://doi.org/10.1111/j.1467-9868.2007.00593.x).",
+      "verification_url": "https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9868.2007.00593.x",
+      "checked_on": "2026-09-09",
+      "use": "Cluster-resampling context; not a proof of exact coverage here",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 11,
+      "citation": "Dunn OJ. Multiple Comparisons among Means. *Journal of the American Statistical Association*. 1961;56:52–64. [doi:10.1080/01621459.1961.10482090](https://doi.org/10.1080/01621459.1961.10482090).",
+      "verification_url": "https://www.tandfonline.com/doi/abs/10.1080/01621459.1961.10482090",
+      "checked_on": "2026-09-09",
+      "use": "Multiplicity history; Bonferroni allocation",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 12,
+      "citation": "EMBL-EBI. [AlphaFold database release notes](https://www.ebi.ac.uk/pdbe/news/alphafold-database-release-notes), 21 October 2025. Database release v6 terminology; accessed 9 September 2026.",
+      "verification_url": "https://www.ebi.ac.uk/pdbe/news/alphafold-database-release-notes",
+      "checked_on": "2026-09-09",
+      "use": "Database product v6 is not a model named AlphaFold6",
+      "publication_status": "official documentation"
+    },
+    {
+      "reference_number": 13,
+      "citation": "Biopython. [Pairwise sequence alignment, version 1.85](https://biopython.org/docs/1.85/Tutorial/chapter_pairwise.html). Accessed 9 September 2026.",
+      "verification_url": "https://biopython.org/docs/1.85/Tutorial/chapter_pairwise.html",
+      "checked_on": "2026-09-09",
+      "use": "Version-pinned alignment API/scoring semantics",
+      "publication_status": "official documentation"
+    },
+    {
+      "reference_number": 14,
+      "citation": "NIST/SEMATECH. [Bonferroni's method](https://www.itl.nist.gov/div898/handbook/prc/section4/prc473.htm), e-Handbook of Statistical Methods. Accessed 9 September 2026.",
+      "verification_url": "https://www.itl.nist.gov/div898/handbook/prc/section4/prc473.htm",
+      "checked_on": "2026-09-09",
+      "use": "Two-contrast Bonferroni allocation",
+      "publication_status": "official documentation"
+    },
+    {
+      "reference_number": 15,
+      "citation": "Hegedűs T, Geisler M, Lukács GL, Farkas B. Ins and outs of AlphaFold2 transmembrane protein structure predictions. *Cellular and Molecular Life Sciences*. 2022;79:73. [doi:10.1007/s00018-021-04112-1](https://doi.org/10.1007/s00018-021-04112-1).",
+      "verification_url": "https://doi.org/10.1007/s00018-021-04112-1",
+      "checked_on": "2026-09-09",
+      "use": "Prior membrane confidence and thickness assessments",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 16,
+      "citation": "Dobson L, Szekeres LI, Gerdán C, Langó T, Zeke A, Tusnády GE. TmAlphaFold database: membrane localization and evaluation of AlphaFold2 predicted alpha-helical transmembrane protein structures. *Nucleic Acids Research*. 2023;51:D517–D522. [doi:10.1093/nar/gkac928](https://doi.org/10.1093/nar/gkac928).",
+      "verification_url": "https://doi.org/10.1093/nar/gkac928",
+      "checked_on": "2026-09-09",
+      "use": "Computed membrane localization and model evaluation",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 17,
+      "citation": "Jambrich MA, Tusnády GE, Dobson L. How AlphaFold2 shaped the structural coverage of the human transmembrane proteome. *Scientific Reports*. 2023;13:20283. [doi:10.1038/s41598-023-47204-7](https://doi.org/10.1038/s41598-023-47204-7).",
+      "verification_url": "https://doi.org/10.1038/s41598-023-47204-7",
+      "checked_on": "2026-09-09",
+      "use": "Regional confidence and coverage precedent",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 18,
+      "citation": "Xie T, Huang J. Can Protein Structure Prediction Methods Capture Alternative Conformations of Membrane Transporters? *Journal of Chemical Information and Modeling*. 2024;64:3524–3536. [doi:10.1021/acs.jcim.3c01936](https://doi.org/10.1021/acs.jcim.3c01936).",
+      "verification_url": "https://doi.org/10.1021/acs.jcim.3c01936",
+      "checked_on": "2026-09-09",
+      "use": "State-aware transporter benchmarking; not diagnosis of our cases",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 19,
+      "citation": "Edmunds NS, Genc AG, McGuffin LJ. Benchmarking of AlphaFold2 accuracy self-estimates as indicators of empirical model quality and ranking: a comparison with independent model quality assessment programmes. *Bioinformatics*. 2024;40:btae491. [doi:10.1093/bioinformatics/btae491](https://doi.org/10.1093/bioinformatics/btae491).",
+      "verification_url": "https://doi.org/10.1093/bioinformatics/btae491",
+      "checked_on": "2026-09-09",
+      "use": "Self-estimated confidence versus empirical quality precedent",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 20,
+      "citation": "Mahtha SK, Venkadesan S, Mohanty D. Comparative evaluation of the prediction accuracy of AlphaFold and ESMFold for monomeric and dimeric proteins. *NAR Genomics and Bioinformatics*. 2026;8:lqag002. [doi:10.1093/nargab/lqag002](https://doi.org/10.1093/nargab/lqag002).",
+      "verification_url": "https://doi.org/10.1093/nargab/lqag002",
+      "checked_on": "2026-09-09",
+      "use": "Recent confidence and accuracy evaluation; no direct numeric comparison",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 21,
+      "citation": "AlQuraishi M. ProteinNet: a standardized data set for machine learning of protein structure. *BMC Bioinformatics*. 2019;20:311. [doi:10.1186/s12859-019-2932-0](https://doi.org/10.1186/s12859-019-2932-0).",
+      "verification_url": "https://doi.org/10.1186/s12859-019-2932-0",
+      "checked_on": "2026-09-09",
+      "use": "Historical and sensitive homology-separated benchmarking",
+      "publication_status": "peer reviewed"
+    },
+    {
+      "reference_number": 22,
+      "citation": "Terwilliger TC, Liebschner D, Croll TI, et al. AlphaFold predictions are valuable hypotheses and accelerate but do not replace experimental structure determination. *Nature Methods*. 2024;21:110–116. [doi:10.1038/s41592-023-02087-4](https://doi.org/10.1038/s41592-023-02087-4).",
+      "verification_url": "https://doi.org/10.1038/s41592-023-02087-4",
+      "checked_on": "2026-09-09",
+      "use": "Predictions as hypotheses; 2023 online versus 2024 issue",
+      "publication_status": "peer reviewed"
+    }
+  ],
+  "additional_official_verification": [
+    {
+      "url": "https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/plddt-understanding-local-confidence/",
+      "use": "pLDDT predicts lDDT-C-alpha; manuscript terminology clarified during review",
+      "checked_on": "2026-09-09"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/pdbe/docs/sifts/",
+      "use": "Official request to cite both 2013 and 2019 SIFTS papers",
+      "checked_on": "2026-09-09"
+    }
+  ],
+  "bibliographic_caveats": [
+    "AFDB 2025 title published online 2025-11-22; volume54 issueD1 is2026.",
+    "CEM publisher migration date2017 is not original issue year2012.",
+    "AFDB retrieved product version6 is database nomenclature; later database releases do not change frozen source versions."
+  ]
+}

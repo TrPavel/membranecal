@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: >-
+  Cite the exact package release used. Version 0.2.0 is currently a private
+  release candidate; this Zenodo DOI is reserved and its record is unpublished.
+title: >-
+  MembraneCal v0.2: reproducibility package for matched regional contrasts in
+  structural agreement minus confidence among high-confidence helical residues
+  in membrane proteins
+type: dataset
+version: 0.2.0
+doi: 10.5281/zenodo.22843162
+repository-code: https://github.com/TrPavel/membranecal
+url: https://github.com/TrPavel/membranecal
+authors:
+  - family-names: Trofimchik
+    given-names: Pavel
+    orcid: https://orcid.org/0009-0007-6030-6019
+    affiliation: Independent Researcher, Saint Petersburg, Russian Federation

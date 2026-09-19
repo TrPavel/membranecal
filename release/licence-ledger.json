@@ -1,0 +1,930 @@
+{
+  "blanket_data_relicensing": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/scientific_question.yml",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": ".github/workflows/release-candidate.yml",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": ".gitignore",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "CITATION.cff",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "LICENSE",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "PUBLIC_RELEASE_OWNER_REVIEW.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "README.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "SECURITY.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/limitations.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/methods.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/provenance.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/release-policy.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/versioning.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "publication/DATA_AVAILABILITY.md",
+      "category": "author-created documentation",
+      "licence": "CC-BY-4.0"
+    },
+    {
+      "path": "publication/v0.2/CHECKSUMS.sha256",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/CITATION.cff",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/LICENSE.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/LICENSE_CODE.txt",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/MANIFEST.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/README.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/THIRD_PARTY_NOTICES.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/audit/independent_bootstrap_draws.npz",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/audit/independent_reproduction.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/cohort_summary.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/common_support.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/development_sequences.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/discovery.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/exclusions.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/feasibility.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/group_validation.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/groups.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/matched_sets.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/metric_validation.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/proteins.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/protocol.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/residues_preoutcome.parquet",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/score_manifest.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/scores.parquet",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/sources.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/data/unseal_receipt.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/environment/requirements.in",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/environment/requirements.lock",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/environment/tested_environment.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/manifest.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/membranecal_release/__init__.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/membranecal_release/analysis.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/membranecal_release/audit.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/membranecal_release/common.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/membranecal_release/methods.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/membranecal_release/presentation.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/membranecal_release/verify.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/provenance/original_PRE_OUTCOME_FREEZE.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/provenance/original_design.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/provenance/registration_search.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/provenance/source_investigation.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/results/report.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/results/results.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/all_scenario_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/claim_evidence.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/cohort_flow.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/descriptive_cases.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/eligibility_criteria.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/influence_diagnostics.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/primary_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/sensitivity_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/numerical/tables/support_balance.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/professional_figures.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/README.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/audit/bounded_upstream.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/audit/direct_endpoint.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/audit/numerical_audit.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/audit/official_lddt.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/audit/official_source.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/audit/population_diagnostics.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/audit/requirements-jax.txt",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/audit/run_audit.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/bounded_selection.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/bounded_upstream.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/direct_endpoint_float32.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/direct_endpoint_float64.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/figure_manifest.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/numerical_audit.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/population_diagnostics.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/raw_source_bindings.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/readability_checks.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/evidence/source_bindings.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/manifest.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/all_scenario_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/claim_evidence.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/cohort_flow.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/descriptive_cases.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/eligibility_criteria.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/influence_diagnostics.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/primary_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/sensitivity_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/tables/support_balance.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/upstream/README.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/upstream/scaffold.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/upstream/scripts/__init__.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/upstream/scripts/membranecal_v02_acquire.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/upstream/scripts/membranecal_v02_freeze.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/code/revision/upstream/scripts/membranecal_v02_methods.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/all_scenario_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/claim_evidence.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/cohort_flow.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/descriptive_cases.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/eligibility_criteria.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/influence_diagnostics.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/primary_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/sensitivity_effects.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/data/result_tables/support_balance.csv",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/01_cohort_flow.pdf",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/01_cohort_flow.png",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/01_cohort_flow.svg",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/01_cohort_flow.tiff",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/02_primary_effects.pdf",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/02_primary_effects.png",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/02_primary_effects.svg",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/02_primary_effects.tiff",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/03_support_balance.pdf",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/03_support_balance.png",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/03_support_balance.svg",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/03_support_balance.tiff",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/04_sensitivities.pdf",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/04_sensitivities.png",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/04_sensitivities.svg",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/04_sensitivities.tiff",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/05_descriptive_cases.pdf",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/05_descriptive_cases.png",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/05_descriptive_cases.svg",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/figures/05_descriptive_cases.tiff",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/licence_ledger.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/manuscript/MembraneCal_v02_reading.pdf",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/manuscript/MembraneCal_v02_submission.docx",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/manuscript/manuscript.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/administrative_changes.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/bibliography.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/code_derivation.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/compliance_changes.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/dataset_inventory.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/original_PRE_OUTCOME_FREEZE.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/original_RELEASE_MANIFEST.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/original_design.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/publication_status.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/reference_style_audit.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/release_receipt.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/source_binding_verification.json",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/provenance/source_licence_ledger.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/replay.py",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/supplementary/S1_Dataset.zip",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/supplementary/S1_Text.html",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/supplementary/S1_Text.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/supplementary/S2_Dataset.zip",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/supplementary/S2_Text.html",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "publication/v0.2/supplementary/S2_Text.md",
+      "category": "mixed study payload; component-level rights retained",
+      "licence": "See publication/v0.2/licence_ledger.json and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "pyproject.toml",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/allowlist.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/checksums.sha256",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/derivation-map.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/frozen-files.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/licence-ledger.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/manifest.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/metadata.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/source-audit.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "schemas/CFF-LICENSE.txt",
+      "category": "third-party citation-file-format schema and licence",
+      "licence": "CC-BY-4.0; see schemas/CFF-LICENSE.txt and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "schemas/citation-file-format-1.2.0.json",
+      "category": "third-party citation-file-format schema and licence",
+      "licence": "CC-BY-4.0; see schemas/CFF-LICENSE.txt and THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "schemas/release-metadata.schema.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "tests/test_repository.py",
+      "category": "author-created code",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "tools/__init__.py",
+      "category": "author-created code",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "tools/frozen_guard.py",
+      "category": "author-created code",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "tools/isolate.py",
+      "category": "author-created code",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "tools/package.py",
+      "category": "author-created code",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "tools/replay.py",
+      "category": "author-created code",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "tools/verify.py",
+      "category": "author-created code",
+      "licence": "Apache-2.0"
+    }
+  ]
+}

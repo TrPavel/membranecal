@@ -1,0 +1,152 @@
+{
+  "cohort": {
+    "candidate_cap": 800,
+    "canonical_length": [
+      100,
+      1500
+    ],
+    "construct_canonical_length_ratio_min": 0.5,
+    "experimental_observed_fraction_min": 0.7,
+    "identity_min": 0.98,
+    "independence": [
+      "canonical accession absent from all 174 v0.1 accepted",
+      "experimental entry absent from all v0.1 accepted",
+      "exact construct SHA256 absent from all v0.1 accepted"
+    ],
+    "mapped_observed_fraction_min": 0.95,
+    "mapped_residues_min": 100,
+    "opm_chain_fraction_min": 0.8,
+    "opm_half_thickness_disagreement_max_angstrom": 0.1,
+    "opm_rmsd_max_angstrom": 0.5,
+    "primary_core_residues_min": 20,
+    "representative": "one deposited label-asym per entity; one canonical/construct across entries sorted resolution, descending mapped residues, SHA256(case ID)",
+    "scope": "alpha-helical transmembrane OPM, resolution <=3.5 A, X-ray or EM"
+  },
+  "decision_rule": "research/membranecal_v02_design.md: symmetric material margin .05; feasibility first, then predeclared method-sensitivity flag, then adjusted-interval material support, otherwise no material effect established",
+  "effect": "regional (local_CA_agreement - pLDDT/100) difference; equal proteins per operational sequence/rescue group then equal group means; not equal curated-family weights",
+  "groups": {
+    "aligner": "Biopython 1.85 local affine BLOSUM62; open -10, extend -0.5; no E-value claim",
+    "curated_dependence": "same exact normalized explicit whole-family membership links primary bootstrap blocks regardless of sequence threshold; normalize capitalization/whitespace/leading articles; no generic function/domain-only labels",
+    "development_bridges": true,
+    "family_novel": "combined sequence/rescue plus curated homology graph excludes components touching development; unresolved excluded; structure-sharing alone does not define homology",
+    "full_length_paired_coverage_each_min": 0.8,
+    "implementation": "scripts/membranecal_v02_methods.py",
+    "multidomain": "whole-sequence paired coverage; different complements prohibit rescue; order/repeat uncertainty explicitly unresolved by available metadata",
+    "rescue_additional": "same curated family and identical nonempty Pfam complement; shared Pfam alone never sufficient",
+    "rescue_paired_coverage_each_min": 0.5,
+    "sequence_identity_min": 0.3,
+    "unresolved": "single pooled family; omitted from family-novel; exclusion sensitivity"
+  },
+  "kill_criteria": [
+    "any development overlap",
+    "outcomes accessed before dedicated freeze commit",
+    "source checksum mismatch",
+    "no defensible membrane frame/mapping",
+    "known-family validation failure",
+    "either primary below 30 proteins/20 resolved families/20 blocks: independent cohort not feasible for full question"
+  ],
+  "mapping": {
+    "experimental_model": "first deposited model; selected before outcome access",
+    "missing_coordinates": "no imputation; endpoint uses paired observed CA only; zero neighbours undefined",
+    "missing_frozen_matched_endpoint": "abort primary computation rather than silently rematch or drop outcomes",
+    "mutations": "<=2% retained and separately sensitivity-excluded",
+    "noncanonical_isoforms": "excluded",
+    "source": "SIFTS XML author-chain/residue to UniProt canonical; positive unique positions; reference highest-occupancy CA with altloc lexical tie break; no prediction alignment fitted"
+  },
+  "matching": {
+    "bin_arithmetic": "pLDDT points rounded to 6 decimals to avoid binary representation edge drift",
+    "bin_edges": "[0,2),...,[98,100]",
+    "cell_weight": "min(n_left,n_right), identical on both sides",
+    "method": "within-protein coarsened exact matching",
+    "min_cell_each_region": 3,
+    "min_total_common_mass": 20,
+    "plddt_bin_width_points": 2,
+    "residue_weight": "cell mass / regional cell residue count; normalize by protein common mass",
+    "secondary_structure": "exact HELIX/SHEET"
+  },
+  "metric": {
+    "isolated_residue": "undefined, no zero imputation",
+    "name": "superposition-free CA local-distance agreement",
+    "neighbors": "nonself paired reference CA; finite coordinates required",
+    "radius_inclusive": true,
+    "reference_neighbor_radius_angstrom": 15,
+    "secondary_implementation": "independent scalar pair loop on first five accession-sorted proteins after unseal",
+    "sequence_separation_exclusion": 0,
+    "thresholds_angstrom": [
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "thresholds_inclusive": true
+  },
+  "multiplicity": {
+    "method": "Bonferroni two primary contrasts",
+    "primary_interval_level": 0.975,
+    "quantiles_primary": [
+      0.0125,
+      0.9875
+    ],
+    "secondary_interval_level": 0.95
+  },
+  "outcomes_computed": false,
+  "parent_commit": "51e8feb0b29fc089f40c238a4b4a72657eef7ae4",
+  "planning": {
+    "aim_groups": 40,
+    "equivalence_test": false,
+    "expected_attrition_fraction": [
+      0.4,
+      0.6
+    ],
+    "expected_candidates": 800,
+    "expected_common_support_retention": [
+      0.25,
+      0.6
+    ],
+    "material_difference": 0.05,
+    "min_paired_proteins": 30,
+    "min_resolved_blocks": 20,
+    "min_resolved_families": 20
+  },
+  "primary_contrasts": [
+    "MEMBRANE_INTERFACE-TM_CORE",
+    "STRUCTURED_EXTRAMEMBRANE-TM_CORE"
+  ],
+  "protocol_deviations": [],
+  "regions": {
+    "core_max": 0.8,
+    "depth_ratio": "abs(z)/hydrophobic_half_thickness",
+    "extramembrane_min_exclusive": 1.6,
+    "interface_max": 1.2,
+    "other": "UNKNOWN_OR_EXCLUDED; unavailable does not mean disorder",
+    "primary_secondary_structure": [
+      "HELIX",
+      "SHEET"
+    ],
+    "source": "OPM oriented experimental coordinates via Kabsch transfer"
+  },
+  "schema_version": "0.2.0",
+  "secondary_contrasts": [
+    "STRUCTURED_EXTRAMEMBRANE-MEMBRANE_INTERFACE"
+  ],
+  "sensitivities": [
+    "1-point bins",
+    "5-point bins",
+    "v0.1-compatible SS mask and no SS matching",
+    "family-novel relative to combined development graph, exclude unresolved",
+    "exact full construct sequence",
+    "unresolved excluded",
+    "broad curated/OPM family merges",
+    "equal curated-homology-component weighting",
+    "strict full-length sequence groups",
+    "identity 100% only",
+    "release after 2018-04-30 (date-based only; no known training membership claim)"
+  ],
+  "stage": "PRE_OUTCOME",
+  "uncertainty": {
+    "bootstrap_draws": 20000,
+    "low_block_intervals": "descriptive only; cannot establish primary conclusion",
+    "seed": 20909,
+    "unit": "connected operational-group plus explicit curated-whole-family plus shared experimental-entry blocks; retain development/nonprimary bridges; equal-operational-group ratio estimator"
+  }
+}

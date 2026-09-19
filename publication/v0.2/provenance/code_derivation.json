@@ -1,0 +1,20 @@
+{
+  "adapted": {
+    "membranecal_release/__init__.py": "07210abaafba7c1c950b3b46edda3114d8b3659d271fabb9f5b63d1826568cf6",
+    "membranecal_release/analysis.py": "83a8f7aafafc35724f00792e7406b78a1f1e4df023300f0d34d56a24bb769ae3",
+    "membranecal_release/audit.py": "1435207a947e90cddba04c02b3413684ad9102f11465ac32b34b69e41afdc6bc",
+    "membranecal_release/common.py": "3923060d458c07a9ba17207f33468fa45acdba5340186140e123a95b6330f81e",
+    "membranecal_release/methods.py": "c8b989c18cfb8497cbc509f34e3eed76004419318ef602a8f165006a29919ce8",
+    "membranecal_release/presentation.py": "5c5996341b82d6516258f786ed289e8c58c88a81105181a2a4ca8a8948a48e01",
+    "membranecal_release/verify.py": "22ddf9abd09904b69fc2afc7d273bfd6b88a30993a0fd73d535d6b04b54dda1f",
+    "membranecal_release/word_candidate.py": "3fc35b2817414e4fa40aa78e7c238774cbd6a2deea30e7a39e8ae2d29cc89d22"
+  },
+  "method": "Exact scientific function source extraction; imports and content-manifest authority adapter only. Acquisition/unsealing and Git-dependent entrypoints omitted. Frozen originals are not edited.",
+  "originals": {
+    "publication/membranecal_v02/audit.py": "817988f83b667fea602629d5264fcd85d858874ba395330c5b21ce158543c0c5",
+    "publication/membranecal_v02/build.py": "c680a49862ba201220ff3bfa9f5465ba18b0460fd6afbb96eb31f8cf26aac189",
+    "publication/membranecal_v02/word_candidate.py": "3fc35b2817414e4fa40aa78e7c238774cbd6a2deea30e7a39e8ae2d29cc89d22",
+    "scripts/membranecal_v02_analysis.py": "60840f147cda4955ce9640c7dc585b56a9ce1fc4a16e66647a89b41ca1a3a25b",
+    "scripts/membranecal_v02_methods.py": "c8b989c18cfb8497cbc509f34e3eed76004419318ef602a8f165006a29919ce8"
+  }
+}

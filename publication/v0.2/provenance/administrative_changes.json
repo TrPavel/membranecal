@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "before": "Third-party data retain source-specific terms; OPM redistribution permission/scope confirmation remains pending.",
+      "after": "Third-party data retain source-specific terms. Explicit permission from Andrei Lomize covers redistribution of the numerical OPM values described for this reproducibility package, including the required membrane orientation, depth and thickness information, with attribution and transformation provenance retained. This permission does not extend to unrelated raw OPM assets or arbitrary database redistribution."
+    }
+  ],
+  "science_changed": false,
+  "doi": null
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "data/frozen/membranecal_independent_validation_v0.2/cohort_summary.json": "c02509d219850e721cfeaf4e514915f483ea027a6b3808df3b54b018318b21c2",
+    "data/frozen/membranecal_independent_validation_v0.2/common_support.json": "0b2b4fdef717f93e95297e6b706f5c0bfdfa5af36f46e674de30fffd51ecde3d",
+    "data/frozen/membranecal_independent_validation_v0.2/development_sequences.json": "ac74bc5809c40d4a4eab95602760e24e194e42aa5e407c0e9e1dc955cbc217ca",
+    "data/frozen/membranecal_independent_validation_v0.2/discovery.json": "e296404cf893816a9621521a799ffb71dd786e6537d762a6d1d0ee7dde4a106a",
+    "data/frozen/membranecal_independent_validation_v0.2/exclusions.json": "9d282e597a6d7864760931301a4e9f149f725b0f90931873d9d295d2ec21b2cb",
+    "data/frozen/membranecal_independent_validation_v0.2/feasibility.json": "005585a5201680f2a3c58652adc87799cc1214ccf25778b01ac9bf26561d9658",
+    "data/frozen/membranecal_independent_validation_v0.2/group_validation.json": "73ba7f77b821f0868dd38adf109978417f0868ef097c9d94df2812373aed1d9a",
+    "data/frozen/membranecal_independent_validation_v0.2/groups.json": "84121f237532845be846f507eb5580a4ff0f3b91ebc25d203be1a17a94e9806f",
+    "data/frozen/membranecal_independent_validation_v0.2/matched_sets.json": "3a58a92267342c89e3cc7e747f3cb64128d8e591f25dd6d1d12597289e85e87a",
+    "data/frozen/membranecal_independent_validation_v0.2/proteins.json": "024d342be495c4a70f30bd2e9cc3d274916f81a56c70bec06258007209b6639a",
+    "data/frozen/membranecal_independent_validation_v0.2/protocol.json": "740b223fbf6bcb43c42c126208510a835d04dade7f268d0999b684a7738c6671",
+    "data/frozen/membranecal_independent_validation_v0.2/residues_preoutcome.parquet": "0943bad7815e6ecf02d12cdcfc809b4f22120dab6ea11fb4062b64710a3092f8",
+    "data/frozen/membranecal_independent_validation_v0.2/sources.json": "430c8b077d0113713dbd7e89199c30153e50a7942c9ee4d7d1024e643af01a35",
+    "data/licences/membranecal_independent_validation_v0.2.json": "4408e75012e789fed224095e1c9847de3ab32b4019a7b331a0cd09520265b5ea",
+    "research/membranecal_v02_design.md": "feff3de16b8f89b08dc032d6dba49e6aebc3d20d3741740581e1887b181fe589",
+    "scripts/membranecal_v02_acquire.py": "31231638d598f0270a45850148a57aa1954b7fd1d2a929a8da7f769a3be1e8b9",
+    "scripts/membranecal_v02_analysis.py": "60840f147cda4955ce9640c7dc585b56a9ce1fc4a16e66647a89b41ca1a3a25b",
+    "scripts/membranecal_v02_freeze.py": "d05ee34488b1e0585735d5978e6b2bf19cde6ad3fc72f80be819eff8eb05d5e7",
+    "scripts/membranecal_v02_methods.py": "c8b989c18cfb8497cbc509f34e3eed76004419318ef602a8f165006a29919ce8"
+  },
+  "identity": "PRE_OUTCOME_FREEZE",
+  "outcomes_computed": false,
+  "schema_version": "0.2.0"
+}

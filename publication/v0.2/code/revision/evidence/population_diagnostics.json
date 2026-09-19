@@ -1,0 +1,40 @@
+{
+  "MEMBRANE_INTERFACE-TM_CORE": {
+    "cells": {
+      "HELIX": 2074,
+      "SHEET": 1
+    },
+    "common_mass": {
+      "HELIX": 24235,
+      "SHEET": 5
+    },
+    "estimand_weight_fraction": {
+      "HELIX": 0.9998289545703372,
+      "plddt_bin_ge80": 0.9865084503498092,
+      "plddt_bin_ge90": 0.838070497822664,
+      "SHEET": 0.00017104542966611932
+    },
+    "sheet_cells": [
+      {
+        "accession": "P39301",
+        "bin": 48,
+        "mass": 5,
+        "protein_mass": 112
+      }
+    ]
+  },
+  "STRUCTURED_EXTRAMEMBRANE-TM_CORE": {
+    "cells": {
+      "HELIX": 1116
+    },
+    "common_mass": {
+      "HELIX": 14292
+    },
+    "estimand_weight_fraction": {
+      "HELIX": 0.9999999999999987,
+      "plddt_bin_ge80": 0.9906475634609687,
+      "plddt_bin_ge90": 0.805538303946699
+    },
+    "sheet_cells": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source_sha256": "2a3bb36fed58cff0beb92da0af40ca74c5b9892947f01ab825e7547691d99d96",
+  "source_revision": "dbaafbcdea0cf39fabe502928cab55754c1d5dc7",
+  "source_modified": false,
+  "jax": "0.6.2",
+  "dtype": "float32",
+  "platform": "Windows CPU",
+  "execution": "JAX jit of unchanged function, masked zero padding to multiples of 128",
+  "scope": "All paired-observed intrachain compact coordinates; not full canonical or all-atom truth",
+  "proteins": 554,
+  "residues": 223714,
+  "max_residue_difference_pp": 1.1363622817126162,
+  "residues_difference_gt_1e_4_unit": 30,
+  "primary_effects": {
+    "MEMBRANE_INTERFACE-TM_CORE": {
+      "estimate_pp": 0.5827388821671351,
+      "difference_from_frozen_pp": -5.076607088611712e-06
+    },
+    "STRUCTURED_EXTRAMEMBRANE-TM_CORE": {
+      "estimate_pp": 0.0648069343737191,
+      "difference_from_frozen_pp": 5.267010851149178e-06
+    }
+  }
+}

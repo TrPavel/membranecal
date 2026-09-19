@@ -1,0 +1,9 @@
+{
+  "files": {
+    "metric_validation.json": "dfc6d86cccb82b35483187a5dad23bbf92751959d2241d99c8e1612bcc66887d",
+    "scores.parquet": "4f293fda6d7c7d0a4c8578071f396e7d573a54ed3c472795c67a5a5b9baca4b8",
+    "unseal_receipt.json": "d6b0f82aad6ed2e413a77d0658e9de0863cbd7144e1e4b962349468cace8ede6"
+  },
+  "freeze_commit": "5deb8f9abc345d811e0e98680b6122b4046a0d0d",
+  "prediction_sources": "Each source SHA256 checked against frozen proteins.json before extraction; compact coordinates are derived from these verified sources."
+}

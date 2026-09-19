@@ -1,0 +1,102 @@
+{
+  "limitations": [
+    "Pfam ID complements lack order and repeated-hit counts; A+B vs B+A and A+B vs A+B+B cannot be resolved from these metadata alone. Full-length sequence evidence and broad-family sensitivity reduce but do not eliminate this uncertainty."
+  ],
+  "records": {
+    "P07550": {
+      "accession": "P07550",
+      "canonical_sequence": "MGQPGNGSAFLLAPNGSHAPDHDVTQERDEVWVVGMGIVMSLIVLAIVFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGAAHILMKMWTFGNFWCEFWTSIDVLCVTASIETLCVIAVDRYFAITSPFKYQSLLTKNKARVIILMVWIVSGLTSFLPIQMHWYRATHQEAINCYANETCCDFFTNQAYAIASSIVSFYVPLVIMVFVYSRVFQEAKRQLQKIDKSEGRFHVQNLSQVEQDGRTGHGLRRSSKFCLKEHKALKTLGIIMGTFTLCWLPFFIVNIVHVIQDNLIRKEVYILLNWIGYVNSGFNPLIYCRSPDFRIAFQELLCLRRSSLKAYGNGYSSNGNTGEQSGYHVEQEKENKLLCEDLPGTEDFVGHQGTVPSDNIDSQGRNCSTNDSLL",
+      "pfam_ids": [
+        "PF00001"
+      ],
+      "uniprot_family_phrases": [
+        "Belongs to the G protein-coupled receptor 1 family. Adrenergic receptor subfamily. ADRB2 sub-subfamily"
+      ]
+    },
+    "P08588": {
+      "accession": "P08588",
+      "canonical_sequence": "MGAGVLVLGASEPGNLSSAAPLPDGAATAARLLVPASPPASLLPPASESPEPLSQQWTAGMGLLMALIVLLIVAGNVLVIVAIAKTPRLQTLTNLFIMSLASADLVMGLLVVPFGATIVVWGRWEYGSFFCELWTSVDVLCVTASIETLCVIALDRYLAITSPFRYQSLLTRARARGLVCTVWAISALVSFLPILMHWWRAESDEARRCYNDPKCCDFVTNRAYAIASSVVSFYVPLCIMAFVYLRVFREAQKQVKKIDSCERRFLGGPARPPSPSPSPVPAPAPPPGPPRPAAAAATAPLANGRAGKRRPSRLVALREQKALKTLGIIMGVFTLCWLPFFLANVVKAFHRELVPDRLFVFFNWLGYANSAFNPIIYCRSPDFRKAFQGLLCCARRAARRRHATHGDRPRASGCLARPGPPPSPGAASDDDDDDVVGATPPARLLEPWAGCNGGAAADSDSSLDEPCRPGFASESKV",
+      "pfam_ids": [
+        "PF00001"
+      ],
+      "uniprot_family_phrases": [
+        "Belongs to the G protein-coupled receptor 1 family. Adrenergic receptor subfamily. ADRB1 sub-subfamily"
+      ]
+    },
+    "P29972": {
+      "accession": "P29972",
+      "canonical_sequence": "MASEFKKKLFWRAVVAEFLATTLFVFISIGSALGFKYPVGNNQTAVQDNVKVSLAFGLSIATLAQSVGHISGAHLNPAVTLGLLLSCQISIFRALMYIIAQCVGAIVATAILSGITSSLTGNSLGRNDLADGVNSGQGLGIEIIGTLQLVLCVLATTDRRRRDLGGSAPLAIGLSVALGHLLAIDYTGCGINPARSFGSAVITHNFSNHWIFWVGPFIGGALAVLIYDFILAPRSSDLTDRVKVWTSGQVEEYDLDADDINSRVEMKPK",
+      "pfam_ids": [
+        "PF00230"
+      ],
+      "uniprot_family_phrases": [
+        "Belongs to the MIP/aquaporin (TC 1.A.8) family"
+      ]
+    },
+    "P41181": {
+      "accession": "P41181",
+      "canonical_sequence": "MWELRSIAFSRAVFAEFLATLLFVFFGLGSALNWPQALPSVLQIAMAFGLGIGTLVQALGHISGAHINPAVTVACLVGCHVSVLRAAFYVAAQLLGAVAGAALLHEITPADIRGDLAVNALSNSTTAGQAVTVELFLTLQLVLCIFASTDERRGENPGTPALSIGFSVALGHLLGIHYTGCSMNPARSLAPAVVTGKFDDHWVFWIGPLVGAILGSLLYNYVLFPPAKSLSERLAVLKGLEPDTDWEEREVRRRQSVELHSPQSLPRGTKA",
+      "pfam_ids": [
+        "PF00230"
+      ],
+      "uniprot_family_phrases": [
+        "Belongs to the MIP/aquaporin (TC 1.A.8) family"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "a": "P29972",
+      "b": "P41181",
+      "edge": "FULL_LENGTH_SEQUENCE",
+      "evidence": {
+        "coverage_a": 0.9479553903345725,
+        "coverage_b": 0.940959409594096,
+        "identity": 0.4490566037735849,
+        "paired": 255
+      },
+      "expected_edge": true,
+      "passed": true
+    },
+    {
+      "a": "P08588",
+      "b": "P07550",
+      "edge": "FULL_LENGTH_SEQUENCE",
+      "evidence": {
+        "coverage_a": 0.8218029350104822,
+        "coverage_b": 0.9491525423728814,
+        "identity": 0.4713375796178344,
+        "paired": 392
+      },
+      "expected_edge": true,
+      "passed": true
+    },
+    {
+      "a": "P41181",
+      "b": "P07550",
+      "edge": null,
+      "evidence": {
+        "coverage_a": 0.15129151291512916,
+        "coverage_b": 0.09927360774818401,
+        "identity": 0.3170731707317073,
+        "paired": 41
+      },
+      "expected_edge": false,
+      "passed": true
+    },
+    {
+      "case": "40_percent_fragment",
+      "evidence": {
+        "coverage_a": 0.0,
+        "coverage_b": 0.0,
+        "identity": 0.0,
+        "paired": 0
+      },
+      "passed": true
+    },
+    {
+      "case": "A+B_vs_C+B_shared_domain",
+      "passed": true
+    }
+  ]
+}

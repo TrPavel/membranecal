@@ -1,0 +1,3 @@
+scenario,label,contrast,estimate_points,lower_points,upper_points,marginal_confidence,proteins,total_groups,resolved_groups,blocks,resolved_blocks,useful
+primary,Primary,MEMBRANE_INTERFACE-TM_CORE,0.5827439587742237,0.2342525902034268,0.9693052051067319,0.975,437,261,260,186,186,True
+primary,Primary,STRUCTURED_EXTRAMEMBRANE-TM_CORE,0.06480166736286795,-0.8088097517660738,0.9397327572570779,0.975,229,141,140,95,95,True

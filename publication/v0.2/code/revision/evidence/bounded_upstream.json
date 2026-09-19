@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "raw_cases": [
+    {
+      "accession": "A0A0H2V8D3",
+      "case_id": "7mdf:1:A",
+      "residues": 453,
+      "raw_hashes": {
+        "7mdf.cif.gz": "34935a15bd71a52d762c949b50b31f6199e476b3d3d2041bb23a0a08ea1e1c3e",
+        "7mdf.xml.gz": "fa7ddff34baac933145fd8068ed8b6ef7e708a972d80859cb29e23ec1a908338",
+        "7mdf.pdb": "19ea0180819ce15eba316744392b46a1fc3a755b20802ac2a029429b607071f9"
+      },
+      "mapping_and_coordinates": "PASS",
+      "max_depth_difference_A": 0.0,
+      "matched_opm_atoms": 453
+    },
+    {
+      "accession": "A0A0H3CQA2",
+      "case_id": "6mit:4:E",
+      "residues": 355,
+      "raw_hashes": {
+        "6mit.cif.gz": "4c39354b942888e17fd4ef663b1e41f78607c0337fb6bfec0ca0c6e7de5533c2",
+        "6mit.xml.gz": "4ba6a2f2c52beb70fadca4431df45a71c042444ba56d201df49abfaa53a78841",
+        "6mit.pdb": "fa274bd4d4d9604287ca33af09849502b9f271127f2c9353c1b49c7ec372fb27"
+      },
+      "mapping_and_coordinates": "PASS",
+      "max_depth_difference_A": 0.0,
+      "matched_opm_atoms": 355
+    },
+    {
+      "accession": "A0R612",
+      "case_id": "7bve:1:A",
+      "residues": 1033,
+      "raw_hashes": {
+        "7bve.cif.gz": "12449330e88116a2707c8b515ffc842870ef8e6b30323b42912ac1e5d129dc1d",
+        "7bve.xml.gz": "cd5babdd8dcce3e096490bf08f57e8a36595888a74835b181c239a1a4c8eed95",
+        "7bve.pdb": "0dde9412e4944701190b625e36f466bd02665164144496027275492762b2f791"
+      },
+      "mapping_and_coordinates": "PASS",
+      "max_depth_difference_A": 0.0,
+      "matched_opm_atoms": 1034
+    },
+    {
+      "accession": "O66905",
+      "case_id": "5xj5:1:A",
+      "residues": 190,
+      "raw_hashes": {
+        "5xj5.cif.gz": "f7cbe634382eab0d6a19e7d36b260820485fa0436ac16785e66701f8afe00801",
+        "5xj5.xml.gz": "85806a9e8659dff67cb370ce4fb06b6bf57062f207c57646259f19993af56c95",
+        "5xj5.pdb": "b61622200ca760969e8cddb35e8be37764da52dd77d248df7d6d0005a36aa7d1"
+      },
+      "mapping_and_coordinates": "PASS",
+      "max_depth_difference_A": 0.0,
+      "matched_opm_atoms": 199
+    },
+    {
+      "accession": "Q6J8X0",
+      "case_id": "8g27:1:A",
+      "residues": 694,
+      "raw_hashes": {
+        "8g27.cif.gz": "be100a4dc6097b77750a79aae1fbdfa4f2a14ec22d312dc967dbbae660114392",
+        "8g27.xml.gz": "1ea8994b4077144e046637545cb2cb2424d08630f33caa4cb985efcd47f24d69",
+        "8g27.pdb": "48b9ef81246bc30c12613841d7d2c93220de49e9a6df8e6cb3a247898e26bca6"
+      },
+      "mapping_and_coordinates": "PASS",
+      "max_depth_difference_A": 0.0,
+      "matched_opm_atoms": 694
+    }
+  ],
+  "group_pairs": [
+    {
+      "a": "A0A066R7V5",
+      "b": "O87953",
+      "method": null,
+      "identity": 0.21601941747572814,
+      "coverage_a": 0.5837004405286343,
+      "coverage_b": 0.5824175824175825,
+      "paired": 265
+    },
+    {
+      "a": "A0A096YGU7",
+      "b": "P00410",
+      "method": null,
+      "identity": 0.20422535211267606,
+      "coverage_a": 0.3426294820717131,
+      "coverage_b": 0.3426294820717131,
+      "paired": 86
+    },
+    {
+      "a": "A0A100XE85",
+      "b": "Q1RAG2",
+      "method": "FULL_LENGTH_SEQUENCE",
+      "identity": 0.3023255813953488,
+      "coverage_a": 0.8704663212435233,
+      "coverage_b": 0.84,
+      "paired": 504
+    },
+    {
+      "a": "A0A1G8XA46",
+      "b": "O95069",
+      "method": null,
+      "identity": 0.19863013698630136,
+      "coverage_a": 0.7183098591549296,
+      "coverage_b": 0.7183098591549296,
+      "paired": 306
+    },
+    {
+      "a": "A0R049",
+      "b": "P00420",
+      "method": "CURATED_FAMILY_PLUS_COMPLEMENT_PLUS_SEQUENCE",
+      "identity": 0.30392156862745096,
+      "coverage_a": 0.8325123152709359,
+      "coverage_b": 0.6282527881040892,
+      "paired": 169
+    },
+    {
+      "a": "B0R2U4",
+      "b": "P96787",
+      "method": "FULL_LENGTH_SEQUENCE",
+      "identity": 0.3389121338912134,
+      "coverage_a": 0.8029197080291971,
+      "coverage_b": 0.8527131782945736,
+      "paired": 220
+    },
+    {
+      "a": "G0SBE6",
+      "b": "P63359",
+      "method": "FULL_LENGTH_SEQUENCE",
+      "identity": 0.30612244897959184,
+      "coverage_a": 0.8014285714285714,
+      "coverage_b": 0.9639175257731959,
+      "paired": 561
+    },
+    {
+      "a": "O88454",
+      "b": "Q9Z2T2",
+      "method": "CURATED_FAMILY_PLUS_COMPLEMENT_PLUS_SEQUENCE",
+      "identity": 0.3435114503816794,
+      "coverage_a": 0.6005025125628141,
+      "coverage_b": 0.7113095238095238,
+      "paired": 239
+    },
+    {
+      "a": "O95069",
+      "b": "Q9Z2T2",
+      "method": "CURATED_FAMILY_PLUS_COMPLEMENT_PLUS_SEQUENCE",
+      "identity": 0.3204225352112676,
+      "coverage_a": 0.5938967136150235,
+      "coverage_b": 0.7529761904761905,
+      "paired": 253
+    },
+    {
+      "a": "P00420",
+      "b": "Q9AEL8",
+      "method": "CURATED_FAMILY_PLUS_COMPLEMENT_PLUS_SEQUENCE",
+      "identity": 0.3,
+      "coverage_a": 0.6282527881040892,
+      "coverage_b": 0.824390243902439,
+      "paired": 169
+    },
+    {
+      "a": "P0AGF4",
+      "b": "P11169",
+      "method": "FULL_LENGTH_SEQUENCE",
+      "identity": 0.30196078431372547,
+      "coverage_a": 0.8859470468431772,
+      "coverage_b": 0.8770161290322581,
+      "paired": 435
+    },
+    {
+      "a": "P18507",
+      "b": "P28472",
+      "method": "FULL_LENGTH_SEQUENCE",
+      "identity": 0.3442982456140351,
+      "coverage_a": 0.8,
+      "coverage_b": 0.8033826638477801,
+      "paired": 380
+    },
+    {
+      "a": "P63359",
+      "b": "Q2G506",
+      "method": "FULL_LENGTH_SEQUENCE",
+      "identity": 0.3022875816993464,
+      "coverage_a": 0.9518900343642611,
+      "coverage_b": 0.9111842105263158,
+      "paired": 554
+    },
+    {
+      "a": "Q2G506",
+      "b": "Q9JJ59",
+      "method": "CURATED_FAMILY_PLUS_COMPLEMENT_PLUS_SEQUENCE",
+      "identity": 0.3014586709886548,
+      "coverage_a": 0.8717105263157895,
+      "coverage_b": 0.6955380577427821,
+      "paired": 530
+    },
+    {
+      "a": "Q3E7B6",
+      "b": "Q5EB76",
+      "method": "CURATED_FAMILY_PLUS_COMPLEMENT_PLUS_SEQUENCE",
+      "identity": 0.30952380952380953,
+      "coverage_a": 0.5753424657534246,
+      "coverage_b": 0.5185185185185185,
+      "paired": 42
+    }
+  ],
+  "scope": "Bounded independent raw-column/SIFTS/frame check and selected alignment replay; no graph completeness, phylogeny, all-source validation or random representativeness claim"
+}

@@ -1,0 +1,20 @@
+{
+  "accepted_entries": 473,
+  "accepted_proteins": 554,
+  "candidate_entries": 800,
+  "development_overlap": {
+    "canonical": 0,
+    "construct": 0,
+    "entry": 0
+  },
+  "exact_construct_proteins": 198,
+  "family_novel_proteins": 366,
+  "residues": 223714,
+  "resolved_families": 335,
+  "source_status": {
+    "excluded": 286,
+    "prepared": 509,
+    "source_or_parser_failure": 5
+  },
+  "unresolved_proteins": 53
+}

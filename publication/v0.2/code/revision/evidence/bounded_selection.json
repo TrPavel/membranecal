@@ -1,0 +1,75 @@
+{
+  "selection_basis": "Frozen covariates and graph evidence only; no scores used",
+  "raw_cases": {
+    "observed_fraction": "Q6J8X0",
+    "mapping_coverage": "O66905",
+    "opm_transform_rmsd": "Q6J8X0",
+    "alternate_location": "A0A0H2V8D3",
+    "insertion_code": "A0R612",
+    "author_label_chain_difference": "A0A0H3CQA2",
+    "mapped_residue_identity_mismatch": "A0A0H2V8D3"
+  },
+  "group_pairs": [
+    [
+      "A0A066R7V5",
+      "O87953"
+    ],
+    [
+      "A0A096YGU7",
+      "P00410"
+    ],
+    [
+      "A0A100XE85",
+      "Q1RAG2"
+    ],
+    [
+      "A0A1G8XA46",
+      "O95069"
+    ],
+    [
+      "A0R049",
+      "P00420"
+    ],
+    [
+      "B0R2U4",
+      "P96787"
+    ],
+    [
+      "G0SBE6",
+      "P63359"
+    ],
+    [
+      "O88454",
+      "Q9Z2T2"
+    ],
+    [
+      "O95069",
+      "Q9Z2T2"
+    ],
+    [
+      "P00420",
+      "Q9AEL8"
+    ],
+    [
+      "P0AGF4",
+      "P11169"
+    ],
+    [
+      "P18507",
+      "P28472"
+    ],
+    [
+      "P63359",
+      "Q2G506"
+    ],
+    [
+      "Q2G506",
+      "Q9JJ59"
+    ],
+    [
+      "Q3E7B6",
+      "Q5EB76"
+    ]
+  ],
+  "label": "post-outcome validation"
+}

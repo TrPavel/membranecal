@@ -1,0 +1,25 @@
+{
+  "title": "Matched regional contrasts in structural agreement minus confidence among high-confidence helical residues in membrane proteins",
+  "author": {
+    "name": "Pavel Trofimchik",
+    "status": "SOLE AUTHOR",
+    "corresponding_author": "Pavel Trofimchik",
+    "corresponding_email": "trofimchikpavel@icloud.com",
+    "orcid": "https://orcid.org/0009-0007-6030-6019",
+    "affiliation": "Independent Researcher, Saint Petersburg, Russian Federation",
+    "affiliation_status": "CONFIRMED BY PLOS ONE",
+    "corresponding_email_status": "CONFIRMED ACCEPTABLE BY PLOS ONE"
+  },
+  "science": "COMPLETE_FROZEN",
+  "figures": "SUBMISSION-DESIGN FROZEN",
+  "opm_status": "EXPLICIT_REDISTRIBUTION_PERMISSION_RECEIVED",
+  "opm_scope": "Numerical values described in the author’s request for the MembraneCal reproducibility package, including required OPM-derived membrane orientation/depth/thickness information; attribution and transformation provenance retained",
+  "submitted": false,
+  "published": false,
+  "doi": "10.5281/zenodo.22843162",
+  "zenodo_draft": true,
+  "metadata_source": "Owner-supplied correspondence; raw originals not independently inspected",
+  "doi_state": "reserved_draft",
+  "package_version": "0.2.0",
+  "study_version": "0.2"
+}

@@ -1,0 +1,5 @@
+ruff==0.16.6
+pytest==9.1.1
+jsonschema==4.26.0
+PyYAML==6.0.2
+pypdf==6.1.0
