@@ -6,7 +6,7 @@
     "study",
     "study_version",
     "package_version",
-    "proposed_tag",
+    "tag",
     "title",
     "doi",
     "doi_state",
@@ -24,7 +24,7 @@
   "additionalProperties": false,
   "properties": {
     "schema_version": {
-      "const": "1.0.0"
+      "const": "1.1.0"
     },
     "study": {
       "const": "MembraneCal"
@@ -35,9 +35,6 @@
     "package_version": {
       "const": "0.2.0"
     },
-    "proposed_tag": {
-      "const": "v0.2.0"
-    },
     "title": {
       "const": "Matched regional contrasts in structural agreement minus confidence among high-confidence helical residues in membrane proteins"
     },
@@ -45,16 +42,25 @@
       "const": "10.5281/zenodo.22843162"
     },
     "doi_state": {
-      "const": "reserved_draft"
+      "enum": [
+        "reserved_draft",
+        "published"
+      ]
     },
     "repository": {
       "const": "https://github.com/TrPavel/membranecal"
     },
     "repository_state": {
-      "const": "private_staging"
+      "enum": [
+        "private_staging",
+        "public_release_object"
+      ]
     },
     "release_state": {
-      "const": "candidate_not_published"
+      "enum": [
+        "candidate_not_published",
+        "final"
+      ]
     },
     "article_doi": {
       "const": null
@@ -102,12 +108,85 @@
       }
     },
     "zenodo": {
-      "const": {
-        "resource_type": "dataset",
-        "existing_draft_only": true,
-        "new_record_created": false,
-        "published": false
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "resource_type",
+        "record_policy",
+        "new_record_created",
+        "published"
+      ],
+      "properties": {
+        "resource_type": {
+          "const": "dataset"
+        },
+        "record_policy": {
+          "const": "reuse_assigned_record"
+        },
+        "new_record_created": {
+          "const": false
+        },
+        "published": {
+          "type": "boolean"
+        }
+      }
+    },
+    "tag": {
+      "const": "v0.2.0"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "doi_state": {
+            "const": "reserved_draft"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "repository_state": {
+            "const": "private_staging"
+          },
+          "release_state": {
+            "const": "candidate_not_published"
+          },
+          "zenodo": {
+            "properties": {
+              "published": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "doi_state": {
+            "const": "published"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "repository_state": {
+            "const": "public_release_object"
+          },
+          "release_state": {
+            "const": "final"
+          },
+          "zenodo": {
+            "properties": {
+              "published": {
+                "const": true
+              }
+            }
+          }
+        }
       }
     }
-  }
+  ]
 }

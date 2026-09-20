@@ -24,11 +24,16 @@ authored-file licence inventory and enter the clean Git history normally.
 
 Current DOI/status metadata supersedes earlier administrative statements embedded
 in the preserved manuscript and historical receipts. Those originals remain
-unchanged for traceability; see `publication/DATA_AVAILABILITY.md`. A reserved DOI
-is not public availability. The original manuscript PDF/DOCX is not a newly
+unchanged for traceability; see `publication/DATA_AVAILABILITY.md`.
+The original manuscript PDF/DOCX is not a newly
 submitted journal manuscript as a consequence of this export.
 
 Checksums demonstrate content identity. They do not independently certify when
 private commits were created. The chronology remains a local Git/receipt record,
 not externally registered preregistration. No full private history is needed for
 the tested public numerical replay.
+
+The historical audited RC had DOI state `reserved_draft`. Its exact commit, tree
+and archive hash are retained in [state-transition.json](../release/state-transition.json).
+The final publication object changes administrative metadata only. Original
+source hashes and the previous RC hashes remain in the derivation map.

@@ -67,11 +67,6 @@
       "licence": "Apache-2.0"
     },
     {
-      "path": "PUBLIC_RELEASE_OWNER_REVIEW.md",
-      "category": "author-created documentation",
-      "licence": "CC-BY-4.0"
-    },
-    {
       "path": "README.md",
       "category": "author-created documentation",
       "licence": "CC-BY-4.0"
@@ -868,6 +863,11 @@
     },
     {
       "path": "release/source-audit.json",
+      "category": "authored repository configuration and metadata",
+      "licence": "Apache-2.0"
+    },
+    {
+      "path": "release/state-transition.json",
       "category": "authored repository configuration and metadata",
       "licence": "Apache-2.0"
     },

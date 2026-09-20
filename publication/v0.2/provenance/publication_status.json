@@ -14,12 +14,11 @@
   "figures": "SUBMISSION-DESIGN FROZEN",
   "opm_status": "EXPLICIT_REDISTRIBUTION_PERMISSION_RECEIVED",
   "opm_scope": "Numerical values described in the author’s request for the MembraneCal reproducibility package, including required OPM-derived membrane orientation/depth/thickness information; attribution and transformation provenance retained",
-  "submitted": false,
-  "published": false,
   "doi": "10.5281/zenodo.22843162",
-  "zenodo_draft": true,
   "metadata_source": "Owner-supplied correspondence; raw originals not independently inspected",
-  "doi_state": "reserved_draft",
+  "doi_state": "published",
   "package_version": "0.2.0",
-  "study_version": "0.2"
+  "study_version": "0.2",
+  "article_submitted": false,
+  "article_published": false
 }

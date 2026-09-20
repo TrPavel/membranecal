@@ -58,7 +58,7 @@ def build(output):
     output.mkdir(parents=True, exist_ok=True)
     target = output / "membranecal-0.2.0.zip"
     if target.exists():
-        raise ValueError("Do not overwrite an existing release candidate")
+        raise ValueError("Do not overwrite an existing release archive")
     names = read(ROOT, "release/allowlist.json")
     with zipfile.ZipFile(target, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for n in names:
@@ -76,7 +76,7 @@ def build(output):
         "package_version": "0.2.0",
         "study_version": "0.2",
         "doi": "10.5281/zenodo.22843162",
-        "doi_state": "reserved_draft",
+        "doi_state": read(ROOT, "release/metadata.json")["doi_state"],
         "scientific_changes": False,
     }
     target.with_suffix(".zip.sha256").write_text(

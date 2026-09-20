@@ -1,15 +1,15 @@
 # MembraneCal
 
 [![CI](https://github.com/TrPavel/membranecal/actions/workflows/ci.yml/badge.svg)](https://github.com/TrPavel/membranecal/actions/workflows/ci.yml)
-[![DOI reserved](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22843162%20reserved-lightgrey)](https://doi.org/10.5281/zenodo.22843162)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22843162-blue)](https://doi.org/10.5281/zenodo.22843162)
 
 **Do matched membrane regions differ in local structural agreement minus model confidence?**
 MembraneCal study v0.2 evaluates this question for high-confidence helical residues in
 membrane proteins, using existing AlphaFold Database predictions and experimentally
 observed structures. It is a frozen scientific study with an offline reproducibility package.
 
-**Status:** private release-candidate preparation for repository version **0.2.0**.
-The Zenodo DOI is reserved; its record is a draft, not a published dataset.
+MembraneCal v0.2 is a frozen scientific study distributed as repository/package
+release **v0.2.0**. Reproducibility package DOI: **10.5281/zenodo.22843162**.
 The manuscript is prepared for PLOS ONE; no journal publication is claimed.
 
 ## What v0.2 evaluates
@@ -54,7 +54,6 @@ python tools/verify.py
 python tools/replay.py --mode compact --output ../membranecal-compact
 ```
 
-While the repository is private, cloning requires authorized GitHub access.
 Unset `PYTHONPATH`; do not use `python -O`. Compact replay verifies the frozen
 coordinate-derived scores. For all 36 scenario estimates, bootstrap checks, nine
 tables and five figures, use the [full reproduction instructions](docs/reproduction.md).
@@ -62,26 +61,26 @@ Full pixel-identical figure replay targets Windows with the documented Arial fon
 
 ## Frozen identity and availability
 
-- Scientific study: **MembraneCal v0.2**; proposed repository/package release: **v0.2.0**.
+- Scientific study: **MembraneCal v0.2**; repository/package release: **v0.2.0**.
 - [Release metadata](release/metadata.json), [frozen file identities](release/frozen-files.json),
   [complete repository manifest](release/manifest.json).
 - [Standalone study payload](publication/v0.2/README.md),
   [result tables](publication/v0.2/data/result_tables),
   [manuscript](publication/v0.2/manuscript/manuscript.md),
   [supporting information](publication/v0.2/supplementary).
-- Reserved package DOI: **10.5281/zenodo.22843162**. Availability is currently private
-  staging; see the [Data Availability draft](publication/DATA_AVAILABILITY.md).
+- Reproducibility package DOI: **10.5281/zenodo.22843162**; see the
+  [Data Availability statement](publication/DATA_AVAILABILITY.md).
 
 Compact inputs support offline result reproduction. Historical raw upstream files
 are not redistributed in full, and today's upstream downloads are not an exact
-reconstruction of the historical freeze. No tag or GitHub Release has been created.
+reconstruction of the historical freeze.
 
 ## Cite the exact version
 
 Pavel Trofimchik. *MembraneCal v0.2: reproducibility package for matched regional
 contrasts in structural agreement minus confidence among high-confidence helical
-residues in membrane proteins*. Package version 0.2.0 (release candidate).
-DOI **10.5281/zenodo.22843162**, reserved, not yet published.
+residues in membrane proteins*. Package version 0.2.0.
+DOI **10.5281/zenodo.22843162**.
 
 Use [CITATION.cff](CITATION.cff) and record the exact release/commit used.
 Author: [Pavel Trofimchik](https://orcid.org/0009-0007-6030-6019), Independent Researcher,

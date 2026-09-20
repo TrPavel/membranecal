@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "transformation_type": "metadata_update",
+  "reason": "Final release-state transition from audited private RC to v0.2.0 publication object.",
+  "previous_rc": {
+    "head": "2835d33b4804496371d9bdf4a8dd9e492318d1d0",
+    "tree": "eade22c7ee5a9915ab43617b92d0e3ba81d110f4",
+    "archive_sha256": "96a40b31a76a0e5dc921b9f70981b94d7223d83597fa37514a432e58f5281be7",
+    "doi_state": "reserved_draft"
+  },
+  "target_doi_state": "published",
+  "scientific_changes": false,
+  "frozen_files_count": 136,
+  "frozen_manifest_sha256": "483059491b49551bfa34ded000cd5bfd6e8a75dc49a5cfc3dc237af53f28c4a7",
+  "historical_records_preserved": true,
+  "scope": "Publication-object metadata; external service state and owner authorization are recorded outside the payload."
+}

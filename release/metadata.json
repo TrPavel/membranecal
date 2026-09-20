@@ -1,15 +1,14 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "study": "MembraneCal",
   "study_version": "0.2",
   "package_version": "0.2.0",
-  "proposed_tag": "v0.2.0",
   "title": "Matched regional contrasts in structural agreement minus confidence among high-confidence helical residues in membrane proteins",
   "doi": "10.5281/zenodo.22843162",
-  "doi_state": "reserved_draft",
+  "doi_state": "published",
   "repository": "https://github.com/TrPavel/membranecal",
-  "repository_state": "private_staging",
-  "release_state": "candidate_not_published",
+  "repository_state": "public_release_object",
+  "release_state": "final",
   "article_doi": null,
   "date_released": null,
   "author": {
@@ -45,8 +44,9 @@
   },
   "zenodo": {
     "resource_type": "dataset",
-    "existing_draft_only": true,
+    "record_policy": "reuse_assigned_record",
     "new_record_created": false,
-    "published": false
-  }
+    "published": true
+  },
+  "tag": "v0.2.0"
 }

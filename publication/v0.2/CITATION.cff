@@ -1,7 +1,6 @@
 cff-version: 1.2.0
 message: >-
-  Cite the exact package release used. Version 0.2.0 is currently a private
-  release candidate; this Zenodo DOI is reserved and its record is unpublished.
+  Cite the exact package release used.
 title: >-
   MembraneCal v0.2: reproducibility package for matched regional contrasts in
   structural agreement minus confidence among high-confidence helical residues

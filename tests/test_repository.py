@@ -4,9 +4,49 @@ from pathlib import Path
 
 import pytest
 
-from tools.verify import safe_member, validate, verify_files
+from tools.verify import safe_member, validate, validate_release_state, verify_files
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def release_metadata():
+    meta = json.loads((ROOT / "release/metadata.json").read_text())
+    status = json.loads((ROOT / "publication/v0.2/provenance/publication_status.json").read_text())
+    return meta, status
+
+
+@pytest.mark.parametrize("state", ["reserved_draft", "unknown", "", None])
+def test_final_object_rejects_doi_state_regression(state):
+    meta, status = release_metadata()
+    meta["doi_state"] = state
+    status["doi_state"] = state
+    with pytest.raises(ValueError, match="state mismatch"):
+        validate_release_state(meta, status)
+
+
+def test_payload_state_must_match():
+    meta, status = release_metadata()
+    status["doi_state"] = "reserved_draft"
+    with pytest.raises(ValueError, match="state mismatch"):
+        validate_release_state(meta, status)
+
+
+def test_schema_models_draft_but_rejects_inconsistent_publication():
+    import jsonschema
+
+    meta, _ = release_metadata()
+    schema = json.loads((ROOT / "schemas/release-metadata.schema.json").read_text())
+    jsonschema.validate(meta, schema)
+    meta["doi_state"] = "reserved_draft"
+    with pytest.raises(jsonschema.ValidationError):
+        jsonschema.validate(meta, schema)
+    meta["repository_state"] = "private_staging"
+    meta["release_state"] = "candidate_not_published"
+    meta["zenodo"]["published"] = False
+    jsonschema.validate(meta, schema)
+    meta["doi_state"] = "unexpected"
+    with pytest.raises(jsonschema.ValidationError):
+        jsonschema.validate(meta, schema)
 
 
 def test_repository_integrity():

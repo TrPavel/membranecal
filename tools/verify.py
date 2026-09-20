@@ -111,6 +111,48 @@ def privacy(root, names, structured=False):
     return {"status": "PASS", "components": count, "structured": structured, "findings": []}
 
 
+def validate_release_state(meta, status):
+    # This publication object's state is fixed even though the schema also models drafts.
+    if (
+        meta["doi"] != "10.5281/zenodo.22843162"
+        or meta["doi_state"] != "published"
+        or meta["repository_state"] != "public_release_object"
+        or meta["release_state"] != "final"
+        or meta["tag"] != "v0.2.0"
+        or meta["zenodo"]["published"] is not True
+        or status["doi_state"] != meta["doi_state"]
+        or status["doi"] != meta["doi"]
+        or status["package_version"] != meta["package_version"]
+        or status["study_version"] != meta["study_version"]
+        or status["article_published"] is not False
+        or status["article_submitted"] is not False
+    ):
+        raise ValueError("DOI/release state mismatch")
+
+
+def validate_current_wording(root):
+    # Frozen manuscripts and explicitly historical provenance retain their original text.
+    surfaces = [
+        "README.md",
+        "CITATION.cff",
+        "CHANGELOG.md",
+        "docs/versioning.md",
+        "publication/DATA_AVAILABILITY.md",
+        "publication/v0.2/README.md",
+        "publication/v0.2/CITATION.cff",
+    ]
+    obsolete = re.compile(
+        r"private release.candidate|\breserved\b|unpublished|unreleased|private staging|"
+        r"zenodo draft|record remains a draft|no tag|proposed tag",
+        re.IGNORECASE,
+    )
+    for name in surfaces:
+        if obsolete.search((root / name).read_text(encoding="utf-8")):
+            raise ValueError("Obsolete current release wording: " + name)
+    if (root / "PUBLIC_RELEASE_OWNER_REVIEW.md").exists():
+        raise ValueError("Owner-control checklist must remain external")
+
+
 def validate(root=ROOT, development=False):
     names = inventory(root)
     allow = read(root, "release/allowlist.json")
@@ -146,14 +188,12 @@ def validate(root=ROOT, development=False):
     cff = (root / "CITATION.cff").read_text()
     if meta["package_version"] != "0.2.0" or meta["study_version"] != "0.2":
         raise ValueError("Version mismatch")
-    if meta["doi"] != "10.5281/zenodo.22843162" or meta["doi_state"] != "reserved_draft":
-        raise ValueError("DOI state mismatch")
+    validate_release_state(meta, read(payload, "provenance/publication_status.json"))
+    validate_current_wording(root)
     if "version: 0.2.0" not in cff or "doi: " + meta["doi"] not in cff:
         raise ValueError("Citation metadata mismatch")
     if (payload / "CITATION.cff").read_bytes() != (root / "CITATION.cff").read_bytes():
         raise ValueError("Payload citation differs")
-    if "[x]" in (root / "PUBLIC_RELEASE_OWNER_REVIEW.md").read_text().lower():
-        raise ValueError("Owner approval must not be synthesized during staging")
     result = {
         "status": "PASS",
         "files": len(names),

@@ -1,6 +1,6 @@
 {
   "files": {
-    "CITATION.cff": "aa0448ab57deb1f4932a89f65cd083da612c53eddb9b405f2c1a68944255b16e",
+    "CITATION.cff": "4f1164054cd34db51ed5bc17fa58c0f1660c7a41310f4d5147b5527490b1f2c7",
     "code/numerical/audit/independent_bootstrap_draws.npz": "2efd6c93636c739483a543653ad33c73cb68f406b8f7e7d7468334d020708f70",
     "code/numerical/audit/independent_reproduction.json": "40a76fd3c0f78404c29d15c29d059244f108fe0bf46701707ed6ff88485e0d29",
     "code/numerical/data/cohort_summary.json": "c02509d219850e721cfeaf4e514915f483ea027a6b3808df3b54b018318b21c2",
@@ -125,12 +125,12 @@
     "provenance/original_design.md": "feff3de16b8f89b08dc032d6dba49e6aebc3d20d3741740581e1887b181fe589",
     "provenance/original_PRE_OUTCOME_FREEZE.json": "2b5499a7d1fca03cffdc2b50552b92e74948a6f765051c8ca6de960df1a7cbd6",
     "provenance/original_RELEASE_MANIFEST.json": "7afae5843b6d174c8449660b3315de66985d929744ea4862225cf1721ef005ae",
-    "provenance/publication_status.json": "578288563b70931ffff74101bb2ca5a5ca957a8931be7d0abf853f242a28f28e",
+    "provenance/publication_status.json": "f79bfa560963d1f28b1a5816a6488a69bf88e4543cde566a5bd5bd6bbc1c8eac",
     "provenance/reference_style_audit.json": "82bf19881ac333a3a9f265443abe72d546cc7ad5753ca6bb26e2e4fe039231e8",
     "provenance/release_receipt.json": "f0411cbc9ce458ce5da60511e3ea52a932136154e93c04266d5a9f38e0086647",
     "provenance/source_binding_verification.json": "69b0fd292fd7f890746687b5f3bfce050b0508e3992e35dd85913e647395b392",
     "provenance/source_licence_ledger.md": "fd95addfd84bdb91fbf25e5a8c2b00e4917f53c79d8ae95a897cb991209ca02d",
-    "README.md": "d3e204f9aedeb07fda699f5ddbb86ad2d310092639e50a36111f628c41602758",
+    "README.md": "150f60b89f28457eb9985720b249f8bc64421e55cd288e5b22ea28a870f6274a",
     "replay.py": "0a0b3ffa65cceeb48c09deb0f736c9728c990512931bbfb08e0960829969e0fb",
     "supplementary/S1_Dataset.zip": "a41f9b7b95a8a1827db38facb65264d3bcf7a9ada623e4d0fe62330fae5df192",
     "supplementary/S1_Text.html": "f7a3fa7682c1758a18f285b86474949efe70b17abc6ea80ee4c68c8087539c36",

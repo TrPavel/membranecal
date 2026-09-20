@@ -9,8 +9,9 @@
       "source_sha256": "64b4c1fd39f22d36e8cd241f8d062a795063d446871d83065127ffea46cf2c6c",
       "transformation_type": "metadata_update",
       "public_path": "publication/v0.2/CHECKSUMS.sha256",
-      "public_sha256": "201bf616c3a1d74d1462c42834738fc405c83377d38f47a1c1372f370982af95",
-      "reason": "Reserved DOI/status injection or dependent manifest/checksum update; scientific payload unchanged."
+      "public_sha256": "af19993734c6750f883d210e53add5df334bc3069d9536d5cb41e5edb3ae7ab4",
+      "reason": "Final release-state transition from audited private RC to v0.2.0 publication object.",
+      "previous_rc_sha256": "201bf616c3a1d74d1462c42834738fc405c83377d38f47a1c1372f370982af95"
     },
     {
       "private_source_commit": "c63b3b6266a27f43a56734e51d0198a015813ae7",
@@ -20,8 +21,9 @@
       "source_sha256": "106d1f723ce7ca07f54799c3bac66ba54ffebeb5cd4be45f5f209609e8132125",
       "transformation_type": "metadata_update",
       "public_path": "publication/v0.2/CITATION.cff",
-      "public_sha256": "aa0448ab57deb1f4932a89f65cd083da612c53eddb9b405f2c1a68944255b16e",
-      "reason": "Reserved DOI/status injection or dependent manifest/checksum update; scientific payload unchanged."
+      "public_sha256": "4f1164054cd34db51ed5bc17fa58c0f1660c7a41310f4d5147b5527490b1f2c7",
+      "reason": "Final release-state transition from audited private RC to v0.2.0 publication object.",
+      "previous_rc_sha256": "aa0448ab57deb1f4932a89f65cd083da612c53eddb9b405f2c1a68944255b16e"
     },
     {
       "private_source_commit": "c63b3b6266a27f43a56734e51d0198a015813ae7",
@@ -1161,8 +1163,9 @@
       "source_sha256": "c49b004e82013134f23796af738464e1b8a443c32f3e7d23aabf1a16b23019ab",
       "transformation_type": "metadata_update",
       "public_path": "publication/v0.2/MANIFEST.json",
-      "public_sha256": "4d2ac3ae01f06cf96062e7c5ec52345f1ab82d1b0f3706dcb2f33c24e37804ac",
-      "reason": "Reserved DOI/status injection or dependent manifest/checksum update; scientific payload unchanged."
+      "public_sha256": "46313bcb221c2b5946d9a00ec637d1e9be210ef3b4cbdc0e44ff845ce597cc47",
+      "reason": "Final release-state transition from audited private RC to v0.2.0 publication object.",
+      "previous_rc_sha256": "4d2ac3ae01f06cf96062e7c5ec52345f1ab82d1b0f3706dcb2f33c24e37804ac"
     },
     {
       "private_source_commit": "c63b3b6266a27f43a56734e51d0198a015813ae7",
@@ -1282,8 +1285,9 @@
       "source_sha256": "5b970c56a3dd5354e69442a8b399cafa82c66b7d86587b4d938dd4e61810de35",
       "transformation_type": "metadata_update",
       "public_path": "publication/v0.2/provenance/publication_status.json",
-      "public_sha256": "578288563b70931ffff74101bb2ca5a5ca957a8931be7d0abf853f242a28f28e",
-      "reason": "Reserved DOI/status injection or dependent manifest/checksum update; scientific payload unchanged."
+      "public_sha256": "f79bfa560963d1f28b1a5816a6488a69bf88e4543cde566a5bd5bd6bbc1c8eac",
+      "reason": "Final release-state transition from audited private RC to v0.2.0 publication object.",
+      "previous_rc_sha256": "578288563b70931ffff74101bb2ca5a5ca957a8931be7d0abf853f242a28f28e"
     },
     {
       "private_source_commit": "c63b3b6266a27f43a56734e51d0198a015813ae7",
@@ -1333,8 +1337,9 @@
       "source_sha256": "fd6e54bc17a61b9775a45f29937c88d00aee6dc3b74c2e48f399f2604d9a4442",
       "transformation_type": "metadata_update",
       "public_path": "publication/v0.2/README.md",
-      "public_sha256": "d3e204f9aedeb07fda699f5ddbb86ad2d310092639e50a36111f628c41602758",
-      "reason": "Reserved DOI/status injection or dependent manifest/checksum update; scientific payload unchanged."
+      "public_sha256": "150f60b89f28457eb9985720b249f8bc64421e55cd288e5b22ea28a870f6274a",
+      "reason": "Final release-state transition from audited private RC to v0.2.0 publication object.",
+      "previous_rc_sha256": "d3e204f9aedeb07fda699f5ddbb86ad2d310092639e50a36111f628c41602758"
     },
     {
       "private_source_commit": "c63b3b6266a27f43a56734e51d0198a015813ae7",

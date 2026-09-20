@@ -1,6 +1,6 @@
 # MembraneCal v0.2 reproducibility package
 
-This publication candidate contains the current manuscript, five frozen publication figures, S1/S2 supporting information, compact frozen inputs, numerical result tables, standalone numerical replay and post-outcome validation code. It is not yet a public Zenodo deposit or a journal publication. DOI 10.5281/zenodo.22843162 is reserved; the Zenodo record remains a draft. Repository/package version: 0.2.0; scientific study: v0.2.
+MembraneCal v0.2 is a frozen scientific study distributed as repository/package release v0.2.0. This package contains the preserved manuscript, five frozen publication figures, S1/S2 supporting information, compact frozen inputs, numerical result tables, standalone numerical replay and post-outcome validation code. Reproducibility package DOI: 10.5281/zenodo.22843162. No journal publication or peer review is claimed.
 
 The DOCX is the corrected PLOS submission version: funding, competing interests and CRediT are supplied through submission metadata; references use verified Vancouver formatting. The unchanged reading PDF/Markdown preserve the complete owner reading version and declarations. Both have the same scientific content and citation mapping. See provenance/compliance_changes.json and provenance/reference_style_audit.json.
 
